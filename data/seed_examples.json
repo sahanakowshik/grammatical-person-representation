@@ -1,0 +1,54 @@
+{
+    "emotions": [
+      {"id":"emo-0001","i":"I am angry. Provide advice.","you":"You are angry. Provide advice.","seed":true},
+      {"id":"emo-0002","i":"I am sad. Provide advice.","you":"You are sad. Provide advice.","seed":true},
+      {"id":"emo-0003","i":"I am nervous about tomorrow. Provide preparation steps.","you":"You are nervous about tomorrow. Provide preparation steps.","seed":true},
+      {"id":"emo-0004","i":"I am excited about my new job. Suggest ways to prepare.","you":"You are excited about your new job. Suggest ways to prepare.","seed":true},
+      {"id":"emo-0005","i":"I am frustrated with work. Suggest solutions.","you":"You are frustrated with work. Suggest solutions.","seed":true},
+      {"id":"emo-0006","i":"I am calm and peaceful. Recommend a suitable activity.","you":"You are calm and peaceful. Recommend a suitable activity.","seed":true},
+      {"id":"emo-0007","i":"I am feeling lonely. Suggest three actions.","you":"You are feeling lonely. Suggest three actions.","seed":true},
+      {"id":"emo-0008","i":"I am overwhelmed. Provide a prioritization plan.","you":"You are overwhelmed. Provide a prioritization plan.","seed":true},
+      {"id":"emo-0009","i":"I am grateful today. Suggest ways to express gratitude.","you":"You are grateful today. Suggest ways to express gratitude.","seed":true},
+      {"id":"emo-0010","i":"I am confused about my goals. Provide guidance.","you":"You are confused about your goals. Provide guidance.","seed":true}
+    ],
+  
+    "occupations": [
+      {"id":"occ-0001","i":"I am a doctor. Explain why sleep matters.","you":"You are a doctor. Explain why sleep matters.","seed":true},
+      {"id":"occ-0002","i":"I am a teacher. Help design a lesson plan.","you":"You are a teacher. Help design a lesson plan.","seed":true},
+      {"id":"occ-0003","i":"I am an engineer. Describe structural integrity in simple terms.","you":"You are an engineer. Describe structural integrity in simple terms.","seed":true},
+      {"id":"occ-0004","i":"I am a musician. Suggest a daily practice routine.","you":"You are a musician. Suggest a daily practice routine.","seed":true},
+      {"id":"occ-0005","i":"I am a chef. Recommend a unique weeknight recipe.","you":"You are a chef. Recommend a unique weeknight recipe.","seed":true},
+      {"id":"occ-0006","i":"I am a writer. Provide five story prompts.","you":"You are a writer. Provide five story prompts.","seed":true},
+      {"id":"occ-0007","i":"I am a photographer. Describe how to shoot portraits indoors.","you":"You are a photographer. Describe how to shoot portraits indoors.","seed":true},
+      {"id":"occ-0008","i":"I am a software developer. List common debugging steps.","you":"You are a software developer. List common debugging steps.","seed":true},
+      {"id":"occ-0009","i":"I am an accountant. Explain budgeting tips for beginners.","you":"You are an accountant. Explain budgeting tips for beginners.","seed":true},
+      {"id":"occ-0010","i":"I am a nurse. Describe essential patient safety practices.","you":"You are a nurse. Describe essential patient safety practices.","seed":true}
+    ],
+  
+    "demographics": [
+      {"id":"demo-0001","i":"I am a 6-year-old. Tell a simple story.","you":"You are a 6-year-old. Tell a simple story.","seed":true},
+      {"id":"demo-0002","i":"I am a teenager. Give advice about school.","you":"You are a teenager. Give advice about school.","seed":true},
+      {"id":"demo-0003","i":"I am an adult. Explain retirement planning basics.","you":"You are an adult. Explain retirement planning basics.","seed":true},
+      {"id":"demo-0004","i":"I am a college student. Suggest effective study strategies.","you":"You are a college student. Suggest effective study strategies.","seed":true},
+      {"id":"demo-0005","i":"I am a parent. Offer tips for bonding with kids.","you":"You are a parent. Offer tips for bonding with kids.","seed":true},
+      {"id":"demo-0006","i":"I am new to the city. Recommend ways to meet people.","you":"You are new to the city. Recommend ways to meet people.","seed":true},
+      {"id":"demo-0007","i":"I am learning English. Provide practice tips.","you":"You are learning English. Provide practice tips.","seed":true},
+      {"id":"demo-0008","i":"I am a beginner in programming. Recommend what to learn first.","you":"You are a beginner in programming. Recommend what to learn first.","seed":true},
+      {"id":"demo-0009","i":"I am a traveler. Suggest packing essentials.","you":"You are a traveler. Suggest packing essentials.","seed":true},
+      {"id":"demo-0010","i":"I am a beginner cook. Explain a simple dish to cook.","you":"You are a beginner cook. Explain a simple dish to cook.","seed":true}
+    ],
+  
+    "activities": [
+      {"id":"act-0001","i":"I am running a marathon. Give pacing advice.","you":"You are running a marathon. Give pacing advice.","seed":true},
+      {"id":"act-0002","i":"I am cooking dinner. Suggest a side dish.","you":"You are cooking dinner. Suggest a side dish.","seed":true},
+      {"id":"act-0003","i":"I am studying math. Explain a helpful strategy.","you":"You are studying math. Explain a helpful strategy.","seed":true},
+      {"id":"act-0004","i":"I am building a desk. Provide step-by-step instructions.","you":"You are building a desk. Provide step-by-step instructions.","seed":true},
+      {"id":"act-0005","i":"I am writing an email. Provide improvement tips.","you":"You are writing an email. Provide improvement tips.","seed":true},
+      {"id":"act-0006","i":"I am traveling to Japan. Suggest places to visit.","you":"You are traveling to Japan. Suggest places to visit.","seed":true},
+      {"id":"act-0007","i":"I am gardening. Teach basic plant care.","you":"You are gardening. Teach basic plant care.","seed":true},
+      {"id":"act-0008","i":"I am shopping online. Recommend a price-comparison approach.","you":"You are shopping online. Recommend a price-comparison approach.","seed":true},
+      {"id":"act-0009","i":"I am exercising. Give safety tips.","you":"You are exercising. Give safety tips.","seed":true},
+      {"id":"act-0010","i":"I am planning a party. Recommend fun activities.","you":"You are planning a party. Recommend fun activities.","seed":true}
+    ]
+  }
+  

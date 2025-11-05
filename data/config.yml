@@ -1,0 +1,20 @@
+model_id: Qwen/Qwen3-14B
+device_map: auto
+dtype: bfloat16
+max_new_tokens: 8000
+max_model_len: 32000
+temperature: 0.7
+top_p: 0.8
+top_k: 20
+seed: 42
+targets_per_category: 1000
+targets_per_run: 50
+n_runs: 50
+n_devices: 2
+
+
+# export TORCH_HOME=/projectnb/vkolagrp/skowshik/.cache/torch
+# export VLLM_CACHE_DIR=/projectnb/vkolagrp/skowshik/.cache/vllm
+# export HF_HOME=/projectnb/vkolagrp/skowshik/.cache/
+# export VLLM_SKIP_P2P_CHECK=1
+
