@@ -1,7 +1,6 @@
-# models/llm_interface.py
 from pydantic import BaseModel, Field
 from vllm import LLM, SamplingParams
-# from vllm.sampling_params import GuidedDecodingParams
+from vllm.sampling_params import GuidedDecodingParams
 from vllm.sampling_params import StructuredOutputsParams
 from transformers import AutoTokenizer
 import torch
@@ -151,15 +150,16 @@ class LLMWrapper:
         
         # Create sampling params with guided decoding
         json_schema = create_contrastive_pairs_schema(exact_count=count).model_json_schema()
-        structured_outputs_params_json = StructuredOutputsParams(json=json_schema)
         sampling_params = SamplingParams(
             temperature=temperature,
             top_p=top_p,
             top_k=top_k,
             max_tokens=self.max_new_tokens,
-            structured_outputs=structured_outputs_params_json
-            # guided_decoding=StructuredOutputsParams(
-            #     json=schema_class.model_json_schema(),
+            structured_outputs=StructuredOutputsParams(
+                json=json_schema
+            )
+            # guided_decoding=GuidedDecodingParams(
+            #     json=json_schema,
             # )
         )
         

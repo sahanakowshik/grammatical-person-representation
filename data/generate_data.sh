@@ -6,7 +6,7 @@
 #$ -l h_rt=6:00:00
 #$ -pe omp 8
 #$ -l mem_per_core=2G
-#$ -l gpus=2
+#$ -l gpus=1
 
 # GPU capability, must be at least 8 for this project
 #$ -l gpu_c=8
@@ -31,6 +31,6 @@ python generate_data.py
 # - qsub generate_data.sh
 
 # Run interactively
-# - qrsh -P vkolagrp -l gpus=2 -l gpu_c=8 -l h_rt=6:00:00
+# - qrsh -P vkolagrp -l gpus=1 -l gpu_c=9 -l h_rt=6:00:00
 # - cd data
 # - bash generate_data.sh

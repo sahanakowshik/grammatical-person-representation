@@ -64,8 +64,9 @@ def main():
 
         print(f"\n== Category: {category} | targets_per_run: {targets_per_run} ==")
         
-        # Using vLLM structured outputs using pydantic JSON schema
-        completions = model_gen.generate_json_schema(messages, temperature=temperature, top_p=top_p, top_k=top_k, count=targets_per_run)
+        
+        completions = model_gen.generate(messages, temperature=temperature, top_p=top_p, top_k=top_k)
+        # completions = model_gen.generate_json_schema(messages, temperature=temperature, top_p=top_p, top_k=top_k, count=targets_per_run) # To use vLLM structured outputs using pydantic JSON schema (it's toos slow)
         
         # print(completions)
         # break
