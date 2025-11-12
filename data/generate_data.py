@@ -120,8 +120,8 @@ def main():
             # Ensure they only differ by "I" vs "You" as the subject (case-sensitive to keep it simple)
             if i_sent.startswith("I ") and you_sent.startswith("You "):
                 # compare substrings after the first space
-                if i_sent.split(".")[-1] == you_sent.split(".")[-1]:
-                    cleaned.append(row)
+                # if i_sent.split(".")[-1] == you_sent.split(".")[-1]:
+                cleaned.append(row)
 
         # Deduplicate within category
         seen = set()
