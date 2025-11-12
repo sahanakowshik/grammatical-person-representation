@@ -63,18 +63,21 @@ def get_activations(
     
     if description:
         print(f"Computing activations for {description}...")
+        
     
     for i, row in tqdm(df.iterrows(), total=len(df), desc=description):
+        
         handle = block.register_forward_hook(
             make_cache_hook(f"Example: {i}", cache)
         )
-        if row[column].split(".")[0] in unique_prompts:
+        
+        if row[column] in unique_prompts:
             continue
         else:
-            unique_prompts.add(row[column].split(".")[0])
+            unique_prompts.add(row[column])
         
         text, inputs = get_prompt(
-            row[column].split(".")[0],
+            row[column],
             tokenizer,
             device=device,
             model_type=model_type,
@@ -82,6 +85,9 @@ def get_activations(
         )
         
         _ = model(**inputs)
+        if len(unique_prompts) >= 200:
+            break
+    
         handle.remove()
         
     print(f"Total number of unique prompts: {len(unique_prompts)}")

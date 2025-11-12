@@ -65,7 +65,7 @@ def load_data(data_path: str):
     Returns:
         DataFrame with the loaded data
     """
-    return pd.read_json(data_path, lines=True)
+    return pd.read_json(data_path, lines=True).sample(frac=1, random_state=42).reset_index(drop=True)
 
 
 def load_steering_vector(file_path: str, device=None):
