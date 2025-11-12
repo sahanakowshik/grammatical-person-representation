@@ -1,0 +1,15 @@
+# Configuration for computing steering vectors
+
+# Model configuration
+model_id: meta-llama/Llama-3.1-8B-Instruct
+model_type: instruct  # Options: "base" or "instruct"
+cache_dir: /projectnb/vkolagrp/skowshik/.cache/
+
+# Steering vector computation
+layer_idx: 10
+data_path: ../../data/generated_examples/emotions.jsonl
+output_path: vectors/emotions.pt
+
+# data_path: ../../data/generated_examples/activities.jsonl
+# output_path: vectors/activities.pt
+
