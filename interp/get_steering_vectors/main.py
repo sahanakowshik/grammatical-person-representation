@@ -34,18 +34,6 @@ def main():
         default="config.yml",
         help="Path to config YAML file"
     )
-    parser.add_argument(
-        "--data_path",
-        type=str,
-        default=None,
-        help="Path to JSONL file with 'i' and 'you' columns (overrides config)"
-    )
-    parser.add_argument(
-        "--output_path",
-        type=str,
-        default=None,
-        help="Path to save steering vector (overrides config)"
-    )
     
     args = parser.parse_args()
     
@@ -54,11 +42,12 @@ def main():
     
     # Get parameters from config (with overrides from command line)
     model_id = cfg.get("model_id", "meta-llama/Llama-3.1-8B-Instruct")
-    data_path = args.data_path if args.data_path is not None else cfg.get("data_path")
-    layer_idx = cfg.get("layer_idx", 10)
+    data_path = cfg.get("data_path")
     cache_dir = cfg.get("cache_dir", "/projectnb/vkolagrp/skowshik/.cache/")
-    output_path = args.output_path if args.output_path is not None else cfg.get("output_path", None)
+    output_path = cfg.get("output_path", None)
+    output_name = cfg.get("output_name", None)
     model_type = cfg.get("model_type", "instruct")
+    max_unique_prompts = cfg.get("max_unique_prompts", 200)
     
     if data_path is None:
         raise ValueError("data_path must be provided either in config or via --data_path argument")
@@ -75,27 +64,34 @@ def main():
     )
     
     # Compute steering vectors
-    steering_vec, avg_vec_i, avg_vec_you = compute_steering_vectors(
+    results = compute_steering_vectors(
         model=model,
         tokenizer=tokenizer,
         data_path=data_path,
-        layer_idx=layer_idx,
         model_type=model_type,
-        device=device
+        device=device,
+        max_unique_prompts=max_unique_prompts
     )
     
-    # Save if output path is provided
-    if output_path:
-        torch.save({
-            'steering_vec': steering_vec,
-            'avg_vec_i': avg_vec_i,
-            'avg_vec_you': avg_vec_you,
-            'layer_idx': layer_idx,
-            'model_id': model_id,
-        }, output_path)
-        print(f"Saved steering vector to {output_path}")
-    
-    print("Done!")
+    for layer_idx, result in results.items():
+        
+        output_dir = os.path.join(output_path, f"layer_{layer_idx}")
+        os.makedirs(output_dir, exist_ok=True)
+
+        # Save if output path is provided
+        if output_dir:
+            torch.save({
+                'steering_vec': result["steering_vec"],
+                'avg_vec_i': result["avg_vec_i"],
+                'avg_vec_you': result["avg_vec_you"],
+                'layer_idx': layer_idx,
+                'model_id': model_id,
+            }, f"{output_dir}/{output_name}")
+            print(f"Saved steering vector to {output_path}")
+            
+        # break
+        
+        print("Done!")
 
 
 if __name__ == "__main__":

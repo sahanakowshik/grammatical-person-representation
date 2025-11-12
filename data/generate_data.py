@@ -47,6 +47,8 @@ def main():
 
     total_written = 0
     for category, seed_pairs in grouped.items():
+        # if category.lower() != "demographics":
+        #     continue
         out_path = os.path.join(out_dir, f"{category}.jsonl")
         out_f = open(out_path, "w", encoding="utf-8")
     

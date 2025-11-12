@@ -1,118 +1,118 @@
 """
-Compute steering vectors from data.
+Compute steering vectors from data (collect activations from all layers).
 """
 
 from collections import OrderedDict
 import torch
 from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from typing import List
 
 from utils import get_prompt, load_data
 
 
-def make_cache_hook(layer_idx, cache):
+def _get_blocks(model):
+    if hasattr(model, "model") and hasattr(model.model, "layers"):
+        return model.model.layers
+    if hasattr(model, "transformer") and hasattr(model.transformer, "h"):
+        return model.transformer.h
+    if hasattr(model, "layers"):
+        return model.layers
+    raise AttributeError("Could not locate model blocks; adjust `_get_blocks`.")
+
+
+def make_layer_hook(layer_idx, cache_dict):
     """
-    Create a hook function that caches activations from a specific layer.
-    
-    Args:
-        layer_idx: Index or identifier for the layer
-        cache: Dictionary to store cached activations
-    
-    Returns:
-        Hook function that can be registered with register_forward_hook
+    Create a hook that saves activations for a given layer.
     """
     def hook(module, inputs, output):
         act = output[0] if isinstance(output, tuple) else output
-        cache[layer_idx] = act.detach().cpu()
+        cache_dict[layer_idx] = act.detach().cpu()
     return hook
 
 
-def get_activations(
+def get_activations_all_layers(
     model: AutoModelForCausalLM,
     tokenizer: AutoTokenizer,
     df,
     column: str,
-    layer_idx: int,
     model_type: str = "instruct",
     device=None,
     description: str = None,
+    max_unique_prompts: int = 200,
 ):
     """
-    Get activations for sentences from a specific column.
-    
-    Args:
-        model: The language model
-        tokenizer: The tokenizer
-        df: DataFrame with sentence data
-        column: Column name to extract sentences from ('i' or 'you')
-        layer_idx: Layer index to extract activations from
-        model_type: Type of model ("base" or "instruct")
-        device: Device to run on (defaults to model.device)
-        description: Description for progress bar
-    
-    Returns:
-        OrderedDict: Dictionary mapping example indices to cached activations
+    Loop over texts. For each text:
+      - register hooks for all layers
+      - run one forward pass
+      - store per-layer activations in a dict
+      - append dict to outer list
     """
     if device is None:
         device = next(model.parameters()).device
-    
-    cache = OrderedDict()
-    block = model.model.layers[layer_idx]
-    
-    unique_prompts = set()
-    
-    if description:
-        print(f"Computing activations for {description}...")
-        
-    
-    for i, row in tqdm(df.iterrows(), total=len(df), desc=description):
-        
-        handle = block.register_forward_hook(
-            make_cache_hook(f"Example: {i}", cache)
-        )
-        
-        if row[column] in unique_prompts:
+
+    blocks = _get_blocks(model)
+    all_examples = []  # outer list of per-example activation dicts
+    seen = set()
+
+    print(f"Collecting activations for {description or column}...")
+
+    for i, row in tqdm(df.iterrows(), total=len(df), desc=description or column):
+        text_str = row[column]
+        if text_str in seen:
             continue
-        else:
-            unique_prompts.add(row[column])
-        
-        text, inputs = get_prompt(
-            row[column],
+        seen.add(text_str)
+
+        # per-example cache
+        example_cache = {}
+
+        # register hooks for all layers
+        handles = []
+        for layer_idx, block in enumerate(blocks):
+            h = block.register_forward_hook(make_layer_hook(layer_idx, example_cache))
+            handles.append(h)
+
+        # tokenize and forward
+        _, inputs = get_prompt(
+            text_str,
             tokenizer,
             device=device,
             model_type=model_type,
-            add_system=False
+            add_system=False,
         )
-        
-        _ = model(**inputs)
-        if len(unique_prompts) >= 200:
+
+        with torch.no_grad():
+            _ = model(**inputs)
+
+        # remove hooks after forward pass
+        for h in handles:
+            h.remove()
+            
+        print(f"Got {len(example_cache)} activations for row {i}")
+
+        all_examples.append(example_cache)
+
+        if len(seen) >= max_unique_prompts:
             break
-    
-        handle.remove()
-        
-    print(f"Total number of unique prompts: {len(unique_prompts)}")
-    
-    return cache
+
+    print(f"Total unique prompts processed: {len(seen)}")
+    return all_examples  # list of dicts: [{layer_idx: tensor, ...}, ...]
 
 
-def compute_average_vector(cache):
+def compute_average_vector(cache_list, layer_idx: int):
     """
-    Compute average vector from cached activations.
-    
-    Args:
-        cache: OrderedDict mapping example indices to activation tensors
-               Each tensor has shape (B, T, D)
-    
-    Returns:
-        torch.Tensor: Average vector with shape (1, D)
+    Compute average vector from cached activations for a specific layer.
+    cache_list: list of dicts (each dict: layer_idx -> activation tensor)
     """
     vecs = []
-    for k, v in cache.items():
-        # v shape: (B, T, D), take last token: (B, D)
-        last = v[:, -1, :]  # (1, D)
+    for cache in cache_list:
+        if layer_idx not in cache:
+            continue
+        v = cache[layer_idx]
+        last = v[:, -1, :]  # (B, D)
         vecs.append(last)
-    
-    # Stack and average: (N, 1, D) -> (1, D)
+    if not vecs:
+        raise ValueError(f"No activations found for layer {layer_idx}")
     avg_vec = torch.mean(torch.stack(vecs, dim=0), dim=0)
     return avg_vec
 
@@ -120,26 +120,10 @@ def compute_average_vector(cache):
 def compute_steering_vector(avg_vec_i, avg_vec_you, normalize: bool = True):
     """
     Compute steering vector from average vectors.
-    
-    Args:
-        avg_vec_i: Average activation vector for 'i' sentences (shape: [1, hidden_dim])
-        avg_vec_you: Average activation vector for 'you' sentences (shape: [1, hidden_dim])
-        normalize: Whether to normalize the steering vector
-    
-    Returns:
-        torch.Tensor: Steering vector (normalized if normalize=True)
     """
-    # Compute steering vector: difference between 'i' and 'you' vectors
     steering_vec = avg_vec_i - avg_vec_you
-    steering_vec_norm = steering_vec.norm().item()
-    
-    print(f"Steering vector shape: {steering_vec.shape}")
-    print(f"Steering vector norm: {steering_vec_norm:.2f}")
-    
-    # Normalize steering vector if requested
     if normalize:
         steering_vec = steering_vec / steering_vec.norm()
-    
     return steering_vec
 
 
@@ -147,70 +131,48 @@ def compute_steering_vectors(
     model: AutoModelForCausalLM,
     tokenizer: AutoTokenizer,
     data_path: str,
-    layer_idx: int = 10,
     model_type: str = "instruct",
     device: str = None,
+    max_unique_prompts: int = 10,
 ):
     """
-    Compute steering vectors from I/You sentence pairs.
-    
-    This function:
-    1. Loads data from a JSONL file with 'i' and 'you' columns
-    2. Extracts activations from the specified layer for both sentence types
-    3. Computes average vectors for 'i' and 'you' sentences
-    4. Returns the normalized steering vector (avg_i - avg_you)
-    
-    Args:
-        model: The language model
-        tokenizer: The tokenizer
-        data_path: Path to JSONL file with 'i' and 'you' columns
-        layer_idx: Layer index to extract activations from
-        model_type: Type of model ("base" or "instruct")
-        device: Device to run on (defaults to model.device)
-    
-    Returns:
-        tuple: (steering_vec, avg_vec_i, avg_vec_you)
-            - steering_vec: Normalized steering vector (shape: [1, hidden_dim])
-            - avg_vec_i: Average activation vector for 'i' sentences
-            - avg_vec_you: Average activation vector for 'you' sentences
+    Compute steering vectors across all layers.
+    Returns dict: layer_idx -> (steering_vec, avg_i, avg_you)
     """
-    # Load data
     df = load_data(data_path)
-    
-    # Get activations for 'i' sentences
-    cache_i = get_activations(
+
+    cache_i = get_activations_all_layers(
         model=model,
         tokenizer=tokenizer,
         df=df,
         column="i",
-        layer_idx=layer_idx,
         model_type=model_type,
         device=device,
-        description="'I' sentences"
+        description="'I' sentences",
+        max_unique_prompts=max_unique_prompts,
     )
-    
-    # Compute average vector for 'i' sentences
-    avg_vec_i = compute_average_vector(cache_i)
-    print(f"Average 'I' vector shape: {avg_vec_i.shape}")
-    
-    # Get activations for 'you' sentences
-    cache_you = get_activations(
+
+    cache_you = get_activations_all_layers(
         model=model,
         tokenizer=tokenizer,
         df=df,
         column="you",
-        layer_idx=layer_idx,
         model_type=model_type,
         device=device,
-        description="'You' sentences"
+        description="'You' sentences",
+        max_unique_prompts=max_unique_prompts,
     )
-    
-    # Compute average vector for 'you' sentences
-    avg_vec_you = compute_average_vector(cache_you)
-    print(f"Average 'You' vector shape: {avg_vec_you.shape}")
-    
-    # Compute steering vector
-    steering_vec = compute_steering_vector(avg_vec_i, avg_vec_you, normalize=True)
-    
-    return steering_vec, avg_vec_i, avg_vec_you
 
+    results = {}
+    blocks = _get_blocks(model)
+    for layer_idx, _ in enumerate(blocks):
+        avg_i = compute_average_vector(cache_i, layer_idx)
+        avg_you = compute_average_vector(cache_you, layer_idx)
+        steering_vec = compute_steering_vector(avg_i, avg_you, normalize=True)
+        results[layer_idx] = {
+            "steering_vec": steering_vec,
+            "avg_vec_i": avg_i,
+            "avg_vec_you": avg_you
+        }
+
+    return results

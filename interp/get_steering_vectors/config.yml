@@ -1,23 +1,26 @@
 # Configuration for computing steering vectors
 
 # Model configuration
-# model_id: meta-llama/Llama-3.1-8B-Instruct
-model_id: "Qwen/Qwen2.5-7B-Instruct"
+model_id: meta-llama/Llama-3.1-8B-Instruct
+# model_id: "Qwen/Qwen2.5-7B-Instruct"
 model_type: instruct  # Options: "base" or "instruct"
 cache_dir: /projectnb/vkolagrp/skowshik/.cache/
 
+# result_name: vectors_qwen
+output_path: vectors_llama
+
 # Steering vector computation
-layer_idx: 10
+max_unique_prompts: 200
 
 # data_path: ../../data/generated_examples/emotions.jsonl
-# output_path: vectors_qwen/emotions.pt
+# output_name: emotions.pt
 
 # data_path: ../../data/generated_examples/activities.jsonl
-# output_path: vectors_qwen/activities.pt
+# output_name: activities.pt
 
 # data_path: ../../data/generated_examples/occupations.jsonl
-# output_path: vectors_qwen/occupations.pt
+# output_name: occupations.pt
 
 data_path: ../../data/generated_examples/demographics.jsonl
-output_path: vectors_qwen/demographics.pt
+output_name: demographics.pt
 
