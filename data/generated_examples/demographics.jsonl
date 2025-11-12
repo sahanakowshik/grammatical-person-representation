@@ -1,1000 +1,625 @@
-{"category": "demographics", "i": "I am a 12-year-old.", "you": "You are a 12-year-old."}
-{"category": "demographics", "i": "I am a young adult.", "you": "You are a young adult."}
-{"category": "demographics", "i": "I am a senior citizen.", "you": "You are a senior citizen."}
-{"category": "demographics", "i": "I am a high school student.", "you": "You are a high school student."}
-{"category": "demographics", "i": "I am a university professor.", "you": "You are a university professor."}
-{"category": "demographics", "i": "I am a non-binary person.", "you": "You are a non-binary person."}
-{"category": "demographics", "i": "I am a man.", "you": "You are a man."}
-{"category": "demographics", "i": "I am a child.", "you": "You are a child."}
-{"category": "demographics", "i": "I am a middle-aged woman.", "you": "You are a middle-aged woman."}
-{"category": "demographics", "i": "I am a retiree.", "you": "You are a retiree."}
-{"category": "demographics", "i": "I am a professional athlete.", "you": "You are a professional athlete."}
-{"category": "demographics", "i": "I am a software engineer.", "you": "You are a software engineer."}
-{"category": "demographics", "i": "I am a nurse.", "you": "You are a nurse."}
-{"category": "demographics", "i": "I am a teacher.", "you": "You are a teacher."}
-{"category": "demographics", "i": "I am a mechanic.", "you": "You are a mechanic."}
-{"category": "demographics", "i": "I am a chef.", "you": "You are a chef."}
-{"category": "demographics", "i": "I am a firefighter.", "you": "You are a firefighter."}
-{"category": "demographics", "i": "I am a pilot.", "you": "You are a pilot."}
-{"category": "demographics", "i": "I am a musician.", "you": "You are a musician."}
-{"category": "demographics", "i": "I am a doctor.", "you": "You are a doctor."}
-{"category": "demographics", "i": "I am a lawyer.", "you": "You are a lawyer."}
-{"category": "demographics", "i": "I am a journalist.", "you": "You are a journalist."}
-{"category": "demographics", "i": "I am a farmer.", "you": "You are a farmer."}
-{"category": "demographics", "i": "I am a graphic designer.", "you": "You are a graphic designer."}
-{"category": "demographics", "i": "I am a scientist.", "you": "You are a scientist."}
-{"category": "demographics", "i": "I am a social worker.", "you": "You are a social worker."}
-{"category": "demographics", "i": "I am a baker.", "you": "You are a baker."}
-{"category": "demographics", "i": "I am a carpenter.", "you": "You are a carpenter."}
-{"category": "demographics", "i": "I am a librarian.", "you": "You are a librarian."}
-{"category": "demographics", "i": "I am a salesperson.", "you": "You are a salesperson."}
-{"category": "demographics", "i": "I am a programmer.", "you": "You are a programmer."}
-{"category": "demographics", "i": "I am a writer.", "you": "You are a writer."}
-{"category": "demographics", "i": "I am a translator.", "you": "You are a translator."}
-{"category": "demographics", "i": "I am a photographer.", "you": "You are a photographer."}
-{"category": "demographics", "i": "I am a videographer.", "you": "You are a videographer."}
-{"category": "demographics", "i": "I am a student.", "you": "You are a student."}
-{"category": "demographics", "i": "I am a homemaker.", "you": "You are a homemaker."}
-{"category": "demographics", "i": "I am a volunteer.", "you": "You are a volunteer."}
-{"category": "demographics", "i": "I am a researcher.", "you": "You are a researcher."}
-{"category": "demographics", "i": "I am a consultant.", "you": "You are a consultant."}
-{"category": "demographics", "i": "I am a bartender.", "you": "You are a bartender."}
-{"category": "demographics", "i": "I am a delivery driver.", "you": "You are a delivery driver."}
-{"category": "demographics", "i": "I am a caregiver.", "you": "You are a caregiver."}
-{"category": "demographics", "i": "I am a tour guide.", "you": "You are a tour guide."}
-{"category": "demographics", "i": "I am a barista.", "you": "You are a barista."}
-{"category": "demographics", "i": "I am a hairdresser.", "you": "You are a hairdresser."}
-{"category": "demographics", "i": "I am a beautician.", "you": "You are a beautician."}
-{"category": "demographics", "i": "I am a construction worker.", "you": "You are a construction worker."}
-{"category": "demographics", "i": "I am a cleaner.", "you": "You are a cleaner."}
-{"category": "demographics", "i": "I am a receptionist.", "you": "You are a receptionist."}
-{"category": "demographics", "i": "I am a social media manager.", "you": "You are a social media manager."}
-{"category": "demographics", "i": "I am a content creator.", "you": "You are a content creator."}
 {"category": "demographics", "i": "I am 25 years old.", "you": "You are 25 years old."}
-{"category": "demographics", "i": "I live in New York.", "you": "You live in New York."}
-{"category": "demographics", "i": "I am a police officer.", "you": "You are a police officer."}
-{"category": "demographics", "i": "I am a designer.", "you": "You are a designer."}
-{"category": "demographics", "i": "I am a soldier.", "you": "You are a soldier."}
-{"category": "demographics", "i": "I am a graphic artist.", "you": "You are a graphic artist."}
-{"category": "demographics", "i": "I am a real estate agent.", "you": "You are a real estate agent."}
-{"category": "demographics", "i": "I am a florist.", "you": "You are a florist."}
-{"category": "demographics", "i": "I am a jeweler.", "you": "You are a jeweler."}
-{"category": "demographics", "i": "I am a tailor.", "you": "You are a tailor."}
-{"category": "demographics", "i": "I am a fisherman.", "you": "You are a fisherman."}
-{"category": "demographics", "i": "I am a gardener.", "you": "You are a gardener."}
-{"category": "demographics", "i": "I am a counselor.", "you": "You are a counselor."}
-{"category": "demographics", "i": "I am a therapist.", "you": "You are a therapist."}
-{"category": "demographics", "i": "I am a nurse practitioner.", "you": "You are a nurse practitioner."}
-{"category": "demographics", "i": "I am a nurse anesthetist.", "you": "You are a nurse anesthetist."}
-{"category": "demographics", "i": "I am a nurse midwife.", "you": "You are a nurse midwife."}
 {"category": "demographics", "i": "I am 30 years old.", "you": "You are 30 years old."}
 {"category": "demographics", "i": "I am 40 years old.", "you": "You are 40 years old."}
 {"category": "demographics", "i": "I am 50 years old.", "you": "You are 50 years old."}
 {"category": "demographics", "i": "I am 60 years old.", "you": "You are 60 years old."}
 {"category": "demographics", "i": "I am 70 years old.", "you": "You are 70 years old."}
-{"category": "demographics", "i": "I am 80 years old.", "you": "You are 80 years old."}
-{"category": "demographics", "i": "I am 90 years old.", "you": "You are 90 years old."}
-{"category": "demographics", "i": "I am a teenager.", "you": "You are a teenager."}
-{"category": "demographics", "i": "I am a middle-aged person.", "you": "You are a middle-aged person."}
-{"category": "demographics", "i": "I am a woman.", "you": "You are a woman."}
-{"category": "demographics", "i": "I am non-binary.", "you": "You are non-binary."}
-{"category": "demographics", "i": "I am transgender.", "you": "You are transgender."}
-{"category": "demographics", "i": "I am cisgender.", "you": "You are cisgender."}
-{"category": "demographics", "i": "I am a boy.", "you": "You are a boy."}
-{"category": "demographics", "i": "I am a girl.", "you": "You are a girl."}
 {"category": "demographics", "i": "I am a male.", "you": "You are a male."}
 {"category": "demographics", "i": "I am a female.", "you": "You are a female."}
-{"category": "demographics", "i": "I am a person of color.", "you": "You are a person of color."}
-{"category": "demographics", "i": "I am white.", "you": "You are white."}
-{"category": "demographics", "i": "I am Asian.", "you": "You are Asian."}
+{"category": "demographics", "i": "I am non-binary.", "you": "You are non-binary."}
+{"category": "demographics", "i": "I am transgender.", "you": "You are transgender."}
+{"category": "demographics", "i": "I am a man.", "you": "You are a man."}
+{"category": "demographics", "i": "I am a woman.", "you": "You are a woman."}
+{"category": "demographics", "i": "I earn $30,000 a year.", "you": "You earn $30,000 a year."}
+{"category": "demographics", "i": "I earn $50,000 a year.", "you": "You earn $50,000 a year."}
+{"category": "demographics", "i": "I earn $70,000 a year.", "you": "You earn $70,000 a year."}
+{"category": "demographics", "i": "I earn $100,000 a year.", "you": "You earn $100,000 a year."}
+{"category": "demographics", "i": "I earn $150,000 a year.", "you": "You earn $150,000 a year."}
 {"category": "demographics", "i": "I am African American.", "you": "You are African American."}
-{"category": "demographics", "i": "I am Latino.", "you": "You are Latino."}
+{"category": "demographics", "i": "I am Asian.", "you": "You are Asian."}
+{"category": "demographics", "i": "I am White.", "you": "You are White."}
 {"category": "demographics", "i": "I am Native American.", "you": "You are Native American."}
-{"category": "demographics", "i": "I am Middle Eastern.", "you": "You are Middle Eastern."}
+{"category": "demographics", "i": "I am Hispanic.", "you": "You are Hispanic."}
+{"category": "demographics", "i": "I am from New York.", "you": "You are from New York."}
+{"category": "demographics", "i": "I am from California.", "you": "You are from California."}
+{"category": "demographics", "i": "I am from Texas.", "you": "You are from Texas."}
+{"category": "demographics", "i": "I am from Florida.", "you": "You are from Florida."}
+{"category": "demographics", "i": "I am from Illinois.", "you": "You are from Illinois."}
+{"category": "demographics", "i": "I have a high school diploma.", "you": "You have a high school diploma."}
+{"category": "demographics", "i": "I have a bachelor's degree.", "you": "You have a bachelor's degree."}
+{"category": "demographics", "i": "I have a master's degree.", "you": "You have a master's degree."}
+{"category": "demographics", "i": "I have a doctorate.", "you": "You have a doctorate."}
+{"category": "demographics", "i": "I have some college education.", "you": "You have some college education."}
+{"category": "demographics", "i": "I am a teenager.", "you": "You are a teenager."}
+{"category": "demographics", "i": "I am an adult.", "you": "You are an adult."}
+{"category": "demographics", "i": "I am a senior citizen.", "you": "You are a senior citizen."}
+{"category": "demographics", "i": "I am a child.", "you": "You are a child."}
+{"category": "demographics", "i": "I am a young adult.", "you": "You are a young adult."}
+{"category": "demographics", "i": "I am a college graduate.", "you": "You are a college graduate."}
+{"category": "demographics", "i": "I am a high school graduate.", "you": "You are a high school graduate."}
+{"category": "demographics", "i": "I am an immigrant.", "you": "You are an immigrant."}
+{"category": "demographics", "i": "I am a citizen.", "you": "You are a citizen."}
 {"category": "demographics", "i": "I am from Europe.", "you": "You are from Europe."}
-{"category": "demographics", "i": "I am from Africa.", "you": "You are from Africa."}
 {"category": "demographics", "i": "I am from Asia.", "you": "You are from Asia."}
-{"category": "demographics", "i": "I am from the Americas.", "you": "You are from the Americas."}
-{"category": "demographics", "i": "I am from Oceania.", "you": "You are from Oceania."}
+{"category": "demographics", "i": "I am from Africa.", "you": "You are from Africa."}
 {"category": "demographics", "i": "I am from the Middle East.", "you": "You are from the Middle East."}
 {"category": "demographics", "i": "I am from South America.", "you": "You are from South America."}
-{"category": "demographics", "i": "I am from North America.", "you": "You are from North America."}
-{"category": "demographics", "i": "I am from the Caribbean.", "you": "You are from the Caribbean."}
-{"category": "demographics", "i": "I am from the Pacific Islands.", "you": "You are from the Pacific Islands."}
-{"category": "demographics", "i": "I am from the United States.", "you": "You are from the United States."}
+{"category": "demographics", "i": "I am from Oceania.", "you": "You are from Oceania."}
+{"category": "demographics", "i": "I am a first-generation college student.", "you": "You are a first-generation college student."}
+{"category": "demographics", "i": "I am a single parent.", "you": "You are a single parent."}
+{"category": "demographics", "i": "I am a full-time student.", "you": "You are a full-time student."}
+{"category": "demographics", "i": "I am a part-time student.", "you": "You are a part-time student."}
+{"category": "demographics", "i": "I am a retired person.", "you": "You are a retired person."}
+{"category": "demographics", "i": "I am a full-time worker.", "you": "You are a full-time worker."}
+{"category": "demographics", "i": "I am a part-time worker.", "you": "You are a part-time worker."}
+{"category": "demographics", "i": "I am a homemaker.", "you": "You are a homemaker."}
+{"category": "demographics", "i": "I am a student.", "you": "You are a student."}
+{"category": "demographics", "i": "I am a teacher.", "you": "You are a teacher."}
+{"category": "demographics", "i": "I am a nurse.", "you": "You are a nurse."}
+{"category": "demographics", "i": "I am 35 years old.", "you": "You are 35 years old."}
+{"category": "demographics", "i": "I am 45 years old.", "you": "You are 45 years old."}
+{"category": "demographics", "i": "I am 55 years old.", "you": "You are 55 years old."}
+{"category": "demographics", "i": "I am 65 years old.", "you": "You are 65 years old."}
+{"category": "demographics", "i": "I am male.", "you": "You are male."}
+{"category": "demographics", "i": "I am female.", "you": "You are female."}
+{"category": "demographics", "i": "I am cisgender.", "you": "You are cisgender."}
+{"category": "demographics", "i": "I earn $30,000 annually.", "you": "You earn $30,000 annually."}
+{"category": "demographics", "i": "I earn $50,000 annually.", "you": "You earn $50,000 annually."}
+{"category": "demographics", "i": "I earn $70,000 annually.", "you": "You earn $70,000 annually."}
+{"category": "demographics", "i": "I earn $100,000 annually.", "you": "You earn $100,000 annually."}
+{"category": "demographics", "i": "I earn $150,000 annually.", "you": "You earn $150,000 annually."}
+{"category": "demographics", "i": "I have a PhD.", "you": "You have a PhD."}
+{"category": "demographics", "i": "I live in New York.", "you": "You live in New York."}
+{"category": "demographics", "i": "I live in California.", "you": "You live in California."}
+{"category": "demographics", "i": "I live in Texas.", "you": "You live in Texas."}
+{"category": "demographics", "i": "I live in Florida.", "you": "You live in Florida."}
+{"category": "demographics", "i": "I live in Illinois.", "you": "You live in Illinois."}
+{"category": "demographics", "i": "I am a middle-aged person.", "you": "You are a middle-aged person."}
 {"category": "demographics", "i": "I am from Canada.", "you": "You are from Canada."}
 {"category": "demographics", "i": "I am from Mexico.", "you": "You are from Mexico."}
 {"category": "demographics", "i": "I am from Brazil.", "you": "You are from Brazil."}
 {"category": "demographics", "i": "I am from Japan.", "you": "You are from Japan."}
-{"category": "demographics", "i": "I am from China.", "you": "You are from China."}
-{"category": "demographics", "i": "I am from India.", "you": "You are from India."}
-{"category": "demographics", "i": "I am from Russia.", "you": "You are from Russia."}
-{"category": "demographics", "i": "I am from Australia.", "you": "You are from Australia."}
 {"category": "demographics", "i": "I am from Germany.", "you": "You are from Germany."}
-{"category": "demographics", "i": "I am from France.", "you": "You are from France."}
-{"category": "demographics", "i": "I am from Italy.", "you": "You are from Italy."}
-{"category": "demographics", "i": "I am from Spain.", "you": "You are from Spain."}
-{"category": "demographics", "i": "I am from the UK.", "you": "You are from the UK."}
+{"category": "demographics", "i": "I am from Australia.", "you": "You are from Australia."}
 {"category": "demographics", "i": "I am from South Korea.", "you": "You are from South Korea."}
-{"category": "demographics", "i": "I am from Nigeria.", "you": "You are from Nigeria."}
+{"category": "demographics", "i": "I am from France.", "you": "You are from France."}
 {"category": "demographics", "i": "I am from Egypt.", "you": "You are from Egypt."}
+{"category": "demographics", "i": "I am from Russia.", "you": "You are from Russia."}
+{"category": "demographics", "i": "I am from China.", "you": "You are from China."}
+{"category": "demographics", "i": "I am from Italy.", "you": "You are from Italy."}
 {"category": "demographics", "i": "I am from South Africa.", "you": "You are from South Africa."}
+{"category": "demographics", "i": "I am from Norway.", "you": "You are from Norway."}
+{"category": "demographics", "i": "I am from India.", "you": "You are from India."}
 {"category": "demographics", "i": "I am from Indonesia.", "you": "You are from Indonesia."}
-{"category": "demographics", "i": "I am a 25-year-old.", "you": "You are a 25-year-old."}
-{"category": "demographics", "i": "I am a single parent.", "you": "You are a single parent."}
-{"category": "demographics", "i": "I am a first-time voter.", "you": "You are a first-time voter."}
-{"category": "demographics", "i": "I am a military veteran.", "you": "You are a military veteran."}
-{"category": "demographics", "i": "I am a full-time student.", "you": "You are a full-time student."}
-{"category": "demographics", "i": "I am a part-time worker.", "you": "You are a part-time worker."}
-{"category": "demographics", "i": "I am a high school graduate.", "you": "You are a high school graduate."}
-{"category": "demographics", "i": "I am a college dropout.", "you": "You are a college dropout."}
-{"category": "demographics", "i": "I am a recent immigrant.", "you": "You are a recent immigrant."}
-{"category": "demographics", "i": "I am a first-generation American.", "you": "You are a first-generation American."}
-{"category": "demographics", "i": "I am a stay-at-home parent.", "you": "You are a stay-at-home parent."}
-{"category": "demographics", "i": "I am a working mother.", "you": "You are a working mother."}
-{"category": "demographics", "i": "I am a working father.", "you": "You are a working father."}
-{"category": "demographics", "i": "I am a person with a disability.", "you": "You are a person with a disability."}
-{"category": "demographics", "i": "I am a person with diabetes.", "you": "You are a person with diabetes."}
-{"category": "demographics", "i": "I am a person with asthma.", "you": "You are a person with asthma."}
-{"category": "demographics", "i": "I am a person with a mental illness.", "you": "You are a person with a mental illness."}
-{"category": "demographics", "i": "I am a person with a chronic illness.", "you": "You are a person with a chronic illness."}
-{"category": "demographics", "i": "I am a person from the LGBTQ+ community.", "you": "You are a person from the LGBTQ+ community."}
-{"category": "demographics", "i": "I am a Black individual.", "you": "You are a Black individual."}
-{"category": "demographics", "i": "I am a white individual.", "you": "You are a white individual."}
-{"category": "demographics", "i": "I am an Asian individual.", "you": "You are an Asian individual."}
-{"category": "demographics", "i": "I am a Native American.", "you": "You are a Native American."}
-{"category": "demographics", "i": "I am a Pacific Islander.", "you": "You are a Pacific Islander."}
-{"category": "demographics", "i": "I am a person from the Middle East.", "you": "You are a person from the Middle East."}
-{"category": "demographics", "i": "I am a person from Africa.", "you": "You are a person from Africa."}
-{"category": "demographics", "i": "I am a person from Europe.", "you": "You are a person from Europe."}
-{"category": "demographics", "i": "I am a person from South America.", "you": "You are a person from South America."}
-{"category": "demographics", "i": "I am a person from North America.", "you": "You are a person from North America."}
-{"category": "demographics", "i": "I am a person from Oceania.", "you": "You are a person from Oceania."}
-{"category": "demographics", "i": "I am a person who identifies as Christian.", "you": "You are a person who identifies as Christian."}
-{"category": "demographics", "i": "I am a person who identifies as Muslim.", "you": "You are a person who identifies as Muslim."}
-{"category": "demographics", "i": "I am a person who identifies as Jewish.", "you": "You are a person who identifies as Jewish."}
-{"category": "demographics", "i": "I am a person who identifies as Buddhist.", "you": "You are a person who identifies as Buddhist."}
-{"category": "demographics", "i": "I am a person who identifies as atheist.", "you": "You are a person who identifies as atheist."}
-{"category": "demographics", "i": "I am a person who identifies as agnostic.", "you": "You are a person who identifies as agnostic."}
-{"category": "demographics", "i": "I am a person who identifies as Hindu.", "you": "You are a person who identifies as Hindu."}
-{"category": "demographics", "i": "I am a person who identifies as Sikh.", "you": "You are a person who identifies as Sikh."}
-{"category": "demographics", "i": "I am a person who identifies as secular.", "you": "You are a person who identifies as secular."}
-{"category": "demographics", "i": "I am a person who identifies as spiritual but not religious.", "you": "You are a person who identifies as spiritual but not religious."}
-{"category": "demographics", "i": "I am a person who identifies as non-religious.", "you": "You are a person who identifies as non-religious."}
-{"category": "demographics", "i": "I am a person who identifies as a member of the LGBTQ+ community.", "you": "You are a person who identifies as a member of the LGBTQ+ community."}
-{"category": "demographics", "i": "I am a person who identifies as a woman.", "you": "You are a person who identifies as a woman."}
-{"category": "demographics", "i": "I am a person who identifies as a man.", "you": "You are a person who identifies as a man."}
-{"category": "demographics", "i": "I am a person who identifies as a non-binary individual.", "you": "You are a person who identifies as a non-binary individual."}
-{"category": "demographics", "i": "I am a person who identifies as a transgender individual.", "you": "You are a person who identifies as a transgender individual."}
-{"category": "demographics", "i": "I am a person who identifies as a cisgender individual.", "you": "You are a person who identifies as a cisgender individual."}
-{"category": "demographics", "i": "I am a person who identifies as a genderqueer individual.", "you": "You are a person who identifies as a genderqueer individual."}
-{"category": "demographics", "i": "I am a person who identifies as a genderfluid individual.", "you": "You are a person who identifies as a genderfluid individual."}
-{"category": "demographics", "i": "I am a person who identifies as a demigender individual.", "you": "You are a person who identifies as a demigender individual."}
-{"category": "demographics", "i": "I am a person who identifies as an intersex individual.", "you": "You are a person who identifies as an intersex individual."}
-{"category": "demographics", "i": "I am a person who identifies as a person with a disability.", "you": "You are a person who identifies as a person with a disability."}
-{"category": "demographics", "i": "I am a university graduate.", "you": "You are a university graduate."}
-{"category": "demographics", "i": "I am a grandmother.", "you": "You are a grandmother."}
-{"category": "demographics", "i": "I am a grandfather.", "you": "You are a grandfather."}
-{"category": "demographics", "i": "I am a full-time worker.", "you": "You are a full-time worker."}
-{"category": "demographics", "i": "I am a retired person.", "you": "You are a retired person."}
-{"category": "demographics", "i": "I am a software developer.", "you": "You are a software developer."}
-{"category": "demographics", "i": "I am an artist.", "you": "You are an artist."}
-{"category": "demographics", "i": "I am an engineer.", "you": "You are an engineer."}
-{"category": "demographics", "i": "I am a politician.", "you": "You are a politician."}
-{"category": "demographics", "i": "I am a CEO.", "you": "You are a CEO."}
-{"category": "demographics", "i": "I am a manager.", "you": "You are a manager."}
-{"category": "demographics", "i": "I am a customer service rep.", "you": "You are a customer service rep."}
-{"category": "demographics", "i": "I am a professor.", "you": "You are a professor."}
-{"category": "demographics", "i": "I am a fitness trainer.", "you": "You are a fitness trainer."}
-{"category": "demographics", "i": "I am a yoga instructor.", "you": "You are a yoga instructor."}
-{"category": "demographics", "i": "I am a martial artist.", "you": "You are a martial artist."}
-{"category": "demographics", "i": "I am a dancer.", "you": "You are a dancer."}
-{"category": "demographics", "i": "I am a singer.", "you": "You are a singer."}
-{"category": "demographics", "i": "I am a fashion designer.", "you": "You are a fashion designer."}
-{"category": "demographics", "i": "I am a cook.", "you": "You are a cook."}
-{"category": "demographics", "i": "I am a welder.", "you": "You are a welder."}
-{"category": "demographics", "i": "I am a painter.", "you": "You are a painter."}
-{"category": "demographics", "i": "I am a sculptor.", "you": "You are a sculptor."}
-{"category": "demographics", "i": "I am a poet.", "you": "You are a poet."}
-{"category": "demographics", "i": "I am a novelist.", "you": "You are a novelist."}
-{"category": "demographics", "i": "I am a blogger.", "you": "You are a blogger."}
-{"category": "demographics", "i": "I am a social media influencer.", "you": "You are a social media influencer."}
-{"category": "demographics", "i": "I am a filmmaker.", "you": "You are a filmmaker."}
-{"category": "demographics", "i": "I am a director.", "you": "You are a director."}
-{"category": "demographics", "i": "I am a producer.", "you": "You are a producer."}
-{"category": "demographics", "i": "I am a screenwriter.", "you": "You are a screenwriter."}
-{"category": "demographics", "i": "I am a composer.", "you": "You are a composer."}
-{"category": "demographics", "i": "I am a DJ.", "you": "You are a DJ."}
-{"category": "demographics", "i": "I am a sound engineer.", "you": "You are a sound engineer."}
-{"category": "demographics", "i": "I am a web developer.", "you": "You are a web developer."}
-{"category": "demographics", "i": "I am a data analyst.", "you": "You are a data analyst."}
-{"category": "demographics", "i": "I am a network administrator.", "you": "You are a network administrator."}
-{"category": "demographics", "i": "I am a systems analyst.", "you": "You are a systems analyst."}
-{"category": "demographics", "i": "I am a database administrator.", "you": "You are a database administrator."}
-{"category": "demographics", "i": "I am a cybersecurity expert.", "you": "You are a cybersecurity expert."}
-{"category": "demographics", "i": "I am a financial analyst.", "you": "You are a financial analyst."}
-{"category": "demographics", "i": "I am an accountant.", "you": "You are an accountant."}
-{"category": "demographics", "i": "I am a judge.", "you": "You are a judge."}
-{"category": "demographics", "i": "I am a public defender.", "you": "You are a public defender."}
-{"category": "demographics", "i": "I am a prosecutor.", "you": "You are a prosecutor."}
-{"category": "demographics", "i": "I am a medical researcher.", "you": "You are a medical researcher."}
-{"category": "demographics", "i": "I am a biologist.", "you": "You are a biologist."}
-{"category": "demographics", "i": "I am a chemist.", "you": "You are a chemist."}
-{"category": "demographics", "i": "I am a physicist.", "you": "You are a physicist."}
-{"category": "demographics", "i": "I am a mathematician.", "you": "You are a mathematician."}
-{"category": "demographics", "i": "I am a statistician.", "you": "You are a statistician."}
-{"category": "demographics", "i": "I am a geologist.", "you": "You are a geologist."}
-{"category": "demographics", "i": "I am an astronomer.", "you": "You are an astronomer."}
-{"category": "demographics", "i": "I am a meteorologist.", "you": "You are a meteorologist."}
-{"category": "demographics", "i": "I am a geographer.", "you": "You are a geographer."}
-{"category": "demographics", "i": "I am a cartographer.", "you": "You are a cartographer."}
-{"category": "demographics", "i": "I am a historian.", "you": "You are a historian."}
-{"category": "demographics", "i": "I am a linguist.", "you": "You are a linguist."}
-{"category": "demographics", "i": "I am a philosopher.", "you": "You are a philosopher."}
-{"category": "demographics", "i": "I am a theologian.", "you": "You are a theologian."}
-{"category": "demographics", "i": "I am a sociologist.", "you": "You are a sociologist."}
-{"category": "demographics", "i": "I am a psychologist.", "you": "You are a psychologist."}
-{"category": "demographics", "i": "I am a psychiatrist.", "you": "You are a psychiatrist."}
-{"category": "demographics", "i": "I am a community organizer.", "you": "You are a community organizer."}
-{"category": "demographics", "i": "I am a missionary.", "you": "You are a missionary."}
-{"category": "demographics", "i": "I am a religious leader.", "you": "You are a religious leader."}
-{"category": "demographics", "i": "I am a priest.", "you": "You are a priest."}
-{"category": "demographics", "i": "I am a pastor.", "you": "You are a pastor."}
-{"category": "demographics", "i": "I am a rabbi.", "you": "You are a rabbi."}
-{"category": "demographics", "i": "I am an imam.", "you": "You are an imam."}
-{"category": "demographics", "i": "I am a monk.", "you": "You are a monk."}
-{"category": "demographics", "i": "I am a nun.", "you": "You are a nun."}
-{"category": "demographics", "i": "I am a meditation teacher.", "you": "You are a meditation teacher."}
-{"category": "demographics", "i": "I am a life coach.", "you": "You are a life coach."}
-{"category": "demographics", "i": "I am a nutritionist.", "you": "You are a nutritionist."}
-{"category": "demographics", "i": "I am a personal trainer.", "you": "You are a personal trainer."}
-{"category": "demographics", "i": "I am a physiotherapist.", "you": "You are a physiotherapist."}
-{"category": "demographics", "i": "I am a chiropractor.", "you": "You are a chiropractor."}
-{"category": "demographics", "i": "I am a massage therapist.", "you": "You are a massage therapist."}
-{"category": "demographics", "i": "I am a single mother.", "you": "You are a single mother."}
-{"category": "demographics", "i": "I am a recent graduate.", "you": "You are a recent graduate."}
-{"category": "demographics", "i": "I am a first-generation immigrant.", "you": "You are a first-generation immigrant."}
-{"category": "demographics", "i": "I am a non-binary individual.", "you": "You are a non-binary individual."}
-{"category": "demographics", "i": "I am a person with disabilities.", "you": "You are a person with disabilities."}
-{"category": "demographics", "i": "I am a high school dropout.", "you": "You are a high school dropout."}
-{"category": "demographics", "i": "I am a retired teacher.", "you": "You are a retired teacher."}
-{"category": "demographics", "i": "I am a small business owner.", "you": "You are a small business owner."}
-{"category": "demographics", "i": "I am a stay-at-home dad.", "you": "You are a stay-at-home dad."}
-{"category": "demographics", "i": "I am a nurse in training.", "you": "You are a nurse in training."}
-{"category": "demographics", "i": "I am a recent college graduate.", "you": "You are a recent college graduate."}
-{"category": "demographics", "i": "I am a self-employed freelancer.", "you": "You are a self-employed freelancer."}
-{"category": "demographics", "i": "I am a part-time student.", "you": "You are a part-time student."}
-{"category": "demographics", "i": "I am a full-time caregiver.", "you": "You are a full-time caregiver."}
-{"category": "demographics", "i": "I am a member of the LGBTQ+ community.", "you": "You are a member of the LGBTQ+ community."}
-{"category": "demographics", "i": "I am a single father.", "you": "You are a single father."}
-{"category": "demographics", "i": "I am a first-time homebuyer.", "you": "You are a first-time homebuyer."}
-{"category": "demographics", "i": "I am a full-time homemaker.", "you": "You are a full-time homemaker."}
-{"category": "demographics", "i": "I am a person who identifies as Native American.", "you": "You are a person who identifies as Native American."}
-{"category": "demographics", "i": "I am a person who identifies as African American.", "you": "You are a person who identifies as African American."}
-{"category": "demographics", "i": "I am a person who identifies as Asian American.", "you": "You are a person who identifies as Asian American."}
-{"category": "demographics", "i": "I am a person who identifies as Latino.", "you": "You are a person who identifies as Latino."}
-{"category": "demographics", "i": "I am a person who identifies as White.", "you": "You are a person who identifies as White."}
-{"category": "demographics", "i": "I am a person who identifies as Middle Eastern.", "you": "You are a person who identifies as Middle Eastern."}
-{"category": "demographics", "i": "I am a person who identifies as Pacific Islander.", "you": "You are a person who identifies as Pacific Islander."}
-{"category": "demographics", "i": "I am a person who identifies as biracial.", "you": "You are a person who identifies as biracial."}
-{"category": "demographics", "i": "I am a person who identifies as multiracial.", "you": "You are a person who identifies as multiracial."}
-{"category": "demographics", "i": "I am a person who identifies as non-binary.", "you": "You are a person who identifies as non-binary."}
-{"category": "demographics", "i": "I am a person who identifies as transgender.", "you": "You are a person who identifies as transgender."}
-{"category": "demographics", "i": "I am a person who identifies as cisgender.", "you": "You are a person who identifies as cisgender."}
-{"category": "demographics", "i": "I am a person who identifies as genderfluid.", "you": "You are a person who identifies as genderfluid."}
-{"category": "demographics", "i": "I am a person who identifies as intersex.", "you": "You are a person who identifies as intersex."}
-{"category": "demographics", "i": "I am a person who identifies as asexual.", "you": "You are a person who identifies as asexual."}
-{"category": "demographics", "i": "I am a person who identifies as aromantic.", "you": "You are a person who identifies as aromantic."}
-{"category": "demographics", "i": "I am a person who identifies as pansexual.", "you": "You are a person who identifies as pansexual."}
-{"category": "demographics", "i": "I am a person who identifies as polyamorous.", "you": "You are a person who identifies as polyamorous."}
-{"category": "demographics", "i": "I am a person who identifies as a veteran.", "you": "You are a person who identifies as a veteran."}
-{"category": "demographics", "i": "I am a person who identifies as a first responder.", "you": "You are a person who identifies as a first responder."}
-{"category": "demographics", "i": "I am a person who identifies as a nurse.", "you": "You are a person who identifies as a nurse."}
-{"category": "demographics", "i": "I am a person who identifies as a teacher.", "you": "You are a person who identifies as a teacher."}
-{"category": "demographics", "i": "I am a man from Japan.", "you": "You are a man from Japan."}
-{"category": "demographics", "i": "I am a person who identifies as a trans woman.", "you": "You are a person who identifies as a trans woman."}
-{"category": "demographics", "i": "I am a person who identifies as a trans man.", "you": "You are a person who identifies as a trans man."}
-{"category": "demographics", "i": "I am a person who identifies as a heterosexual individual.", "you": "You are a person who identifies as a heterosexual individual."}
-{"category": "demographics", "i": "I am a person who identifies as a homosexual individual.", "you": "You are a person who identifies as a homosexual individual."}
-{"category": "demographics", "i": "I am a person who identifies as a bisexual individual.", "you": "You are a person who identifies as a bisexual individual."}
-{"category": "demographics", "i": "I am a person who identifies as a pansexual individual.", "you": "You are a person who identifies as a pansexual individual."}
-{"category": "demographics", "i": "I am a person who identifies as a demisexual individual.", "you": "You are a person who identifies as a demisexual individual."}
-{"category": "demographics", "i": "I am a person who identifies as a asexual individual.", "you": "You are a person who identifies as a asexual individual."}
-{"category": "demographics", "i": "I am a person who identifies as a queer individual.", "you": "You are a person who identifies as a queer individual."}
-{"category": "demographics", "i": "I am a person who identifies as a polyamorous individual.", "you": "You are a person who identifies as a polyamorous individual."}
-{"category": "demographics", "i": "I am a person who identifies as a monogamous individual.", "you": "You are a person who identifies as a monogamous individual."}
-{"category": "demographics", "i": "I am a person who identifies as a vegetarian.", "you": "You are a person who identifies as a vegetarian."}
-{"category": "demographics", "i": "I am a person who identifies as a vegan.", "you": "You are a person who identifies as a vegan."}
-{"category": "demographics", "i": "I am a person who identifies as a omnivore.", "you": "You are a person who identifies as a omnivore."}
-{"category": "demographics", "i": "I am a person who identifies as a carnivore.", "you": "You are a person who identifies as a carnivore."}
-{"category": "demographics", "i": "I am a person who identifies as a pescetarian.", "you": "You are a person who identifies as a pescetarian."}
-{"category": "demographics", "i": "I am a person who identifies as a flexitarian.", "you": "You are a person who identifies as a flexitarian."}
-{"category": "demographics", "i": "I am a person who identifies as a Muslim.", "you": "You are a person who identifies as a Muslim."}
-{"category": "demographics", "i": "I am a person who identifies as a Christian.", "you": "You are a person who identifies as a Christian."}
-{"category": "demographics", "i": "I am a person who identifies as a Buddhist.", "you": "You are a person who identifies as a Buddhist."}
-{"category": "demographics", "i": "I am a person who identifies as a Hindu.", "you": "You are a person who identifies as a Hindu."}
-{"category": "demographics", "i": "I am a person who identifies as a Jewish.", "you": "You are a person who identifies as a Jewish."}
-{"category": "demographics", "i": "I am a person who identifies as a Sikh.", "you": "You are a person who identifies as a Sikh."}
-{"category": "demographics", "i": "I am a person who identifies as a Zoroastrian.", "you": "You are a person who identifies as a Zoroastrian."}
-{"category": "demographics", "i": "I am a person who identifies as a Jain.", "you": "You are a person who identifies as a Jain."}
-{"category": "demographics", "i": "I am 18 years old.", "you": "You are 18 years old."}
-{"category": "demographics", "i": "I am 100 years old.", "you": "You are 100 years old."}
-{"category": "demographics", "i": "I am a man in his 20s.", "you": "You are a man in his 20s."}
-{"category": "demographics", "i": "I am a man in his 30s.", "you": "You are a man in his 30s."}
-{"category": "demographics", "i": "I am a man in his 40s.", "you": "You are a man in his 40s."}
-{"category": "demographics", "i": "I am a man in his 50s.", "you": "You are a man in his 50s."}
-{"category": "demographics", "i": "I am a man in his 60s.", "you": "You are a man in his 60s."}
-{"category": "demographics", "i": "I am a man in his 70s.", "you": "You are a man in his 70s."}
-{"category": "demographics", "i": "I am a man in his 80s.", "you": "You are a man in his 80s."}
-{"category": "demographics", "i": "I am a man in his 90s.", "you": "You are a man in his 90s."}
-{"category": "demographics", "i": "I am a woman in her 20s.", "you": "You are a woman in her 20s."}
-{"category": "demographics", "i": "I am a woman in her 30s.", "you": "You are a woman in her 30s."}
-{"category": "demographics", "i": "I am a woman in her 40s.", "you": "You are a woman in her 40s."}
-{"category": "demographics", "i": "I am a woman in her 50s.", "you": "You are a woman in her 50s."}
-{"category": "demographics", "i": "I am a woman in her 60s.", "you": "You are a woman in her 60s."}
-{"category": "demographics", "i": "I am a woman in her 70s.", "you": "You are a woman in her 70s."}
-{"category": "demographics", "i": "I am a woman in her 80s.", "you": "You are a woman in her 80s."}
-{"category": "demographics", "i": "I am a woman in her 90s.", "you": "You are a woman in her 90s."}
-{"category": "demographics", "i": "I am a transgender person.", "you": "You are a transgender person."}
-{"category": "demographics", "i": "I am a cisgender person.", "you": "You are a cisgender person."}
-{"category": "demographics", "i": "I am a gay man.", "you": "You are a gay man."}
-{"category": "demographics", "i": "I am a lesbian.", "you": "You are a lesbian."}
-{"category": "demographics", "i": "I am bisexual.", "you": "You are bisexual."}
-{"category": "demographics", "i": "I am asexual.", "you": "You are asexual."}
-{"category": "demographics", "i": "I am pansexual.", "you": "You are pansexual."}
-{"category": "demographics", "i": "I am from the United Kingdom.", "you": "You are from the United Kingdom."}
-{"category": "demographics", "i": "I am from New Zealand.", "you": "You are from New Zealand."}
 {"category": "demographics", "i": "I am from Thailand.", "you": "You are from Thailand."}
+{"category": "demographics", "i": "I am from Spain.", "you": "You are from Spain."}
 {"category": "demographics", "i": "I am from Argentina.", "you": "You are from Argentina."}
-{"category": "demographics", "i": "I am from Colombia.", "you": "You are from Colombia."}
-{"category": "demographics", "i": "I am from Kenya.", "you": "You are from Kenya."}
 {"category": "demographics", "i": "I am from Saudi Arabia.", "you": "You are from Saudi Arabia."}
+{"category": "demographics", "i": "I am from Nigeria.", "you": "You are from Nigeria."}
+{"category": "demographics", "i": "I am from Colombia.", "you": "You are from Colombia."}
+{"category": "demographics", "i": "I am from Greece.", "you": "You are from Greece."}
+{"category": "demographics", "i": "I am from Ireland.", "you": "You are from Ireland."}
+{"category": "demographics", "i": "I am from Sweden.", "you": "You are from Sweden."}
+{"category": "demographics", "i": "I am from Chile.", "you": "You are from Chile."}
 {"category": "demographics", "i": "I am from Peru.", "you": "You are from Peru."}
-{"category": "demographics", "i": "I am Black.", "you": "You are Black."}
-{"category": "demographics", "i": "I am Indigenous.", "you": "You are Indigenous."}
-{"category": "demographics", "i": "I am a woman from Brazil.", "you": "You are a woman from Brazil."}
-{"category": "demographics", "i": "I am a college graduate.", "you": "You are a college graduate."}
-{"category": "demographics", "i": "I am a person with a bachelor's degree.", "you": "You are a person with a bachelor's degree."}
-{"category": "demographics", "i": "I am a person with a master's degree.", "you": "You are a person with a master's degree."}
-{"category": "demographics", "i": "I am a person with a doctorate.", "you": "You are a person with a doctorate."}
-{"category": "demographics", "i": "I am a person with no formal education.", "you": "You are a person with no formal education."}
-{"category": "demographics", "i": "I am a person who identifies as a meat-eater.", "you": "You are a person who identifies as a meat-eater."}
-{"category": "demographics", "i": "I am a person who identifies as a fruitarian.", "you": "You are a person who identifies as a fruitarian."}
-{"category": "demographics", "i": "I am a person who identifies as a lacto-ovo vegetarian.", "you": "You are a person who identifies as a lacto-ovo vegetarian."}
-{"category": "demographics", "i": "I am a person who identifies as a vegan with exceptions.", "you": "You are a person who identifies as a vegan with exceptions."}
-{"category": "demographics", "i": "I am a person who identifies as a vegan with no exceptions.", "you": "You are a person who identifies as a vegan with no exceptions."}
-{"category": "demographics", "i": "I am a person who identifies as a person of African descent.", "you": "You are a person who identifies as a person of African descent."}
-{"category": "demographics", "i": "I am a person who identifies as a person of Asian descent.", "you": "You are a person who identifies as a person of Asian descent."}
-{"category": "demographics", "i": "I am a person who identifies as a person of European descent.", "you": "You are a person who identifies as a person of European descent."}
-{"category": "demographics", "i": "I am a person who identifies as a person of Indigenous descent.", "you": "You are a person who identifies as a person of Indigenous descent."}
-{"category": "demographics", "i": "I am a person who identifies as a person of Middle Eastern descent.", "you": "You are a person who identifies as a person of Middle Eastern descent."}
-{"category": "demographics", "i": "I am a person who identifies as a person of South Asian descent.", "you": "You are a person who identifies as a person of South Asian descent."}
-{"category": "demographics", "i": "I am a person who identifies as a person of Caribbean descent.", "you": "You are a person who identifies as a person of Caribbean descent."}
-{"category": "demographics", "i": "I am a person who identifies as a person of Latin American descent.", "you": "You are a person who identifies as a person of Latin American descent."}
-{"category": "demographics", "i": "I am a person who identifies as a person of Pacific Islander descent.", "you": "You are a person who identifies as a person of Pacific Islander descent."}
-{"category": "demographics", "i": "I am a person who identifies as a person of mixed heritage.", "you": "You are a person who identifies as a person of mixed heritage."}
-{"category": "demographics", "i": "I am a person who identifies as a person of unknown heritage.", "you": "You are a person who identifies as a person of unknown heritage."}
-{"category": "demographics", "i": "I live in Tokyo.", "you": "You live in Tokyo."}
-{"category": "demographics", "i": "I am a grandparent.", "you": "You are a grandparent."}
-{"category": "demographics", "i": "I am a refugee.", "you": "You are a refugee."}
-{"category": "demographics", "i": "I am a homeless person.", "you": "You are a homeless person."}
-{"category": "demographics", "i": "I am a person from Asia.", "you": "You are a person from Asia."}
-{"category": "demographics", "i": "I am a person from the Americas.", "you": "You are a person from the Americas."}
-{"category": "demographics", "i": "I am a person from the Caribbean.", "you": "You are a person from the Caribbean."}
-{"category": "demographics", "i": "I am a person from East Asia.", "you": "You are a person from East Asia."}
-{"category": "demographics", "i": "I am a person from Southeast Asia.", "you": "You are a person from Southeast Asia."}
-{"category": "demographics", "i": "I am a person from South Asia.", "you": "You are a person from South Asia."}
-{"category": "demographics", "i": "I am a person from the Pacific Islands.", "you": "You are a person from the Pacific Islands."}
-{"category": "demographics", "i": "I am a person from the Arctic.", "you": "You are a person from the Arctic."}
-{"category": "demographics", "i": "I am a person from the Andes.", "you": "You are a person from the Andes."}
-{"category": "demographics", "i": "I am a person from the Sahara.", "you": "You are a person from the Sahara."}
-{"category": "demographics", "i": "I am a person from the Amazon.", "you": "You are a person from the Amazon."}
-{"category": "demographics", "i": "I am a person from the Himalayas.", "you": "You are a person from the Himalayas."}
-{"category": "demographics", "i": "I am a person from the Sahara Desert.", "you": "You are a person from the Sahara Desert."}
-{"category": "demographics", "i": "I am a person from the Arctic Circle.", "you": "You are a person from the Arctic Circle."}
-{"category": "demographics", "i": "I am a person from the Pacific Northwest.", "you": "You are a person from the Pacific Northwest."}
-{"category": "demographics", "i": "I am a person from the Mediterranean.", "you": "You are a person from the Mediterranean."}
-{"category": "demographics", "i": "I am a person from the Caribbean Sea.", "you": "You are a person from the Caribbean Sea."}
-{"category": "demographics", "i": "I am a person from the Indian Ocean.", "you": "You are a person from the Indian Ocean."}
-{"category": "demographics", "i": "I am a person from the Atlantic Ocean.", "you": "You are a person from the Atlantic Ocean."}
-{"category": "demographics", "i": "I am a person from the Gulf of Mexico.", "you": "You are a person from the Gulf of Mexico."}
-{"category": "demographics", "i": "I am a person from the Great Lakes.", "you": "You are a person from the Great Lakes."}
-{"category": "demographics", "i": "I am a person from the Sahara region.", "you": "You are a person from the Sahara region."}
-{"category": "demographics", "i": "I am a person from the Amazon rainforest.", "you": "You are a person from the Amazon rainforest."}
-{"category": "demographics", "i": "I am a person from the Andes Mountains.", "you": "You are a person from the Andes Mountains."}
-{"category": "demographics", "i": "I am a person from the Himalayas region.", "you": "You are a person from the Himalayas region."}
-{"category": "demographics", "i": "I am a person from the Pacific Islands region.", "you": "You are a person from the Pacific Islands region."}
-{"category": "demographics", "i": "I am a sailor.", "you": "You are a sailor."}
-{"category": "demographics", "i": "I am a immigrant.", "you": "You are an immigrant."}
-{"category": "demographics", "i": "I am a native speaker.", "you": "You are a native speaker."}
-{"category": "demographics", "i": "I am a non-native speaker.", "you": "You are a non-native speaker."}
-{"category": "demographics", "i": "I am a white person.", "you": "You are a white person."}
-{"category": "demographics", "i": "I am a religious person.", "you": "You are a religious person."}
-{"category": "demographics", "i": "I am an atheist.", "you": "You are an atheist."}
-{"category": "demographics", "i": "I am a vegetarian.", "you": "You are a vegetarian."}
-{"category": "demographics", "i": "I am a vegan.", "you": "You are a vegan."}
-{"category": "demographics", "i": "I am a Christian.", "you": "You are a Christian."}
-{"category": "demographics", "i": "I am a Muslim.", "you": "You are a Muslim."}
-{"category": "demographics", "i": "I am a Buddhist.", "you": "You are a Buddhist."}
-{"category": "demographics", "i": "I am a Hindu.", "you": "You are a Hindu."}
-{"category": "demographics", "i": "I am a Jew.", "you": "You are a Jew."}
-{"category": "demographics", "i": "I am a person from the Antarctic.", "you": "You are a person from the Antarctic."}
-{"category": "demographics", "i": "I am a person with a college degree.", "you": "You are a person with a college degree."}
-{"category": "demographics", "i": "I am a person without a college degree.", "you": "You are a person without a college degree."}
-{"category": "demographics", "i": "I am a person who speaks Spanish.", "you": "You are a person who speaks Spanish."}
-{"category": "demographics", "i": "I am a person who speaks French.", "you": "You are a person who speaks French."}
-{"category": "demographics", "i": "I am a person who speaks Mandarin.", "you": "You are a person who speaks Mandarin."}
-{"category": "demographics", "i": "I am a person who speaks Arabic.", "you": "You are a person who speaks Arabic."}
-{"category": "demographics", "i": "I am a person who speaks Hindi.", "you": "You are a person who speaks Hindi."}
-{"category": "demographics", "i": "I am a person who speaks Russian.", "you": "You are a person who speaks Russian."}
-{"category": "demographics", "i": "I am a person who speaks Portuguese.", "you": "You are a person who speaks Portuguese."}
-{"category": "demographics", "i": "I am a person who speaks Italian.", "you": "You are a person who speaks Italian."}
-{"category": "demographics", "i": "I am a person who speaks German.", "you": "You are a person who speaks German."}
-{"category": "demographics", "i": "I am a person who speaks Japanese.", "you": "You are a person who speaks Japanese."}
-{"category": "demographics", "i": "I am a person who speaks Korean.", "you": "You are a person who speaks Korean."}
-{"category": "demographics", "i": "I am a person who speaks Vietnamese.", "you": "You are a person who speaks Vietnamese."}
-{"category": "demographics", "i": "I am a person who speaks Thai.", "you": "You are a person who speaks Thai."}
-{"category": "demographics", "i": "I am a person who speaks Persian.", "you": "You are a person who speaks Persian."}
-{"category": "demographics", "i": "I am a person who speaks Dutch.", "you": "You are a person who speaks Dutch."}
-{"category": "demographics", "i": "I am a person who speaks Swedish.", "you": "You are a person who speaks Swedish."}
-{"category": "demographics", "i": "I am a person who speaks Norwegian.", "you": "You are a person who speaks Norwegian."}
-{"category": "demographics", "i": "I am a person who speaks Finnish.", "you": "You are a person who speaks Finnish."}
-{"category": "demographics", "i": "I am a person who speaks Polish.", "you": "You are a person who speaks Polish."}
-{"category": "demographics", "i": "I am a person who speaks Turkish.", "you": "You are a person who speaks Turkish."}
-{"category": "demographics", "i": "I am a person who speaks Hebrew.", "you": "You are a person who speaks Hebrew."}
-{"category": "demographics", "i": "I am a person who speaks Greek.", "you": "You are a person who speaks Greek."}
-{"category": "demographics", "i": "I am a person who speaks Indonesian.", "you": "You are a person who speaks Indonesian."}
-{"category": "demographics", "i": "I am a person who speaks Filipino.", "you": "You are a person who speaks Filipino."}
+{"category": "demographics", "i": "I am from Vietnam.", "you": "You are from Vietnam."}
+{"category": "demographics", "i": "I am from Philippines.", "you": "You are from Philippines."}
+{"category": "demographics", "i": "I am from Kenya.", "you": "You are from Kenya."}
+{"category": "demographics", "i": "I identify as genderqueer.", "you": "You identify as genderqueer."}
+{"category": "demographics", "i": "I have no formal education.", "you": "You have no formal education."}
+{"category": "demographics", "i": "I earn less than $20,000 annually.", "you": "You earn less than $20,000 annually."}
+{"category": "demographics", "i": "I earn between $20,000 and $40,000 annually.", "you": "You earn between $20,000 and $40,000 annually."}
+{"category": "demographics", "i": "I earn between $40,000 and $70,000 annually.", "you": "You earn between $40,000 and $70,000 annually."}
+{"category": "demographics", "i": "I earn between $70,000 and $100,000 annually.", "you": "You earn between $70,000 and $100,000 annually."}
+{"category": "demographics", "i": "I earn more than $100,000 annually.", "you": "You earn more than $100,000 annually."}
+{"category": "demographics", "i": "I live in a rural area.", "you": "You live in a rural area."}
+{"category": "demographics", "i": "I live in an urban area.", "you": "You live in an urban area."}
+{"category": "demographics", "i": "I live in a suburban area.", "you": "You live in a suburban area."}
+{"category": "demographics", "i": "I live in a small town.", "you": "You live in a small town."}
+{"category": "demographics", "i": "I live in a big city.", "you": "You live in a big city."}
+{"category": "demographics", "i": "I am a second-generation college student.", "you": "You are a second-generation college student."}
+{"category": "demographics", "i": "I am a third-generation college student.", "you": "You are a third-generation college student."}
+{"category": "demographics", "i": "I am a recent graduate.", "you": "You are a recent graduate."}
+{"category": "demographics", "i": "I am a lifelong learner.", "you": "You are a lifelong learner."}
+{"category": "demographics", "i": "I am a stay-at-home parent.", "you": "You are a stay-at-home parent."}
+{"category": "demographics", "i": "I am a working parent.", "you": "You are a working parent."}
+{"category": "demographics", "i": "I am a gig worker.", "you": "You are a gig worker."}
+{"category": "demographics", "i": "I am a remote worker.", "you": "You are a remote worker."}
+{"category": "demographics", "i": "I am a freelancer.", "you": "You are a freelancer."}
+{"category": "demographics", "i": "I am a part-time parent.", "you": "You are a part-time parent."}
+{"category": "demographics", "i": "I am a full-time parent.", "you": "You are a full-time parent."}
+{"category": "demographics", "i": "I identify as genderfluid.", "you": "You identify as genderfluid."}
+{"category": "demographics", "i": "I earn $75,000 annually.", "you": "You earn $75,000 annually."}
+{"category": "demographics", "i": "I earn $200,000 annually.", "you": "You earn $200,000 annually."}
+{"category": "demographics", "i": "I am Caucasian.", "you": "You are Caucasian."}
+{"category": "demographics", "i": "I am an elderly person.", "you": "You are an elderly person."}
+{"category": "demographics", "i": "I am a first-time voter.", "you": "You are a first-time voter."}
+{"category": "demographics", "i": "I am a non-graduate.", "you": "You are a non-graduate."}
+{"category": "demographics", "i": "I am a working professional.", "you": "You are a working professional."}
+{"category": "demographics", "i": "I am a volunteer.", "you": "You are a volunteer."}
+{"category": "demographics", "i": "I identify as female.", "you": "You identify as female."}
+{"category": "demographics", "i": "I identify as male.", "you": "You identify as male."}
+{"category": "demographics", "i": "I earn between $40,000 and $60,000 annually.", "you": "You earn between $40,000 and $60,000 annually."}
+{"category": "demographics", "i": "I earn between $60,000 and $100,000 annually.", "you": "You earn between $60,000 and $100,000 annually."}
+{"category": "demographics", "i": "I am in my 20s.", "you": "You are in your 20s."}
 {"category": "demographics", "i": "I am in my 30s.", "you": "You are in your 30s."}
 {"category": "demographics", "i": "I am in my 40s.", "you": "You are in your 40s."}
 {"category": "demographics", "i": "I am in my 50s.", "you": "You are in your 50s."}
+{"category": "demographics", "i": "I am in my 60s.", "you": "You are in my 60s."}
+{"category": "demographics", "i": "I am in my 70s.", "you": "You are in my 70s."}
+{"category": "demographics", "i": "I am in my 80s.", "you": "You are in my 80s."}
+{"category": "demographics", "i": "I am from the United States.", "you": "You are from the United States."}
+{"category": "demographics", "i": "I am from the United Kingdom.", "you": "You are from the United Kingdom."}
+{"category": "demographics", "i": "I am from the Philippines.", "you": "You are from the Philippines."}
+{"category": "demographics", "i": "I am 80 years old.", "you": "You are 80 years old."}
+{"category": "demographics", "i": "I am 90 years old.", "you": "You are 90 years old."}
+{"category": "demographics", "i": "I identify as gender-neutral.", "you": "You identify as gender-neutral."}
+{"category": "demographics", "i": "I earn between $60,000 and $80,000 annually.", "you": "You earn between $60,000 and $80,000 annually."}
+{"category": "demographics", "i": "I earn more than $80,000 annually.", "you": "You earn more than $80,000 annually."}
+{"category": "demographics", "i": "I am of Asian descent.", "you": "You are of Asian descent."}
+{"category": "demographics", "i": "I am of African descent.", "you": "You are of African descent."}
+{"category": "demographics", "i": "I am of European descent.", "you": "You are of European descent."}
+{"category": "demographics", "i": "I am of Middle Eastern descent.", "you": "You are of Middle Eastern descent."}
+{"category": "demographics", "i": "I am of Native American descent.", "you": "You are of Native American descent."}
+{"category": "demographics", "i": "I have a doctorate degree.", "you": "You have a doctorate degree."}
+{"category": "demographics", "i": "I live in a city.", "you": "You live in a city."}
+{"category": "demographics", "i": "I live in Asia.", "you": "You live in Asia."}
+{"category": "demographics", "i": "I live in Africa.", "you": "You live in Africa."}
+{"category": "demographics", "i": "I live in Europe.", "you": "You live in Europe."}
+{"category": "demographics", "i": "I live in the Americas.", "you": "You live in the Americas."}
+{"category": "demographics", "i": "I live in Oceania.", "you": "You live in Oceania."}
+{"category": "demographics", "i": "I live in North America.", "you": "You live in North America."}
+{"category": "demographics", "i": "I live in South America.", "you": "You live in South America."}
+{"category": "demographics", "i": "I live in the United States.", "you": "You live in the United States."}
+{"category": "demographics", "i": "I live in Canada.", "you": "You live in Canada."}
+{"category": "demographics", "i": "I live in the United Kingdom.", "you": "You live in the United Kingdom."}
+{"category": "demographics", "i": "I live in Australia.", "you": "You live in Australia."}
+{"category": "demographics", "i": "I live in Germany.", "you": "You live in Germany."}
+{"category": "demographics", "i": "I live in Brazil.", "you": "You live in Brazil."}
+{"category": "demographics", "i": "I live in Japan.", "you": "You live in Japan."}
+{"category": "demographics", "i": "I live in India.", "you": "You live in India."}
+{"category": "demographics", "i": "I live in Mexico.", "you": "You live in Mexico."}
+{"category": "demographics", "i": "I live in South Korea.", "you": "You live in South Korea."}
+{"category": "demographics", "i": "I live in France.", "you": "You live in France."}
+{"category": "demographics", "i": "I live in Russia.", "you": "You live in Russia."}
+{"category": "demographics", "i": "I live in China.", "you": "You live in China."}
+{"category": "demographics", "i": "I live in Nigeria.", "you": "You live in Nigeria."}
+{"category": "demographics", "i": "I live in Egypt.", "you": "You live in Egypt."}
+{"category": "demographics", "i": "I live in South Africa.", "you": "You live in South Africa."}
+{"category": "demographics", "i": "I live in Indonesia.", "you": "You live in Indonesia."}
+{"category": "demographics", "i": "I live in Spain.", "you": "You live in Spain."}
+{"category": "demographics", "i": "I live in Italy.", "you": "You live in Italy."}
+{"category": "demographics", "i": "I identify as transgender.", "you": "You identify as transgender."}
+{"category": "demographics", "i": "I am African-American.", "you": "You are African-American."}
+{"category": "demographics", "i": "I earn less than $25,000 annually.", "you": "You earn less than $25,000 annually."}
+{"category": "demographics", "i": "I earn between $25,000 and $50,000 annually.", "you": "You earn between $25,000 and $50,000 annually."}
+{"category": "demographics", "i": "I earn between $50,000 and $100,000 annually.", "you": "You earn between $50,000 and $100,000 annually."}
+{"category": "demographics", "i": "I am from a rural area.", "you": "You are from a rural area."}
+{"category": "demographics", "i": "I am from an urban area.", "you": "You are from an urban area."}
+{"category": "demographics", "i": "I am from a suburban area.", "you": "You are from a suburban area."}
+{"category": "demographics", "i": "I am from a developing country.", "you": "You are from a developing country."}
+{"category": "demographics", "i": "I am from a developed country.", "you": "You are from a developed country."}
+{"category": "demographics", "i": "I am a non-native English speaker.", "you": "You are a non-native English speaker."}
+{"category": "demographics", "i": "I am a native English speaker.", "you": "You are a native English speaker."}
+{"category": "demographics", "i": "I am a person with disabilities.", "you": "You are a person with disabilities."}
+{"category": "demographics", "i": "I am a person without disabilities.", "you": "You are a person without disabilities."}
+{"category": "demographics", "i": "I am a person with a disability.", "you": "You are a person with a disability."}
+{"category": "demographics", "i": "I am a person without a disability.", "you": "You are a person without a disability."}
+{"category": "demographics", "i": "I am a person of color.", "you": "You are a person of color."}
+{"category": "demographics", "i": "I am a white person.", "you": "You are a white person."}
+{"category": "demographics", "i": "I am a person with a visible minority background.", "you": "You are a person with a visible minority background."}
+{"category": "demographics", "i": "I am a person with an invisible minority background.", "you": "You are a person with an invisible minority background."}
+{"category": "demographics", "i": "I am a boy.", "you": "You are a boy."}
+{"category": "demographics", "i": "I am a girl.", "you": "You are a girl."}
+{"category": "demographics", "i": "I am Middle Eastern.", "you": "You are Middle Eastern."}
+{"category": "demographics", "i": "I live in a large metropolitan area.", "you": "You live in a large metropolitan area."}
+{"category": "demographics", "i": "I am a first-generation citizen.", "you": "You are a first-generation citizen."}
+{"category": "demographics", "i": "I am a member of the LGBTQ+ community.", "you": "You are a member of the LGBTQ+ community."}
+{"category": "demographics", "i": "I am a veteran.", "you": "You are a veteran."}
+{"category": "demographics", "i": "I am a disabled person.", "you": "You are a disabled person."}
+{"category": "demographics", "i": "I am a single person.", "you": "You are a single person."}
+{"category": "demographics", "i": "I am a married person.", "you": "You are a married person."}
+{"category": "demographics", "i": "I am a person with no children.", "you": "You are a person with no children."}
+{"category": "demographics", "i": "I am a person with children.", "you": "You are a person with children."}
+{"category": "demographics", "i": "I am a person with one child.", "you": "You are a person with one child."}
+{"category": "demographics", "i": "I am a person with two children.", "you": "You are a person with two children."}
+{"category": "demographics", "i": "I am a person with three or more children.", "you": "You are a person with three or more children."}
+{"category": "demographics", "i": "I identify as a woman.", "you": "You identify as a woman."}
+{"category": "demographics", "i": "I identify as a man.", "you": "You identify as a man."}
+{"category": "demographics", "i": "I earn over $150,000 annually.", "you": "You earn over $150,000 annually."}
 {"category": "demographics", "i": "I am in my 60s.", "you": "You are in your 60s."}
 {"category": "demographics", "i": "I am in my 70s.", "you": "You are in your 70s."}
 {"category": "demographics", "i": "I am in my 80s.", "you": "You are in your 80s."}
 {"category": "demographics", "i": "I am in my 90s.", "you": "You are in your 90s."}
-{"category": "demographics", "i": "I am a trans woman.", "you": "You are a trans woman."}
-{"category": "demographics", "i": "I am a trans man.", "you": "You are a trans man."}
-{"category": "demographics", "i": "I am a heterosexual.", "you": "You are a heterosexual."}
-{"category": "demographics", "i": "I am a homosexual.", "you": "You are a homosexual."}
-{"category": "demographics", "i": "I am a bisexual.", "you": "You are a bisexual."}
-{"category": "demographics", "i": "I am a pansexual.", "you": "You are a pansexual."}
-{"category": "demographics", "i": "I am a queer person.", "you": "You are a queer person."}
-{"category": "demographics", "i": "I am a Jewish person.", "you": "You are a Jewish person."}
-{"category": "demographics", "i": "I am a Sikh.", "you": "You are a Sikh."}
-{"category": "demographics", "i": "I am an agnostic.", "you": "You are an agnostic."}
-{"category": "demographics", "i": "I am from Sweden.", "you": "You are from Sweden."}
-{"category": "demographics", "i": "I am from Turkey.", "you": "You are from Turkey."}
-{"category": "demographics", "i": "I am from Vietnam.", "you": "You are from Vietnam."}
-{"category": "demographics", "i": "I am from Ireland.", "you": "You are from Ireland."}
-{"category": "demographics", "i": "I am from Norway.", "you": "You are from Norway."}
-{"category": "demographics", "i": "I am from Poland.", "you": "You are from Poland."}
-{"category": "demographics", "i": "I am from Portugal.", "you": "You are from Portugal."}
-{"category": "demographics", "i": "I am from Singapore.", "you": "You are from Singapore."}
-{"category": "demographics", "i": "I am from Switzerland.", "you": "You are from Switzerland."}
-{"category": "demographics", "i": "I am from the Philippines.", "you": "You are from the Philippines."}
-{"category": "demographics", "i": "I am a parent.", "you": "You are a parent."}
-{"category": "demographics", "i": "I am a sibling.", "you": "You are a sibling."}
-{"category": "demographics", "i": "I am a friend.", "you": "You are a friend."}
-{"category": "demographics", "i": "I am a neighbor.", "you": "You are a neighbor."}
-{"category": "demographics", "i": "I am a colleague.", "you": "You are a colleague."}
-{"category": "demographics", "i": "I am a mentor.", "you": "You are a mentor."}
-{"category": "demographics", "i": "I am a mentee.", "you": "You are a mentee."}
-{"category": "demographics", "i": "I am a community leader.", "you": "You are a community leader."}
-{"category": "demographics", "i": "I am a professional.", "you": "You are a professional."}
-{"category": "demographics", "i": "I am a teenager from Brazil.", "you": "You are a teenager from Brazil."}
-{"category": "demographics", "i": "I am a first-generation college student.", "you": "You are a first-generation college student."}
-{"category": "demographics", "i": "I am a chef in training.", "you": "You are a chef in training."}
-{"category": "demographics", "i": "I am a student in my first year.", "you": "You are a student in your first year."}
-{"category": "demographics", "i": "I am an immigrant.", "you": "You are an immigrant."}
-{"category": "demographics", "i": "I am a citizen of Canada.", "you": "You are a citizen of Canada."}
-{"category": "demographics", "i": "I am a citizen of Japan.", "you": "You are a citizen of Japan."}
-{"category": "demographics", "i": "I am a citizen of Germany.", "you": "You are a citizen of Germany."}
-{"category": "demographics", "i": "I am a citizen of Mexico.", "you": "You are a citizen of Mexico."}
-{"category": "demographics", "i": "I am a citizen of Australia.", "you": "You are a citizen of Australia."}
-{"category": "demographics", "i": "I am a citizen of France.", "you": "You are a citizen of France."}
-{"category": "demographics", "i": "I am a citizen of South Korea.", "you": "You are a citizen of South Korea."}
-{"category": "demographics", "i": "I am a citizen of Brazil.", "you": "You are a citizen of Brazil."}
-{"category": "demographics", "i": "I am a citizen of Nigeria.", "you": "You are a citizen of Nigeria."}
-{"category": "demographics", "i": "I am a citizen of India.", "you": "You are a citizen of India."}
-{"category": "demographics", "i": "I am a citizen of China.", "you": "You are a citizen of China."}
-{"category": "demographics", "i": "I am a citizen of Russia.", "you": "You are a citizen of Russia."}
-{"category": "demographics", "i": "I am a citizen of the United Kingdom.", "you": "You are a citizen of the United Kingdom."}
-{"category": "demographics", "i": "I am a dentist.", "you": "You are a dentist."}
-{"category": "demographics", "i": "I am a game designer.", "you": "You are a game designer."}
-{"category": "demographics", "i": "I am a musician from Brazil.", "you": "You are a musician from Brazil."}
-{"category": "demographics", "i": "I am a woman from Japan.", "you": "You are a woman from Japan."}
-{"category": "demographics", "i": "I am a man from Mexico.", "you": "You are a man from Mexico."}
-{"category": "demographics", "i": "I am a veteran.", "you": "You are a veteran."}
-{"category": "demographics", "i": "I am a person who identifies as LGBTQ+.", "you": "You are a person who identifies as LGBTQ+"}
-{"category": "demographics", "i": "I am a delivery person.", "you": "You are a delivery person."}
-{"category": "demographics", "i": "I am a traveler.", "you": "You are a traveler."}
-{"category": "demographics", "i": "I am an African.", "you": "You are an African."}
-{"category": "demographics", "i": "I am a chef de cuisine.", "you": "You are a chef de cuisine."}
-{"category": "demographics", "i": "I am a flight attendant.", "you": "You are a flight attendant."}
-{"category": "demographics", "i": "I am a veterinarian.", "you": "You are a veterinarian."}
-{"category": "demographics", "i": "I am a pharmacist.", "you": "You are a pharmacist."}
-{"category": "demographics", "i": "I am a political scientist.", "you": "You are a political scientist."}
-{"category": "demographics", "i": "I am an economist.", "you": "You are an economist."}
-{"category": "demographics", "i": "I am a coach.", "you": "You are a coach."}
-{"category": "demographics", "i": "I am a model.", "you": "You are a model."}
-{"category": "demographics", "i": "I am a healthcare worker.", "you": "You are a healthcare worker."}
-{"category": "demographics", "i": "I am a tech entrepreneur.", "you": "You are a tech entrepreneur."}
-{"category": "demographics", "i": "I am an actor.", "you": "You are an actor."}
-{"category": "demographics", "i": "I am a gig worker.", "you": "You are a gig worker."}
-{"category": "demographics", "i": "I am a freelancer.", "you": "You are a freelancer."}
-{"category": "demographics", "i": "I am a remote worker.", "you": "You are a remote worker."}
-{"category": "demographics", "i": "I am a person without a disability.", "you": "You are a person without a disability."}
-{"category": "demographics", "i": "I am a second-generation immigrant.", "you": "You are a second-generation immigrant."}
-{"category": "demographics", "i": "I am a native-born citizen.", "you": "You are a native-born citizen."}
-{"category": "demographics", "i": "I am Latinx.", "you": "You are Latinx."}
+{"category": "demographics", "i": "I am a first-time parent.", "you": "You are a first-time parent."}
+{"category": "demographics", "i": "I am a person from Asia.", "you": "You are a person from Asia."}
+{"category": "demographics", "i": "I am a person from Europe.", "you": "You are a person from Europe."}
+{"category": "demographics", "i": "I am a person from Africa.", "you": "You are a person from Africa."}
+{"category": "demographics", "i": "I am a person from the Americas.", "you": "You are a person from the Americas."}
+{"category": "demographics", "i": "I am from the Americas.", "you": "You are from the Americas."}
+{"category": "demographics", "i": "I am retired.", "you": "You are retired."}
+{"category": "demographics", "i": "I am a military veteran.", "you": "You are a military veteran."}
+{"category": "demographics", "i": "I am 10 years old.", "you": "You are 10 years old."}
+{"category": "demographics", "i": "I am 15 years old.", "you": "You are 15 years old."}
+{"category": "demographics", "i": "I am Hispanic or Latino.", "you": "You are Hispanic or Latino."}
 {"category": "demographics", "i": "I am African.", "you": "You are African."}
 {"category": "demographics", "i": "I am European.", "you": "You are European."}
-{"category": "demographics", "i": "I am from Chile.", "you": "You are from Chile."}
-{"category": "demographics", "i": "I am from Greece.", "you": "You are from Greece."}
-{"category": "demographics", "i": "I am from Iran.", "you": "You are from Iran."}
-{"category": "demographics", "i": "I am from Pakistan.", "you": "You are from Pakistan."}
-{"category": "demographics", "i": "I am from Morocco.", "you": "You are from Morocco."}
-{"category": "demographics", "i": "I am a physical therapist.", "you": "You are a physical therapist."}
-{"category": "demographics", "i": "I am a teacher's assistant.", "you": "You are a teacher's assistant."}
-{"category": "demographics", "i": "I am a financial advisor.", "you": "You are a financial advisor."}
-{"category": "demographics", "i": "I am a marketing specialist.", "you": "You are a marketing specialist."}
-{"category": "demographics", "i": "I am a public relations officer.", "you": "You are a public relations officer."}
-{"category": "demographics", "i": "I am a customer service representative.", "you": "You are a customer service representative."}
-{"category": "demographics", "i": "I am a second-language learner.", "you": "You are a second-language learner."}
-{"category": "demographics", "i": "I am a smoker.", "you": "You are a smoker."}
-{"category": "demographics", "i": "I am a non-smoker.", "you": "You are a non-smoker."}
-{"category": "demographics", "i": "I am a parent of two children.", "you": "You are a parent of two children."}
-{"category": "demographics", "i": "I am a single person.", "you": "You are a single person."}
-{"category": "demographics", "i": "I am a married person.", "you": "You are a married person."}
+{"category": "demographics", "i": "I am Indigenous.", "you": "You are Indigenous."}
+{"category": "demographics", "i": "I live in a coastal city.", "you": "You live in a coastal city."}
+{"category": "demographics", "i": "I live in a mountainous region.", "you": "You live in a mountainous region."}
+{"category": "demographics", "i": "I live in a desert region.", "you": "You live in a desert region."}
+{"category": "demographics", "i": "I live in a tropical region.", "you": "You live in a tropical region."}
+{"category": "demographics", "i": "I live in a metropolitan area.", "you": "You live in a metropolitan area."}
+{"category": "demographics", "i": "I live in a large city.", "you": "You live in a large city."}
+{"category": "demographics", "i": "I live in a developing country.", "you": "You live in a developing country."}
+{"category": "demographics", "i": "I live in a developed country.", "you": "You live in a developed country."}
+{"category": "demographics", "i": "I live in a high-income country.", "you": "You live in a high-income country."}
+{"category": "demographics", "i": "I live in a low-income country.", "you": "You live in a low-income country."}
+{"category": "demographics", "i": "I live in a middle-income country.", "you": "You live in a middle-income country."}
+{"category": "demographics", "i": "I live in the UK.", "you": "You live in the UK."}
+{"category": "demographics", "i": "I live in Sweden.", "you": "You live in Sweden."}
+{"category": "demographics", "i": "I live in Norway.", "you": "You live in Norway."}
+{"category": "demographics", "i": "I live in the Netherlands.", "you": "You live in the Netherlands."}
+{"category": "demographics", "i": "I live in Belgium.", "you": "You live in Belgium."}
+{"category": "demographics", "i": "I live in Thailand.", "you": "You live in Thailand."}
+{"category": "demographics", "i": "I live in Argentina.", "you": "You live in Argentina."}
+{"category": "demographics", "i": "I live in Chile.", "you": "You live in Chile."}
+{"category": "demographics", "i": "I live in Peru.", "you": "You live in Peru."}
+{"category": "demographics", "i": "I live in Kenya.", "you": "You live in Kenya."}
+{"category": "demographics", "i": "I live in Vietnam.", "you": "You live in Vietnam."}
+{"category": "demographics", "i": "I am from the Netherlands.", "you": "You are from the Netherlands."}
+{"category": "demographics", "i": "I am from Denmark.", "you": "You are from Denmark."}
+{"category": "demographics", "i": "I am employed full-time.", "you": "You are employed full-time."}
+{"category": "demographics", "i": "I am employed part-time.", "you": "You are employed part-time."}
+{"category": "demographics", "i": "I am self-employed.", "you": "You are self-employed."}
+{"category": "demographics", "i": "I live in London.", "you": "You live in London."}
+{"category": "demographics", "i": "I live in Tokyo.", "you": "You live in Tokyo."}
+{"category": "demographics", "i": "I live in Sydney.", "you": "You live in Sydney."}
+{"category": "demographics", "i": "I live in Paris.", "you": "You live in Paris."}
+{"category": "demographics", "i": "I identify as cisgender.", "you": "You identify as cisgender."}
+{"category": "demographics", "i": "I live in a city with over 1 million people.", "you": "You live in a city with over 1 million people."}
+{"category": "demographics", "i": "I live in a coastal region.", "you": "You live in a coastal region."}
+{"category": "demographics", "i": "I live in a temperate region.", "you": "You live in a temperate region."}
+{"category": "demographics", "i": "I am a member of the Asian community.", "you": "You are a member of the Asian community."}
+{"category": "demographics", "i": "I am a member of the African community.", "you": "You are a member of the African community."}
+{"category": "demographics", "i": "I am a member of the European community.", "you": "You are a member of the European community."}
+{"category": "demographics", "i": "I am a member of the Indigenous community.", "you": "You are a member of the Indigenous community."}
+{"category": "demographics", "i": "I am a member of the Middle Eastern community.", "you": "You are a member of the Middle Eastern community."}
+{"category": "demographics", "i": "I am a member of the Pacific Islander community.", "you": "You are a member of the Pacific Islander community."}
+{"category": "demographics", "i": "I am a member of the Latinx community.", "you": "You are a member of the Latinx community."}
+{"category": "demographics", "i": "I am a member of the Caribbean community.", "you": "You are a member of the Caribbean community."}
+{"category": "demographics", "i": "I am a member of the South Asian community.", "you": "You are a member of the South Asian community."}
+{"category": "demographics", "i": "I am a member of the East Asian community.", "you": "You are a member of the East Asian community."}
+{"category": "demographics", "i": "I am white.", "you": "You are white."}
+{"category": "demographics", "i": "I am Black.", "you": "You are Black."}
+{"category": "demographics", "i": "I earn $60,000 annually.", "you": "You earn $60,000 annually."}
+{"category": "demographics", "i": "I earn $80,000 annually.", "you": "You earn $80,000 annually."}
+{"category": "demographics", "i": "I earn $90,000 annually.", "you": "You earn $90,000 annually."}
+{"category": "demographics", "i": "I have a doctoral degree.", "you": "You have a doctoral degree."}
+{"category": "demographics", "i": "I earn less than $20,000 per year.", "you": "You earn less than $20,000 per year."}
+{"category": "demographics", "i": "I earn between $20,000 and $40,000 per year.", "you": "You earn between $20,000 and $40,000 per year."}
+{"category": "demographics", "i": "I earn between $40,000 and $60,000 per year.", "you": "You earn between $40,000 and $60,000 per year."}
+{"category": "demographics", "i": "I earn between $60,000 and $80,000 per year.", "you": "You earn between $60,000 and $80,000 per year."}
+{"category": "demographics", "i": "I earn more than $80,000 per year.", "you": "You earn more than $80,000 per year."}
+{"category": "demographics", "i": "I live in a suburb.", "you": "You live in a suburb."}
+{"category": "demographics", "i": "I earn $30,000 per year.", "you": "You earn $30,000 per year."}
+{"category": "demographics", "i": "I earn $50,000 per year.", "you": "You earn $50,000 per year."}
+{"category": "demographics", "i": "I earn $70,000 per year.", "you": "You earn $70,000 per year."}
+{"category": "demographics", "i": "I earn $100,000 per year.", "you": "You earn $100,000 per year."}
+{"category": "demographics", "i": "I earn $150,000 per year.", "you": "You earn $150,000 per year."}
+{"category": "demographics", "i": "I live in the Middle East.", "you": "You live in the Middle East."}
+{"category": "demographics", "i": "I live in the Caribbean.", "you": "You live in the Caribbean."}
+{"category": "demographics", "i": "I live in the Pacific Islands.", "you": "You live in the Pacific Islands."}
+{"category": "demographics", "i": "I live in Ohio.", "you": "You live in Ohio."}
+{"category": "demographics", "i": "I live in Georgia.", "you": "You live in Georgia."}
+{"category": "demographics", "i": "I live in Michigan.", "you": "You live in Michigan."}
+{"category": "demographics", "i": "I live in Pennsylvania.", "you": "You live in Pennsylvania."}
+{"category": "demographics", "i": "I live in North Carolina.", "you": "You live in North Carolina."}
+{"category": "demographics", "i": "I live in Virginia.", "you": "You live in Virginia."}
+{"category": "demographics", "i": "I live in Washington.", "you": "You live in Washington."}
+{"category": "demographics", "i": "I live in Arizona.", "you": "You live in Arizona."}
+{"category": "demographics", "i": "I live in Colorado.", "you": "You live in Colorado."}
+{"category": "demographics", "i": "I live in Nevada.", "you": "You live in Nevada."}
+{"category": "demographics", "i": "I live in Massachusetts.", "you": "You live in Massachusetts."}
+{"category": "demographics", "i": "I live in Wisconsin.", "you": "You live in Wisconsin."}
+{"category": "demographics", "i": "I live in Minnesota.", "you": "You live in Minnesota."}
+{"category": "demographics", "i": "I live in Oregon.", "you": "You live in Oregon."}
+{"category": "demographics", "i": "I live in Utah.", "you": "You live in Utah."}
+{"category": "demographics", "i": "I live in Kansas.", "you": "You live in Kansas."}
+{"category": "demographics", "i": "I live in Maine.", "you": "You live in Maine."}
+{"category": "demographics", "i": "I live in Alaska.", "you": "You live in Alaska."}
+{"category": "demographics", "i": "I live in Hawaii.", "you": "You live in Hawaii."}
+{"category": "demographics", "i": "I live in New Jersey.", "you": "You live in New Jersey."}
+{"category": "demographics", "i": "I live in Connecticut.", "you": "You live in Connecticut."}
+{"category": "demographics", "i": "I live in Delaware.", "you": "You live in Delaware."}
+{"category": "demographics", "i": "I am a first-time homebuyer.", "you": "You are a first-time homebuyer."}
+{"category": "demographics", "i": "I am of Indigenous descent.", "you": "You are of Indigenous descent."}
+{"category": "demographics", "i": "I live in the Philippines.", "you": "You live in the Philippines."}
+{"category": "demographics", "i": "I live in Colombia.", "you": "You live in Colombia."}
+{"category": "demographics", "i": "I live in Iran.", "you": "You live in Iran."}
+{"category": "demographics", "i": "I live in Saudi Arabia.", "you": "You live in Saudi Arabia."}
+{"category": "demographics", "i": "I am a middle-aged adult.", "you": "You are a middle-aged adult."}
+{"category": "demographics", "i": "I earn more than $70,000 annually.", "you": "You earn more than $70,000 annually."}
+{"category": "demographics", "i": "I am a fourth-generation college student.", "you": "You are a fourth-generation college student."}
+{"category": "demographics", "i": "I am a fifth-generation college student.", "you": "You are a fifth-generation college student."}
+{"category": "demographics", "i": "I am a long-time voter.", "you": "You are a long-time voter."}
+{"category": "demographics", "i": "I am a non-voter.", "you": "You are a non-voter."}
+{"category": "demographics", "i": "I am a person with a chronic illness.", "you": "You are a person with a chronic illness."}
+{"category": "demographics", "i": "I am a person without a chronic illness.", "you": "You are a person without a chronic illness."}
 {"category": "demographics", "i": "I am a person with a mental health condition.", "you": "You are a person with a mental health condition."}
-{"category": "demographics", "i": "I am a citizen of Egypt.", "you": "You are a citizen of Egypt."}
-{"category": "demographics", "i": "I am a citizen of Spain.", "you": "You are a citizen of Spain."}
-{"category": "demographics", "i": "I am a citizen of Italy.", "you": "You are a citizen of Italy."}
-{"category": "demographics", "i": "I am a citizen of South Africa.", "you": "You are a citizen of South Africa."}
-{"category": "demographics", "i": "I am a citizen of Argentina.", "you": "You are a citizen of Argentina."}
-{"category": "demographics", "i": "I am a citizen of Indonesia.", "you": "You are a citizen of Indonesia."}
-{"category": "demographics", "i": "I am a citizen of Thailand.", "you": "You are a citizen of Thailand."}
-{"category": "demographics", "i": "I am a citizen of the United States.", "you": "You are a citizen of the United States."}
+{"category": "demographics", "i": "I am a person without a mental health condition.", "you": "You are a person without a mental health condition."}
+{"category": "demographics", "i": "I am a native-born citizen.", "you": "You are a native-born citizen."}
+{"category": "demographics", "i": "I live in Los Angeles.", "you": "You live in Los Angeles."}
+{"category": "demographics", "i": "I live in Chicago.", "you": "You live in Chicago."}
+{"category": "demographics", "i": "I live in Houston.", "you": "You live in Houston."}
+{"category": "demographics", "i": "I live in Phoenix.", "you": "You live in Phoenix."}
 {"category": "demographics", "i": "I am an Asian.", "you": "You are an Asian."}
-{"category": "demographics", "i": "I am a European.", "you": "You are a European."}
+{"category": "demographics", "i": "I am a Black person.", "you": "You are a Black person."}
+{"category": "demographics", "i": "I am a White person.", "you": "You are a White person."}
+{"category": "demographics", "i": "I am a Latino.", "you": "You are a Latino."}
+{"category": "demographics", "i": "I am an African.", "you": "You are an African."}
 {"category": "demographics", "i": "I am an Indigenous person.", "you": "You are an Indigenous person."}
 {"category": "demographics", "i": "I am a Middle Eastern person.", "you": "You are a Middle Eastern person."}
-{"category": "demographics", "i": "I am a Latin American.", "you": "You are a Latin American."}
-{"category": "demographics", "i": "I am an African American.", "you": "You are an African American."}
-{"category": "demographics", "i": "I am a South Asian.", "you": "You are a South Asian."}
-{"category": "demographics", "i": "I am a Southeast Asian.", "you": "You are a Southeast Asian."}
-{"category": "demographics", "i": "I am a North African.", "you": "You are a North African."}
-{"category": "demographics", "i": "I am a West African.", "you": "You are a West African."}
-{"category": "demographics", "i": "I am an East Asian.", "you": "You are an East Asian."}
-{"category": "demographics", "i": "I am a Central Asian.", "you": "You are a Central Asian."}
-{"category": "demographics", "i": "I am a Caribbean person.", "you": "You are a Caribbean person."}
-{"category": "demographics", "i": "I am a person from Antarctica.", "you": "You are a person from Antarctica."}
-{"category": "demographics", "i": "I am a person from a small town.", "you": "You are a person from a small town."}
-{"category": "demographics", "i": "I am a person from a big city.", "you": "You are a person from a big city."}
+{"category": "demographics", "i": "I am from the Caribbean.", "you": "You are from the Caribbean."}
+{"category": "demographics", "i": "I am from the Pacific Islands.", "you": "You are from the Pacific Islands."}
+{"category": "demographics", "i": "I am from the Indian subcontinent.", "you": "You are from the Indian subcontinent."}
+{"category": "demographics", "i": "I am from the Balkans.", "you": "You are from the Balkans."}
+{"category": "demographics", "i": "I am from the Nordic countries.", "you": "You are from the Nordic countries."}
+{"category": "demographics", "i": "I am from the Mediterranean region.", "you": "You are from the Mediterranean region."}
+{"category": "demographics", "i": "I am from Southeast Asia.", "you": "You are from Southeast Asia."}
+{"category": "demographics", "i": "I am not a member of the LGBTQ+ community.", "you": "You are not a member of the LGBTQ+ community."}
+{"category": "demographics", "i": "I am Pacific Islander.", "you": "You are Pacific Islander."}
+{"category": "demographics", "i": "I am of mixed ethnicity.", "you": "You are of mixed ethnicity."}
+{"category": "demographics", "i": "I am a second-generation citizen.", "you": "You are a second-generation citizen."}
+{"category": "demographics", "i": "I am an elderly adult.", "you": "You are an elderly adult."}
+{"category": "demographics", "i": "I am a rural resident.", "you": "You are a rural resident."}
+{"category": "demographics", "i": "I am an urban resident.", "you": "You are an urban resident."}
+{"category": "demographics", "i": "I live in a coastal area.", "you": "You live in a coastal area."}
+{"category": "demographics", "i": "I earn $40,000 a year.", "you": "You earn $40,000 a year."}
+{"category": "demographics", "i": "I earn $60,000 a year.", "you": "You earn $60,000 a year."}
+{"category": "demographics", "i": "I earn $80,000 a year.", "you": "You earn $80,000 a year."}
+{"category": "demographics", "i": "I earn $90,000 a year.", "you": "You earn $90,000 a year."}
+{"category": "demographics", "i": "I live in Tennessee.", "you": "You live in Tennessee."}
+{"category": "demographics", "i": "I live in South Carolina.", "you": "You live in South Carolina."}
+{"category": "demographics", "i": "I live in Louisiana.", "you": "You live in Louisiana."}
+{"category": "demographics", "i": "I live in Kentucky.", "you": "You live in Kentucky."}
+{"category": "demographics", "i": "I live in Indiana.", "you": "You live in Indiana."}
+{"category": "demographics", "i": "I live in Alabama.", "you": "You live in Alabama."}
+{"category": "demographics", "i": "I live in Mississippi.", "you": "You live in Mississippi."}
+{"category": "demographics", "i": "I live in Iowa.", "you": "You live in Iowa."}
+{"category": "demographics", "i": "I live in Arkansas.", "you": "You live in Arkansas."}
+{"category": "demographics", "i": "I live in Montana.", "you": "You live in Montana."}
+{"category": "demographics", "i": "I live in North Dakota.", "you": "You live in North Dakota."}
+{"category": "demographics", "i": "I live in South Dakota.", "you": "You live in South Dakota."}
+{"category": "demographics", "i": "I live in Nebraska.", "you": "You live in Nebraska."}
+{"category": "demographics", "i": "I live in Oklahoma.", "you": "You live in Oklahoma."}
+{"category": "demographics", "i": "I live in Idaho.", "you": "You live in Idaho."}
+{"category": "demographics", "i": "I live in Wyoming.", "you": "You live in Wyoming."}
+{"category": "demographics", "i": "I am a retiree.", "you": "You are a retiree."}
+{"category": "demographics", "i": "I am a first-generation American.", "you": "You are a first-generation American."}
+{"category": "demographics", "i": "I am a second-generation American.", "you": "You are a second-generation American."}
+{"category": "demographics", "i": "I live in San Antonio.", "you": "You live in San Antonio."}
+{"category": "demographics", "i": "I live in San Diego.", "you": "You live in San Diego."}
+{"category": "demographics", "i": "I live in Dallas.", "you": "You live in Dallas."}
+{"category": "demographics", "i": "I live in Seattle.", "you": "You live in Seattle."}
+{"category": "demographics", "i": "I live in Boston.", "you": "You live in Boston."}
+{"category": "demographics", "i": "I live in Miami.", "you": "You live in Miami."}
+{"category": "demographics", "i": "I live in Atlanta.", "you": "You live in Atlanta."}
+{"category": "demographics", "i": "I live in Washington, D.C.", "you": "You live in Washington, D.C."}
+{"category": "demographics", "i": "I live in Philadelphia.", "you": "You live in Philadelphia."}
+{"category": "demographics", "i": "I live in San Jose.", "you": "You live in San Jose."}
+{"category": "demographics", "i": "I live in Charlotte.", "you": "You live in Charlotte."}
+{"category": "demographics", "i": "I live in Tampa.", "you": "You live in Tampa."}
+{"category": "demographics", "i": "I live in Detroit.", "you": "You live in Detroit."}
+{"category": "demographics", "i": "I live in Oklahoma City.", "you": "You live in Oklahoma City."}
+{"category": "demographics", "i": "I live in Minneapolis.", "you": "You live in Minneapolis."}
+{"category": "demographics", "i": "I live in Denver.", "you": "You live in Denver."}
+{"category": "demographics", "i": "I live in Portland.", "you": "You live in Portland."}
+{"category": "demographics", "i": "I live in Las Vegas.", "you": "You live in Las Vegas."}
+{"category": "demographics", "i": "I live in Columbus.", "you": "You live in Columbus."}
+{"category": "demographics", "i": "I live in Fort Worth.", "you": "You live in Fort Worth."}
+{"category": "demographics", "i": "I live in Sacramento.", "you": "You live in Sacramento."}
+{"category": "demographics", "i": "I live in Jacksonville.", "you": "You live in Jacksonville."}
+{"category": "demographics", "i": "I live in Indianapolis.", "you": "You live in Indianapolis."}
+{"category": "demographics", "i": "I live in Cleveland.", "you": "You live in Cleveland."}
+{"category": "demographics", "i": "I live in Orlando.", "you": "You live in Orlando."}
+{"category": "demographics", "i": "I live in Riverside.", "you": "You live in Riverside."}
+{"category": "demographics", "i": "I live in San Francisco.", "you": "You live in San Francisco."}
+{"category": "demographics", "i": "I live in Austin.", "you": "You live in Austin."}
+{"category": "demographics", "i": "I am of South Asian descent.", "you": "You are of South Asian descent."}
+{"category": "demographics", "i": "I live in Central America.", "you": "You live in Central America."}
+{"category": "demographics", "i": "I am a first-generation immigrant.", "you": "You are a first-generation immigrant."}
+{"category": "demographics", "i": "I am a second-generation immigrant.", "you": "You are a second-generation immigrant."}
+{"category": "demographics", "i": "I am a long-term resident.", "you": "You are a long-term resident."}
+{"category": "demographics", "i": "I am a recent immigrant.", "you": "You are a recent immigrant."}
+{"category": "demographics", "i": "I am of Latin American descent.", "you": "You are of Latin American descent."}
+{"category": "demographics", "i": "I am of Pacific Islander descent.", "you": "You are of Pacific Islander descent."}
+{"category": "demographics", "i": "I am of unknown ethnicity.", "you": "You are of unknown ethnicity."}
+{"category": "demographics", "i": "I earn between $60,000 and $100,000 per year.", "you": "You earn between $60,000 and $100,000 per year."}
+{"category": "demographics", "i": "I earn more than $100,000 per year.", "you": "You earn more than $100,000 per year."}
+{"category": "demographics", "i": "I am in my 90s.", "you": "You are in my 90s."}
+{"category": "demographics", "i": "I earn over $150,000 a year.", "you": "You earn over $150,000 a year."}
+{"category": "demographics", "i": "I am from the UK.", "you": "You are from the UK."}
+{"category": "demographics", "i": "I am a natural-born citizen.", "you": "You are a natural-born citizen."}
+{"category": "demographics", "i": "I earn between $20,000 and $50,000 annually.", "you": "You earn between $20,000 and $50,000 annually."}
+{"category": "demographics", "i": "I am a person with a low income.", "you": "You are a person with a low income."}
+{"category": "demographics", "i": "I am a person with a high income.", "you": "You are a person with a high income."}
+{"category": "demographics", "i": "I am a person with a college education.", "you": "You are a person with a college education."}
+{"category": "demographics", "i": "I am a person with no formal education.", "you": "You are a person with no formal education."}
 {"category": "demographics", "i": "I am a person from a rural area.", "you": "You are a person from a rural area."}
 {"category": "demographics", "i": "I am a person from an urban area.", "you": "You are a person from an urban area."}
-{"category": "demographics", "i": "I am a person from a coastal area.", "you": "You are a person from a coastal area."}
-{"category": "demographics", "i": "I am a person from an inland area.", "you": "You are a person from an inland area."}
-{"category": "demographics", "i": "I am an elderly person.", "you": "You are an elderly person."}
-{"category": "demographics", "i": "I am a native.", "you": "You are a native."}
-{"category": "demographics", "i": "I am a citizen.", "you": "You are a citizen."}
-{"category": "demographics", "i": "I am a child of a single parent.", "you": "You are a child of a single parent."}
-{"category": "demographics", "i": "I am a person with a physical disability.", "you": "You are a person with a physical disability."}
-{"category": "demographics", "i": "I am a person with a learning disability.", "you": "You are a person with a learning disability."}
-{"category": "demographics", "i": "I am a person with an intellectual disability.", "you": "You are a person with an intellectual disability."}
-{"category": "demographics", "i": "I am a person with a speech disability.", "you": "You are a person with a speech disability."}
-{"category": "demographics", "i": "I am a person with a hearing disability.", "you": "You are a person with a hearing disability."}
-{"category": "demographics", "i": "I am a person with a visual disability.", "you": "You are a person with a visual disability."}
-{"category": "demographics", "i": "I am a person with an autism spectrum disorder.", "you": "You are a person with an autism spectrum disorder."}
-{"category": "demographics", "i": "I am a person with Down syndrome.", "you": "You are a person with Down syndrome."}
-{"category": "demographics", "i": "I am a person with ADHD.", "you": "You are a person with ADHD."}
-{"category": "demographics", "i": "I am a person with a traumatic brain injury.", "you": "You are a person with a traumatic brain injury."}
-{"category": "demographics", "i": "I am a person with a mental health disorder.", "you": "You are a person with a mental health disorder."}
-{"category": "demographics", "i": "I am a person with a chronic mental illness.", "you": "You are a person with a chronic mental illness."}
-{"category": "demographics", "i": "I am a person with a mental health condition that affects my daily life.", "you": "You are a person with a mental health condition that affects your daily life."}
-{"category": "demographics", "i": "I am a person with a mental health condition that I manage with medication.", "you": "You are a person with a mental health condition that you manage with medication."}
-{"category": "demographics", "i": "I am a person with a mental health condition that I manage with therapy.", "you": "You are a person with a mental health condition that you manage with therapy."}
-{"category": "demographics", "i": "I am a person with a mental health condition that I manage with support from friends and family.", "you": "You are a person with a mental health condition that you manage with support from friends and family."}
-{"category": "demographics", "i": "I am a truck driver.", "you": "You are a truck driver."}
-{"category": "demographics", "i": "I am a janitor.", "you": "You are a janitor."}
-{"category": "demographics", "i": "I am a plumber.", "you": "You are a plumber."}
-{"category": "demographics", "i": "I am a electrician.", "you": "You are an electrician."}
-{"category": "demographics", "i": "I am a makeup artist.", "you": "You are a makeup artist."}
-{"category": "demographics", "i": "I am a stylist.", "you": "You are a stylist."}
-{"category": "demographics", "i": "I am a server.", "you": "You are a server."}
-{"category": "demographics", "i": "I am a stockbroker.", "you": "You are a stockbroker."}
-{"category": "demographics", "i": "I am a lab technician.", "you": "You are a lab technician."}
-{"category": "demographics", "i": "I am a product manager.", "you": "You are a product manager."}
-{"category": "demographics", "i": "I am a project manager.", "you": "You are a project manager."}
-{"category": "demographics", "i": "I am a UX designer.", "you": "You are a UX designer."}
-{"category": "demographics", "i": "I am a mobile app developer.", "you": "You are a mobile app developer."}
-{"category": "demographics", "i": "I am a game developer.", "you": "You are a game developer."}
-{"category": "demographics", "i": "I am a copywriter.", "you": "You are a copywriter."}
-{"category": "demographics", "i": "I am a marketer.", "you": "You are a marketer."}
-{"category": "demographics", "i": "I am a brand manager.", "you": "You are a brand manager."}
-{"category": "demographics", "i": "I am a public relations specialist.", "you": "You are a public relations specialist."}
-{"category": "demographics", "i": "I am a interpreter.", "you": "You are an interpreter."}
-{"category": "demographics", "i": "I am a language teacher.", "you": "You are a language teacher."}
-{"category": "demographics", "i": "I am a tutor.", "you": "You are a tutor."}
-{"category": "demographics", "i": "I am a trainer.", "you": "You are a trainer."}
-{"category": "demographics", "i": "I am a fitness instructor.", "you": "You are a fitness instructor."}
-{"category": "demographics", "i": "I am a dietitian.", "you": "You are a dietitian."}
-{"category": "demographics", "i": "I am a midwife.", "you": "You are a midwife."}
-{"category": "demographics", "i": "I am a vet.", "you": "You are a vet."}
-{"category": "demographics", "i": "I am a optometrist.", "you": "You are an optometrist."}
-{"category": "demographics", "i": "I am a cosmetologist.", "you": "You are a cosmetologist."}
-{"category": "demographics", "i": "I am a actor.", "you": "You are an actor."}
-{"category": "demographics", "i": "I am a actress.", "you": "You are an actress."}
-{"category": "demographics", "i": "I am a cinematographer.", "you": "You are a cinematographer."}
-{"category": "demographics", "i": "I am a music producer.", "you": "You are a music producer."}
-{"category": "demographics", "i": "I am a songwriter.", "you": "You are a songwriter."}
-{"category": "demographics", "i": "I am a artist.", "you": "You are an artist."}
-{"category": "demographics", "i": "I am a playwright.", "you": "You are a playwright."}
-{"category": "demographics", "i": "I am a reporter.", "you": "You are a reporter."}
-{"category": "demographics", "i": "I am a editor.", "you": "You are an editor."}
-{"category": "demographics", "i": "I am a publisher.", "you": "You are a publisher."}
-{"category": "demographics", "i": "I am a student from Japan.", "you": "You are a student from Japan."}
-{"category": "demographics", "i": "I am a teacher from Canada.", "you": "You are a teacher from Canada."}
-{"category": "demographics", "i": "I am a doctor from Germany.", "you": "You are a doctor from Germany."}
-{"category": "demographics", "i": "I am a programmer from Russia.", "you": "You are a programmer from Russia."}
-{"category": "demographics", "i": "I am a chef from Mexico.", "you": "You are a chef from Mexico."}
-{"category": "demographics", "i": "I am a nurse from Australia.", "you": "You are a nurse from Australia."}
-{"category": "demographics", "i": "I am a lawyer from France.", "you": "You are a lawyer from France."}
-{"category": "demographics", "i": "I am a journalist from South Korea.", "you": "You are a journalist from South Korea."}
-{"category": "demographics", "i": "I am a farmer from Nigeria.", "you": "You are a farmer from Nigeria."}
-{"category": "demographics", "i": "I am a mechanic from Spain.", "you": "You are a mechanic from Spain."}
-{"category": "demographics", "i": "I am a baker from Italy.", "you": "You are a baker from Italy."}
-{"category": "demographics", "i": "I am a writer from Egypt.", "you": "You are a writer from Egypt."}
-{"category": "demographics", "i": "I am a translator from China.", "you": "You are a translator from China."}
-{"category": "demographics", "i": "I am a researcher from Sweden.", "you": "You are a researcher from Sweden."}
-{"category": "demographics", "i": "I am a salesperson from Brazil.", "you": "You are a salesperson from Brazil."}
-{"category": "demographics", "i": "I am a construction worker from India.", "you": "You are a construction worker from India."}
-{"category": "demographics", "i": "I am a social worker from South Africa.", "you": "You are a social worker from South Africa."}
-{"category": "demographics", "i": "I am a scientist from Norway.", "you": "You are a scientist from Norway."}
-{"category": "demographics", "i": "I am a mathematician from Greece.", "you": "You are a mathematician from Greece."}
-{"category": "demographics", "i": "I am a historian from Argentina.", "you": "You are a historian from Argentina."}
-{"category": "demographics", "i": "I am a geologist from Indonesia.", "you": "You are a geologist from Indonesia."}
-{"category": "demographics", "i": "I am a biologist from Kenya.", "you": "You are a biologist from Kenya."}
-{"category": "demographics", "i": "I am a chemist from Thailand.", "you": "You are a chemist from Thailand."}
-{"category": "demographics", "i": "I am a physicist from Chile.", "you": "You are a physicist from Chile."}
-{"category": "demographics", "i": "I am a psychologist from Colombia.", "you": "You are a psychologist from Colombia."}
-{"category": "demographics", "i": "I am a sociologist from Peru.", "you": "You are a sociologist from Peru."}
-{"category": "demographics", "i": "I am a linguist from Vietnam.", "you": "You are a linguist from Vietnam."}
-{"category": "demographics", "i": "I am a philosopher from Portugal.", "you": "You are a philosopher from Portugal."}
-{"category": "demographics", "i": "I am a theologian from Iran.", "you": "You are a theologian from Iran."}
-{"category": "demographics", "i": "I am a 22-year-old.", "you": "You are a 22-year-old."}
-{"category": "demographics", "i": "I am a tour operator.", "you": "You are a tour operator."}
-{"category": "demographics", "i": "I am a tour leader.", "you": "You are a tour leader."}
-{"category": "demographics", "i": "I am a 15-year-old.", "you": "You are a 15-year-old."}
-{"category": "demographics", "i": "I am a 20-year-old.", "you": "You are a 20-year-old."}
-{"category": "demographics", "i": "I am a 30-year-old.", "you": "You are a 30-year-old."}
-{"category": "demographics", "i": "I am a 40-year-old.", "you": "You are a 40-year-old."}
-{"category": "demographics", "i": "I am a 50-year-old.", "you": "You are a 50-year-old."}
-{"category": "demographics", "i": "I am a 60-year-old.", "you": "You are a 60-year-old."}
-{"category": "demographics", "i": "I am a 70-year-old.", "you": "You are a 70-year-old."}
-{"category": "demographics", "i": "I am a 80-year-old.", "you": "You are a 80-year-old."}
-{"category": "demographics", "i": "I am a 90-year-old.", "you": "You are a 90-year-old."}
-{"category": "demographics", "i": "I am an Australian.", "you": "You are an Australian."}
-{"category": "demographics", "i": "I am a South American.", "you": "You are a South American."}
-{"category": "demographics", "i": "I am a North American.", "you": "You are a North American."}
-{"category": "demographics", "i": "I am an East African.", "you": "You are an East African."}
-{"category": "demographics", "i": "I am a South African.", "you": "You are a South African."}
-{"category": "demographics", "i": "I am a person who identifies as LGBTQ+", "you": "You are a person who identifies as LGBTQ+."}
-{"category": "demographics", "i": "I am a person who identifies as straight.", "you": "You are a person who identifies as straight."}
-{"category": "demographics", "i": "I am a person who identifies as heterosexual.", "you": "You are a person who identifies as heterosexual."}
-{"category": "demographics", "i": "I am a person who identifies as homosexual.", "you": "You are a person who identifies as homosexual."}
-{"category": "demographics", "i": "I am a person who identifies as bisexual.", "you": "You are a person who identifies as bisexual."}
-{"category": "demographics", "i": "I am a person who identifies as agender.", "you": "You are a person who identifies as agender."}
-{"category": "demographics", "i": "I am a person who identifies as two-spirit.", "you": "You are a person who identifies as two-spirit."}
-{"category": "demographics", "i": "I am a person who identifies as queer.", "you": "You are a person who identifies as queer."}
-{"category": "demographics", "i": "I am a bisexual person.", "you": "You are a bisexual person."}
-{"category": "demographics", "i": "I am a straight person.", "you": "You are a straight person."}
-{"category": "demographics", "i": "I am a Middle Easterner.", "you": "You are a Middle Easterner."}
-{"category": "demographics", "i": "I am a non-citizen.", "you": "You are a non-citizen."}
-{"category": "demographics", "i": "I am a third-generation immigrant.", "you": "You are a third-generation immigrant."}
-{"category": "demographics", "i": "I am a person with a mental disability.", "you": "You are a person with a mental disability."}
-{"category": "demographics", "i": "I am a person with a sensory disability.", "you": "You are a person with a sensory disability."}
-{"category": "demographics", "i": "I am a person without a chronic illness.", "you": "You are a person without a chronic illness."}
-{"category": "demographics", "i": "I am a person from a low-income family.", "you": "You are a person from a low-income family."}
-{"category": "demographics", "i": "I am a person from a high-income family.", "you": "You are a person from a high-income family."}
-{"category": "demographics", "i": "I am a person from a middle-income family.", "you": "You are a person from a middle-income family."}
-{"category": "demographics", "i": "I am a 10-year-old.", "you": "You are a 10-year-old."}
-{"category": "demographics", "i": "I am a 14-year-old.", "you": "You are a 14-year-old."}
-{"category": "demographics", "i": "I am a 16-year-old.", "you": "You are a 16-year-old."}
-{"category": "demographics", "i": "I am a 17-year-old.", "you": "You are a 17-year-old."}
-{"category": "demographics", "i": "I am a 18-year-old.", "you": "You are a 18-year-old."}
-{"category": "demographics", "i": "I am a 19-year-old.", "you": "You are a 19-year-old."}
-{"category": "demographics", "i": "I am a 21-year-old.", "you": "You are a 21-year-old."}
-{"category": "demographics", "i": "I am a 23-year-old.", "you": "You are a 23-year-old."}
-{"category": "demographics", "i": "I am a 24-year-old.", "you": "You are a 24-year-old."}
-{"category": "demographics", "i": "I am a 26-year-old.", "you": "You are a 26-year-old."}
-{"category": "demographics", "i": "I am a 27-year-old.", "you": "You are a 27-year-old."}
-{"category": "demographics", "i": "I am a 28-year-old.", "you": "You are a 28-year-old."}
-{"category": "demographics", "i": "I am a 29-year-old.", "you": "You are a 29-year-old."}
-{"category": "demographics", "i": "I am a 31-year-old.", "you": "You are a 31-year-old."}
-{"category": "demographics", "i": "I am a 32-year-old.", "you": "You are a 32-year-old."}
-{"category": "demographics", "i": "I am a 33-year-old.", "you": "You are a 33-year-old."}
-{"category": "demographics", "i": "I am a 34-year-old.", "you": "You are a 34-year-old."}
-{"category": "demographics", "i": "I am a 35-year-old.", "you": "You are a 35-year-old."}
-{"category": "demographics", "i": "I am a 36-year-old.", "you": "You are a 36-year-old."}
-{"category": "demographics", "i": "I am a 37-year-old.", "you": "You are a 37-year-old."}
-{"category": "demographics", "i": "I am a 38-year-old.", "you": "You are a 38-year-old."}
-{"category": "demographics", "i": "I am a 39-year-old.", "you": "You are a 39-year-old."}
-{"category": "demographics", "i": "I am a 41-year-old.", "you": "You are a 41-year-old."}
-{"category": "demographics", "i": "I am a 42-year-old.", "you": "You are a 42-year-old."}
-{"category": "demographics", "i": "I am a 43-year-old.", "you": "You are a 43-year-old."}
-{"category": "demographics", "i": "I am a 44-year-old.", "you": "You are a 44-year-old."}
-{"category": "demographics", "i": "I am a 45-year-old.", "you": "You are a 45-year-old."}
-{"category": "demographics", "i": "I am a 46-year-old.", "you": "You are a 46-year-old."}
-{"category": "demographics", "i": "I am a 47-year-old.", "you": "You are a 47-year-old."}
-{"category": "demographics", "i": "I am a 48-year-old.", "you": "You are a 48-year-old."}
-{"category": "demographics", "i": "I am a 49-year-old.", "you": "You are a 49-year-old."}
-{"category": "demographics", "i": "I am a 51-year-old.", "you": "You are a 51-year-old."}
-{"category": "demographics", "i": "I am a 52-year-old.", "you": "You are a 52-year-old."}
-{"category": "demographics", "i": "I am a 53-year-old.", "you": "You are a 53-year-old."}
-{"category": "demographics", "i": "I am a 54-year-old.", "you": "You are a 54-year-old."}
-{"category": "demographics", "i": "I am a 55-year-old.", "you": "You are a 55-year-old."}
-{"category": "demographics", "i": "I am a 56-year-old.", "you": "You are a 56-year-old."}
-{"category": "demographics", "i": "I am a 57-year-old.", "you": "You are a 57-year-old."}
-{"category": "demographics", "i": "I am a 58-year-old.", "you": "You are a 58-year-old."}
-{"category": "demographics", "i": "I am a 59-year-old.", "you": "You are a 59-year-old."}
-{"category": "demographics", "i": "I am a 61-year-old.", "you": "You are a 61-year-old."}
-{"category": "demographics", "i": "I am a 62-year-old.", "you": "You are a 62-year-old."}
-{"category": "demographics", "i": "I am a 63-year-old.", "you": "You are a 63-year-old."}
-{"category": "demographics", "i": "I am a 64-year-old.", "you": "You are a 64-year-old."}
-{"category": "demographics", "i": "I am a 65-year-old.", "you": "You are a 65-year-old."}
-{"category": "demographics", "i": "I am a 66-year-old.", "you": "You are a 66-year-old."}
-{"category": "demographics", "i": "I am a 67-year-old.", "you": "You are a 67-year-old."}
-{"category": "demographics", "i": "I am a 68-year-old.", "you": "You are a 68-year-old."}
-{"category": "demographics", "i": "I am a 69-year-old.", "you": "You are a 69-year-old."}
-{"category": "demographics", "i": "I am a 71-year-old.", "you": "You are a 71-year-old."}
-{"category": "demographics", "i": "I am African-American.", "you": "You are African-American."}
-{"category": "demographics", "i": "I am a travel agent.", "you": "You are a travel agent."}
-{"category": "demographics", "i": "I am a secretary.", "you": "You are a secretary."}
-{"category": "demographics", "i": "I am from Denmark.", "you": "You are from Denmark."}
-{"category": "demographics", "i": "I am from Finland.", "you": "You are from Finland."}
-{"category": "demographics", "i": "I am from Philippines.", "you": "You are from Philippines."}
-{"category": "demographics", "i": "I am from Belgium.", "you": "You are from Belgium."}
-{"category": "demographics", "i": "I am from Netherlands.", "you": "You are from Netherlands."}
-{"category": "demographics", "i": "I am from Austria.", "you": "You are from Austria."}
-{"category": "demographics", "i": "I am from Israel.", "you": "You are from Israel."}
-{"category": "demographics", "i": "I am from Cuba.", "you": "You are from Cuba."}
-{"category": "demographics", "i": "I am from Jamaica.", "you": "You are from Jamaica."}
-{"category": "demographics", "i": "I am from Ghana.", "you": "You are from Ghana."}
-{"category": "demographics", "i": "I am from Tanzania.", "you": "You are from Tanzania."}
-{"category": "demographics", "i": "I am from Malaysia.", "you": "You are from Malaysia."}
-{"category": "demographics", "i": "I am from Iceland.", "you": "You are from Iceland."}
-{"category": "demographics", "i": "I am from Cyprus.", "you": "You are from Cyprus."}
-{"category": "demographics", "i": "I am from Malta.", "you": "You are from Malta."}
-{"category": "demographics", "i": "I am from Luxembourg.", "you": "You are from Luxembourg."}
-{"category": "demographics", "i": "I am from Slovenia.", "you": "You are from Slovenia."}
-{"category": "demographics", "i": "I am from Croatia.", "you": "You are from Croatia."}
-{"category": "demographics", "i": "I am from Estonia.", "you": "You are from Estonia."}
-{"category": "demographics", "i": "I am from Latvia.", "you": "You are from Latvia."}
-{"category": "demographics", "i": "I am from Lithuania.", "you": "You are from Lithuania."}
-{"category": "demographics", "i": "I am from Hungary.", "you": "You are from Hungary."}
-{"category": "demographics", "i": "I am from Czech Republic.", "you": "You are from Czech Republic."}
-{"category": "demographics", "i": "I am from Slovakia.", "you": "You are from Slovakia."}
-{"category": "demographics", "i": "I am from Romania.", "you": "You are from Romania."}
-{"category": "demographics", "i": "I am from Bulgaria.", "you": "You are from Bulgaria."}
-{"category": "demographics", "i": "I am from Serbia.", "you": "You are from Serbia."}
-{"category": "demographics", "i": "I am from Ukraine.", "you": "You are from Ukraine."}
-{"category": "demographics", "i": "I am from Belarus.", "you": "You are from Belarus."}
-{"category": "demographics", "i": "I am from Moldova.", "you": "You are from Moldova."}
-{"category": "demographics", "i": "I am from Armenia.", "you": "You are from Armenia."}
-{"category": "demographics", "i": "I am from Azerbaijan.", "you": "You are from Azerbaijan."}
-{"category": "demographics", "i": "I am from Georgia.", "you": "You are from Georgia."}
-{"category": "demographics", "i": "I am from Kazakhstan.", "you": "You are from Kazakhstan."}
-{"category": "demographics", "i": "I am from Uzbekistan.", "you": "You are from Uzbekistan."}
-{"category": "demographics", "i": "I am from Tajikistan.", "you": "You are from Tajikistan."}
-{"category": "demographics", "i": "I am from Kyrgyzstan.", "you": "You are from Kyrgyzstan."}
-{"category": "demographics", "i": "I am from Turkmenistan.", "you": "You are from Turkmenistan."}
-{"category": "demographics", "i": "I am from Mongolia.", "you": "You are from Mongolia."}
-{"category": "demographics", "i": "I am from Nepal.", "you": "You are from Nepal."}
-{"category": "demographics", "i": "I am from Bhutan.", "you": "You are from Bhutan."}
-{"category": "demographics", "i": "I am from Sri Lanka.", "you": "You are from Sri Lanka."}
-{"category": "demographics", "i": "I am from Myanmar.", "you": "You are from Myanmar."}
-{"category": "demographics", "i": "I am from Afghanistan.", "you": "You are from Afghanistan."}
-{"category": "demographics", "i": "I am from Palestine.", "you": "You are from Palestine."}
-{"category": "demographics", "i": "I am from Lebanon.", "you": "You are from Lebanon."}
-{"category": "demographics", "i": "I am from Jordan.", "you": "You are from Jordan."}
-{"category": "demographics", "i": "I am from Oman.", "you": "You are from Oman."}
-{"category": "demographics", "i": "I am from Qatar.", "you": "You are from Qatar."}
-{"category": "demographics", "i": "I am from Bahrain.", "you": "You are from Bahrain."}
-{"category": "demographics", "i": "I am from Kuwait.", "you": "You are from Kuwait."}
-{"category": "demographics", "i": "I am from UAE.", "you": "You are from UAE."}
-{"category": "demographics", "i": "I am from Yemen.", "you": "You are from Yemen."}
-{"category": "demographics", "i": "I am from Sudan.", "you": "You are from Sudan."}
-{"category": "demographics", "i": "I am from Somalia.", "you": "You are from Somalia."}
-{"category": "demographics", "i": "I am from Ethiopia.", "you": "You are from Ethiopia."}
-{"category": "demographics", "i": "I am from Madagascar.", "you": "You are from Madagascar."}
-{"category": "demographics", "i": "I am from Mauritius.", "you": "You are from Mauritius."}
-{"category": "demographics", "i": "I am from Seychelles.", "you": "You are from Seychelles."}
-{"category": "demographics", "i": "I am from Fiji.", "you": "You are from Fiji."}
-{"category": "demographics", "i": "I am from Samoa.", "you": "You are from Samoa."}
-{"category": "demographics", "i": "I am from Tonga.", "you": "You are from Tonga."}
-{"category": "demographics", "i": "I am from Palau.", "you": "You are from Palau."}
-{"category": "demographics", "i": "I am from Marshall Islands.", "you": "You are from Marshall Islands."}
-{"category": "demographics", "i": "I am from Micronesia.", "you": "You are from Micronesia."}
-{"category": "demographics", "i": "I am from Nauru.", "you": "You are from Nauru."}
-{"category": "demographics", "i": "I am from Vanuatu.", "you": "You are from Vanuatu."}
-{"category": "demographics", "i": "I am from Papua New Guinea.", "you": "You are from Papua New Guinea."}
-{"category": "demographics", "i": "I am from Solomon Islands.", "you": "You are from Solomon Islands."}
-{"category": "demographics", "i": "I am from Brunei.", "you": "You are from Brunei."}
-{"category": "demographics", "i": "I am a video editor.", "you": "You are a video editor."}
-{"category": "demographics", "i": "I work in healthcare.", "you": "You work in healthcare."}
-{"category": "demographics", "i": "I am a waiter.", "you": "You are a waiter."}
-{"category": "demographics", "i": "I am a paramedic.", "you": "You are a paramedic."}
-{"category": "demographics", "i": "I am a marketing manager.", "you": "You are a marketing manager."}
-{"category": "demographics", "i": "I am a data scientist.", "you": "You are a data scientist."}
-{"category": "demographics", "i": "I am a zoologist.", "you": "You are a zoologist."}
-{"category": "demographics", "i": "I am a botanist.", "you": "You are a botanist."}
-{"category": "demographics", "i": "I am a graduate student.", "you": "You are a graduate student."}
-{"category": "demographics", "i": "I am a voice actor.", "you": "You are a voice actor."}
-{"category": "demographics", "i": "I am a travel blogger.", "you": "You are a travel blogger."}
-{"category": "demographics", "i": "I am a web designer.", "you": "You are a web designer."}
-{"category": "demographics", "i": "I am a person from Japan.", "you": "You are a person from Japan."}
-{"category": "demographics", "i": "I am a person from Brazil.", "you": "You are a person from Brazil."}
-{"category": "demographics", "i": "I am a person from Germany.", "you": "You are a person from Germany."}
-{"category": "demographics", "i": "I am a person from Australia.", "you": "You are a person from Australia."}
-{"category": "demographics", "i": "I am a person from Mexico.", "you": "You are a person from Mexico."}
-{"category": "demographics", "i": "I am a person from Canada.", "you": "You are a person from Canada."}
-{"category": "demographics", "i": "I am a person from France.", "you": "You are a person from France."}
-{"category": "demographics", "i": "I am a person from Russia.", "you": "You are a person from Russia."}
-{"category": "demographics", "i": "I am a person from South Korea.", "you": "You are a person from South Korea."}
-{"category": "demographics", "i": "I am a person from Nigeria.", "you": "You are a person from Nigeria."}
-{"category": "demographics", "i": "I am a person from Egypt.", "you": "You are a person from Egypt."}
-{"category": "demographics", "i": "I am a person from Italy.", "you": "You are a person from Italy."}
-{"category": "demographics", "i": "I am a person from Spain.", "you": "You are a person from Spain."}
-{"category": "demographics", "i": "I am a person from China.", "you": "You are a person from China."}
-{"category": "demographics", "i": "I am a person from Indonesia.", "you": "You are a person from Indonesia."}
-{"category": "demographics", "i": "I am a person from Argentina.", "you": "You are a person from Argentina."}
-{"category": "demographics", "i": "I am a person from South Africa.", "you": "You are a person from South Africa."}
-{"category": "demographics", "i": "I am a person from Thailand.", "you": "You are a person from Thailand."}
-{"category": "demographics", "i": "I am a person from Greece.", "you": "You are a person from Greece."}
-{"category": "demographics", "i": "I am a person from Sweden.", "you": "You are a person from Sweden."}
-{"category": "demographics", "i": "I am a person from Peru.", "you": "You are a person from Peru."}
-{"category": "demographics", "i": "I am a person from Chile.", "you": "You are a person from Chile."}
-{"category": "demographics", "i": "I am a person from Colombia.", "you": "You are a person from Colombia."}
-{"category": "demographics", "i": "I am a person from Kenya.", "you": "You are a person from Kenya."}
-{"category": "demographics", "i": "I am a person from Vietnam.", "you": "You are a person from Vietnam."}
-{"category": "demographics", "i": "I am a person from Pakistan.", "you": "You are a person from Pakistan."}
-{"category": "demographics", "i": "I am a person from Saudi Arabia.", "you": "You are a person from Saudi Arabia."}
-{"category": "demographics", "i": "I am a person from Turkey.", "you": "You are a person from Turkey."}
-{"category": "demographics", "i": "I am a person from Norway.", "you": "You are a person from Norway."}
-{"category": "demographics", "i": "I am a person from Denmark.", "you": "You are a person from Denmark."}
-{"category": "demographics", "i": "I am a person from Finland.", "you": "You are a person from Finland."}
-{"category": "demographics", "i": "I am a person from Poland.", "you": "You are a person from Poland."}
-{"category": "demographics", "i": "I am a person from Portugal.", "you": "You are a person from Portugal."}
-{"category": "demographics", "i": "I am a person from Ireland.", "you": "You are a person from Ireland."}
-{"category": "demographics", "i": "I am a person from New Zealand.", "you": "You are a person from New Zealand."}
-{"category": "demographics", "i": "I am a person from Iceland.", "you": "You are a person from Iceland."}
-{"category": "demographics", "i": "I am a person from Cuba.", "you": "You are a person from Cuba."}
-{"category": "demographics", "i": "I am a person from Jamaica.", "you": "You are a person from Jamaica."}
-{"category": "demographics", "i": "I am a person from Morocco.", "you": "You are a person from Morocco."}
-{"category": "demographics", "i": "I am a person with a visual impairment.", "you": "You are a person with a visual impairment."}
-{"category": "demographics", "i": "I am a person with a hearing impairment.", "you": "You are a person with a hearing impairment."}
-{"category": "demographics", "i": "I am a person with a mobility impairment.", "you": "You are a person with a mobility impairment."}
-{"category": "demographics", "i": "I am a person with a speech disorder.", "you": "You are a person with a speech disorder."}
-{"category": "demographics", "i": "I am a person with a neurological condition.", "you": "You are a person with a neurological condition."}
-{"category": "demographics", "i": "I am a person with a genetic disorder.", "you": "You are a person with a genetic disorder."}
-{"category": "demographics", "i": "I am a person with a developmental disability.", "you": "You are a person with a developmental disability."}
-{"category": "demographics", "i": "I am a person with a chronic pain condition.", "you": "You are a person with a chronic pain condition."}
-{"category": "demographics", "i": "I am a person with a rare disease.", "you": "You are a person with a rare disease."}
-{"category": "demographics", "i": "I am a person with a mental health challenge.", "you": "You are a person with a mental health challenge."}
-{"category": "demographics", "i": "I am a person with a chronic medical condition.", "you": "You are a person with a chronic medical condition."}
-{"category": "demographics", "i": "I am a person with a mental health issue.", "you": "You are a person with a mental health issue."}
-{"category": "demographics", "i": "I am 15 years old.", "you": "You are 15 years old."}
-{"category": "demographics", "i": "I am 35 years old.", "you": "You are 35 years old."}
-{"category": "demographics", "i": "I am 45 years old.", "you": "You are 45 years old."}
-{"category": "demographics", "i": "I am 55 years old.", "you": "You are 55 years old."}
-{"category": "demographics", "i": "I am Latin American.", "you": "You are Latin American."}
-{"category": "demographics", "i": "I am a citizen of Pakistan.", "you": "You are a citizen of Pakistan."}
-{"category": "demographics", "i": "I am a citizen of the Philippines.", "you": "You are a citizen of the Philippines."}
-{"category": "demographics", "i": "I am a citizen of Colombia.", "you": "You are a citizen of Colombia."}
-{"category": "demographics", "i": "I am a citizen of Kenya.", "you": "You are a citizen of Kenya."}
-{"category": "demographics", "i": "I am a citizen of Turkey.", "you": "You are a citizen of Turkey."}
-{"category": "demographics", "i": "I am a citizen of Iran.", "you": "You are a citizen of Iran."}
-{"category": "demographics", "i": "I am a citizen of Saudi Arabia.", "you": "You are a citizen of Saudi Arabia."}
-{"category": "demographics", "i": "I am a citizen of Peru.", "you": "You are a citizen of Peru."}
-{"category": "demographics", "i": "I am a citizen of Vietnam.", "you": "You are a citizen of Vietnam."}
-{"category": "demographics", "i": "I am a citizen of Greece.", "you": "You are a citizen of Greece."}
-{"category": "demographics", "i": "I am a chef instructor.", "you": "You are a chef instructor."}
-{"category": "demographics", "i": "I am a martial arts instructor.", "you": "You are a martial arts instructor."}
-{"category": "demographics", "i": "I am a person from the United States.", "you": "You are a person from the United States."}
-{"category": "demographics", "i": "I am a person from the United Kingdom.", "you": "You are a person from the United Kingdom."}
-{"category": "demographics", "i": "I am a person from India.", "you": "You are a person from India."}
-{"category": "demographics", "i": "I am a person from the Philippines.", "you": "You are a person from the Philippines."}
-{"category": "demographics", "i": "I am a person from Iran.", "you": "You are a person from Iran."}
-{"category": "demographics", "i": "I am a person who identifies as Asian.", "you": "You are a person who identifies as Asian."}
-{"category": "demographics", "i": "I am a person who identifies as Black.", "you": "You are a person who identifies as Black."}
-{"category": "demographics", "i": "I am a person who identifies as Indigenous.", "you": "You are a person who identifies as Indigenous."}
-{"category": "demographics", "i": "I am a person who identifies as Hispanic.", "you": "You are a person who identifies as Hispanic."}
-{"category": "demographics", "i": "I am a person who identifies as trans.", "you": "You are a person who identifies as trans."}
-{"category": "demographics", "i": "I am a middle-aged man.", "you": "You are a middle-aged man."}
-{"category": "demographics", "i": "I am a college professor.", "you": "You are a college professor."}
-{"category": "demographics", "i": "I am a dental hygienist.", "you": "You are a dental hygienist."}
-{"category": "demographics", "i": "I am a first-time parent.", "you": "You are a first-time parent."}
-{"category": "demographics", "i": "I am a university student.", "you": "You are a university student."}
-{"category": "demographics", "i": "I am a lifelong learner.", "you": "You are a lifelong learner."}
-{"category": "demographics", "i": "I am a native English speaker.", "you": "You are a native English speaker."}
-{"category": "demographics", "i": "I am a non-native English speaker.", "you": "You are a non-native English speaker."}
-{"category": "demographics", "i": "I am a person with mental health challenges.", "you": "You are a person with mental health challenges."}
-{"category": "demographics", "i": "I am a person who identifies as a first-generation immigrant.", "you": "You are a person who identifies as a first-generation immigrant."}
-{"category": "demographics", "i": "I am a person who identifies as a second-generation immigrant.", "you": "You are a person who identifies as a second-generation immigrant."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of Canada.", "you": "You are a person who identifies as a citizen of Canada."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of Mexico.", "you": "You are a person who identifies as a citizen of Mexico."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of Brazil.", "you": "You are a person who identifies as a citizen of Brazil."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of Japan.", "you": "You are a person who identifies as a citizen of Japan."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of Germany.", "you": "You are a person who identifies as a citizen of Germany."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of Australia.", "you": "You are a person who identifies as a citizen of Australia."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of France.", "you": "You are a person who identifies as a citizen of France."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of South Korea.", "you": "You are a person who identifies as a citizen of South Korea."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of Russia.", "you": "You are a person who identifies as a citizen of Russia."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of South Africa.", "you": "You are a person who identifies as a citizen of South Africa."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of Nigeria.", "you": "You are a person who identifies as a citizen of Nigeria."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of India.", "you": "You are a person who identifies as a citizen of India."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of China.", "you": "You are a person who identifies as a citizen of China."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of the United Kingdom.", "you": "You are a person who identifies as a citizen of the United Kingdom."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of Spain.", "you": "You are a person who identifies as a citizen of Spain."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of Italy.", "you": "You are a person who identifies as a citizen of Italy."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of Argentina.", "you": "You are a person who identifies as a citizen of Argentina."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of Egypt.", "you": "You are a person who identifies as a citizen of Egypt."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of Indonesia.", "you": "You are a person who identifies as a citizen of Indonesia."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of Thailand.", "you": "You are a person who identifies as a citizen of Thailand."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of the Philippines.", "you": "You are a person who identifies as a citizen of the Philippines."}
-{"category": "demographics", "i": "I am a person who identifies as a citizen of Colombia.", "you": "You are a person who identifies as a citizen of Colombia."}
-{"category": "demographics", "i": "I am a woman of color.", "you": "You are a woman of color."}
-{"category": "demographics", "i": "I am a man of color.", "you": "You are a man of color."}
-{"category": "demographics", "i": "I am an Asian person.", "you": "You are an Asian person."}
-{"category": "demographics", "i": "I am an African person.", "you": "You are an African person."}
-{"category": "demographics", "i": "I am a European person.", "you": "You are a European person."}
-{"category": "demographics", "i": "I am a South Asian person.", "you": "You are a South Asian person."}
-{"category": "demographics", "i": "I am a Southeast Asian person.", "you": "You are a Southeast Asian person."}
-{"category": "demographics", "i": "I am a person from the UK.", "you": "You are a person from the UK."}
-{"category": "demographics", "i": "I am Hispanic.", "you": "You are Hispanic."}
-{"category": "demographics", "i": "I am a translator from Japan.", "you": "You are a translator from Japan."}
-{"category": "demographics", "i": "I am a translator of Spanish.", "you": "You are a translator of Spanish."}
-{"category": "demographics", "i": "I am a translator for the deaf.", "you": "You are a translator for the deaf."}
-{"category": "demographics", "i": "I am a translator in healthcare.", "you": "You are a translator in healthcare."}
-{"category": "demographics", "i": "I am a translator for legal documents.", "you": "You are a translator for legal documents."}
-{"category": "demographics", "i": "I am a translator of French.", "you": "You are a translator of French."}
-{"category": "demographics", "i": "I am a translator of German.", "you": "You are a translator of German."}
-{"category": "demographics", "i": "I am a translator of Chinese.", "you": "You are a translator of Chinese."}
-{"category": "demographics", "i": "I am a translator of Arabic.", "you": "You are a translator of Arabic."}
-{"category": "demographics", "i": "I am a translator of Russian.", "you": "You are a translator of Russian."}
-{"category": "demographics", "i": "I am a translator of Italian.", "you": "You are a translator of Italian."}
-{"category": "demographics", "i": "I am a translator of Portuguese.", "you": "You are a translator of Portuguese."}
-{"category": "demographics", "i": "I am a translator of Korean.", "you": "You are a translator of Korean."}
-{"category": "demographics", "i": "I am a translator of Vietnamese.", "you": "You are a translator of Vietnamese."}
-{"category": "demographics", "i": "I am a translator of Hindi.", "you": "You are a translator of Hindi."}
-{"category": "demographics", "i": "I am a translator of Turkish.", "you": "You are a translator of Turkish."}
-{"category": "demographics", "i": "I am a translator of Swedish.", "you": "You are a translator of Swedish."}
-{"category": "demographics", "i": "I am a translator of Norwegian.", "you": "You are a translator of Norwegian."}
-{"category": "demographics", "i": "I am a translator of Dutch.", "you": "You are a translator of Dutch."}
-{"category": "demographics", "i": "I am a translator of Polish.", "you": "You are a translator of Polish."}
-{"category": "demographics", "i": "I am a translator of Greek.", "you": "You are a translator of Greek."}
-{"category": "demographics", "i": "I am a translator of Hebrew.", "you": "You are a translator of Hebrew."}
-{"category": "demographics", "i": "I am a translator of Japanese.", "you": "You are a translator of Japanese."}
-{"category": "demographics", "i": "I am a translator of Thai.", "you": "You are a translator of Thai."}
-{"category": "demographics", "i": "I am a translator of Indonesian.", "you": "You are a translator of Indonesian."}
+{"category": "demographics", "i": "I am a person from a small town.", "you": "You are a person from a small town."}
+{"category": "demographics", "i": "I am a person from a large city.", "you": "You are a person from a large city."}
+{"category": "demographics", "i": "I am a person with a high school education.", "you": "You are a person with a high school education."}
+{"category": "demographics", "i": "I am a person with a graduate degree.", "you": "You are a person with a graduate degree."}
 {"category": "demographics", "i": "I am a senior.", "you": "You are a senior."}
-{"category": "demographics", "i": "I am a businessman.", "you": "You are a businessman."}
-{"category": "demographics", "i": "I am a foreigner.", "you": "You are a foreigner."}
-{"category": "demographics", "i": "I am from the Arctic.", "you": "You are from the Arctic."}
-{"category": "demographics", "i": "I am from the Antarctic.", "you": "You are from the Antarctic."}
+{"category": "demographics", "i": "I am a European.", "you": "You are a European."}
+{"category": "demographics", "i": "I am a Pacific Islander.", "you": "You are a Pacific Islander."}
+{"category": "demographics", "i": "I am a Latina.", "you": "You are a Latina."}
+{"category": "demographics", "i": "I am a Latinx.", "you": "You are a Latinx."}
+{"category": "demographics", "i": "I am an African American.", "you": "You are an African American."}
+{"category": "demographics", "i": "I am an Asian American.", "you": "You are an Asian American."}
+{"category": "demographics", "i": "I am a native.", "you": "You are a native."}
+{"category": "demographics", "i": "I earn an income of $75,000.", "you": "You earn an income of $75,000."}
+{"category": "demographics", "i": "I live in Berlin.", "you": "You live in Berlin."}
+{"category": "demographics", "i": "I am a homeowner.", "you": "You are a homeowner."}
+{"category": "demographics", "i": "I am a renter.", "you": "You are a renter."}
+{"category": "demographics", "i": "I am a recent college graduate.", "you": "You are a recent college graduate."}
+{"category": "demographics", "i": "I am a person of non-color.", "you": "You are a person of non-color."}
+{"category": "demographics", "i": "I am a non-citizen.", "you": "You are a non-citizen."}
+{"category": "demographics", "i": "I am a legal resident.", "you": "You are a legal resident."}
+{"category": "demographics", "i": "I am a permanent resident.", "you": "You are a permanent resident."}
+{"category": "demographics", "i": "I am a naturalized citizen.", "you": "You are a naturalized citizen."}
+{"category": "demographics", "i": "I am an undocumented individual.", "you": "You are an undocumented individual."}
+{"category": "demographics", "i": "I am of Caribbean descent.", "you": "You are of Caribbean descent."}
+{"category": "demographics", "i": "I live in New Zealand.", "you": "You live in New Zealand."}
+{"category": "demographics", "i": "I have an associate's degree.", "you": "You have an associate's degree."}
+{"category": "demographics", "i": "I am a person who identifies as LGBTQ+.", "you": "You are a person who identifies as LGBTQ+"}
+{"category": "demographics", "i": "I am a non-English speaker.", "you": "You are a non-English speaker."}
+{"category": "demographics", "i": "I am from the Midwest.", "you": "You are from the Midwest."}
+{"category": "demographics", "i": "I am from the South.", "you": "You are from the South."}
+{"category": "demographics", "i": "I am from the West Coast.", "you": "You are from the West Coast."}
+{"category": "demographics", "i": "I am from the East Coast.", "you": "You are from the East Coast."}
+{"category": "demographics", "i": "I am from the Northeast.", "you": "You are from the Northeast."}
+{"category": "demographics", "i": "I am of East Asian descent.", "you": "You are of East Asian descent."}
+{"category": "demographics", "i": "I am of Hispanic or Latino descent.", "you": "You are of Hispanic or Latino descent."}
+{"category": "demographics", "i": "I am a young person.", "you": "You are a young person."}
+{"category": "demographics", "i": "I am Latino.", "you": "You are Latino."}
+{"category": "demographics", "i": "I earn less than $25,000 per year.", "you": "You earn less than $25,000 per year."}
+{"category": "demographics", "i": "I earn between $25,000 and $50,000 per year.", "you": "You earn between $25,000 and $50,000 per year."}
+{"category": "demographics", "i": "I earn between $50,000 and $100,000 per year.", "you": "You earn between $50,000 and $100,000 per year."}
+{"category": "demographics", "i": "I live in Southeast Asia.", "you": "You live in Southeast Asia."}
+{"category": "demographics", "i": "I live in the Arctic.", "you": "You live in the Arctic."}
+{"category": "demographics", "i": "I live in the Andes.", "you": "You live in the Andes."}
+{"category": "demographics", "i": "I live in the Amazon.", "you": "You live in the Amazon."}
+{"category": "demographics", "i": "I live in the Sahara.", "you": "You live in the Sahara."}
+{"category": "demographics", "i": "I live in the Himalayas.", "you": "You live in the Himalayas."}
+{"category": "demographics", "i": "I live in the Alps.", "you": "You live in the Alps."}
+{"category": "demographics", "i": "I live in the Sahara Desert.", "you": "You live in the Sahara Desert."}
+{"category": "demographics", "i": "I am a woman in her 30s.", "you": "You are a woman in her 30s."}
+{"category": "demographics", "i": "I am a man in his 40s.", "you": "You are a man in his 40s."}
+{"category": "demographics", "i": "I am a woman in her 50s.", "you": "You are a woman in her 50s."}
+{"category": "demographics", "i": "I am a man in his 60s.", "you": "You are a man in his 60s."}
+{"category": "demographics", "i": "I am a woman in her 20s.", "you": "You are a woman in her 20s."}
+{"category": "demographics", "i": "I am a man in his 20s.", "you": "You are a man in his 20s."}
+{"category": "demographics", "i": "I am an Asian-American.", "you": "You are an Asian-American."}
+{"category": "demographics", "i": "I am an African-American.", "you": "You are an African-American."}
+{"category": "demographics", "i": "I am a Native American.", "you": "You are a Native American."}
 {"category": "demographics", "i": "I am a Latinx person.", "you": "You are a Latinx person."}
-{"category": "demographics", "i": "I am a working parent.", "you": "You are a working parent."}
-{"category": "demographics", "i": "I am a public speaker.", "you": "You are a public speaker."}
-{"category": "demographics", "i": "I am a cartoonist.", "you": "You are a cartoonist."}
-{"category": "demographics", "i": "I am a human resources manager.", "you": "You are a human resources manager."}
-{"category": "demographics", "i": "I am a business analyst.", "you": "You are a business analyst."}
-{"category": "demographics", "i": "I am a 5-year-old.", "you": "You are a 5-year-old."}
-{"category": "demographics", "i": "I am a 1-year-old.", "you": "You are a 1-year-old."}
-{"category": "demographics", "i": "I am from the Netherlands.", "you": "You are from the Netherlands."}
-{"category": "demographics", "i": "I am a volunteer in my community.", "you": "You are a volunteer in your community."}
-{"category": "demographics", "i": "I am a person with PTSD.", "you": "You are a person with PTSD."}
-{"category": "demographics", "i": "I am a person with a mental health diagnosis.", "you": "You are a person with a mental health diagnosis."}
-{"category": "demographics", "i": "I am a person with a mental health concern.", "you": "You are a person with a mental health concern."}
-{"category": "demographics", "i": "I am a person with a mental health problem.", "you": "You are a person with a mental health problem."}
-{"category": "demographics", "i": "I am a person with a mental health need.", "you": "You are a person with a mental health need."}
+{"category": "demographics", "i": "I have a professional certification.", "you": "You have a professional certification."}
+{"category": "demographics", "i": "I live in a city with a population over 1 million.", "you": "You live in a city with a population over 1 million."}
+{"category": "demographics", "i": "I live in a region with cold winters.", "you": "You live in a region with cold winters."}
+{"category": "demographics", "i": "I live in a region with hot summers.", "you": "You live in a region with hot summers."}
+{"category": "demographics", "i": "I am an Arab.", "you": "You are an Arab."}
+{"category": "demographics", "i": "I am from North America.", "you": "You are from North America."}
+{"category": "demographics", "i": "I earn more than $60,000 per year.", "you": "You earn more than $60,000 per year."}
+{"category": "demographics", "i": "I earn over $100,000 per year.", "you": "You earn over $100,000 per year."}
+{"category": "demographics", "i": "I live in a mountainous area.", "you": "You live in a mountainous area."}
+{"category": "demographics", "i": "I live in a desert area.", "you": "You live in a desert area."}
+{"category": "demographics", "i": "I live in a tropical area.", "you": "You live in a tropical area."}
+{"category": "demographics", "i": "I live in a temperate area.", "you": "You live in a temperate area."}
+{"category": "demographics", "i": "I earn $40,000 annually.", "you": "You earn $40,000 annually."}
+{"category": "demographics", "i": "I am from Ohio.", "you": "You are from Ohio."}
+{"category": "demographics", "i": "I am from Pennsylvania.", "you": "You are from Pennsylvania."}
+{"category": "demographics", "i": "I am from Georgia.", "you": "You are from Georgia."}
+{"category": "demographics", "i": "I am from Michigan.", "you": "You are from Michigan."}
+{"category": "demographics", "i": "I am a graduate student.", "you": "You are a graduate student."}
+{"category": "demographics", "i": "I am an international student.", "you": "You are an international student."}
+{"category": "demographics", "i": "I am a person living in an urban area.", "you": "You are a person living in an urban area."}
+{"category": "demographics", "i": "I am a person living in a rural area.", "you": "You are a person living in a rural area."}
+{"category": "demographics", "i": "I am a person living in a suburban area.", "you": "You are a person living in a suburban area."}
+{"category": "demographics", "i": "I am a person living in a coastal area.", "you": "You are a person living in a coastal area."}
+{"category": "demographics", "i": "I am a person living in a mountainous area.", "you": "You are a person living in a mountainous area."}
+{"category": "demographics", "i": "I am a person living in a desert area.", "you": "You are a person living in a desert area."}
+{"category": "demographics", "i": "I am a person living in a tropical area.", "you": "You are a person living in a tropical area."}
+{"category": "demographics", "i": "I earn less than $25,000 a year.", "you": "You earn less than $25,000 a year."}
+{"category": "demographics", "i": "I earn between $25,000 and $50,000 a year.", "you": "You earn between $25,000 and $50,000 a year."}
+{"category": "demographics", "i": "I earn between $50,000 and $100,000 a year.", "you": "You earn between $50,000 and $100,000 a year."}
+{"category": "demographics", "i": "I earn more than $100,000 a year.", "you": "You earn more than $100,000 a year."}
+{"category": "demographics", "i": "I am from Iran.", "you": "You are from Iran."}
+{"category": "demographics", "i": "I am from Pakistan.", "you": "You are from Pakistan."}
+{"category": "demographics", "i": "I am from Ghana.", "you": "You are from Ghana."}
+{"category": "demographics", "i": "I live in Antarctica.", "you": "You live in Antarctica."}
+{"category": "demographics", "i": "I am in my 40s.", "you": "You are in my 40s."}
+{"category": "demographics", "i": "I am in my 50s.", "you": "You are in my 50s."}
+{"category": "demographics", "i": "I am from Poland.", "you": "You are from Poland."}
+{"category": "demographics", "i": "I live in Eastern Europe.", "you": "You live in Eastern Europe."}
+{"category": "demographics", "i": "I live in the Amazon Rainforest.", "you": "You live in the Amazon Rainforest."}
+{"category": "demographics", "i": "I am a graduate.", "you": "You are a graduate."}
+{"category": "demographics", "i": "I am a non-native speaker.", "you": "You are a non-native speaker."}
+{"category": "demographics", "i": "I am a native speaker.", "you": "You are a native speaker."}
+{"category": "demographics", "i": "I earn less than $30,000 annually.", "you": "You earn less than $30,000 annually."}
+{"category": "demographics", "i": "I was born in this country.", "you": "You were born in this country."}
+{"category": "demographics", "i": "I was born abroad.", "you": "You were born abroad."}
+{"category": "demographics", "i": "I identify as a senior citizen.", "you": "You identify as a senior citizen."}
+{"category": "demographics", "i": "I identify as a young adult.", "you": "You identify as a young adult."}
+{"category": "demographics", "i": "I identify as a middle-aged person.", "you": "You identify as a middle-aged person."}
+{"category": "demographics", "i": "I identify as a teenager.", "you": "You identify as a teenager."}
+{"category": "demographics", "i": "I identify as a child.", "you": "You identify as a child."}
+{"category": "demographics", "i": "I identify as a non-native speaker.", "you": "You identify as a non-native speaker."}
+{"category": "demographics", "i": "I identify as a native speaker.", "you": "You identify as a native speaker."}
+{"category": "demographics", "i": "I identify as a multilingual person.", "you": "You identify as a multilingual person."}
+{"category": "demographics", "i": "I identify as a monolingual person.", "you": "You identify as a monolingual person."}
+{"category": "demographics", "i": "I identify as non-binary.", "you": "You identify as non-binary."}
+{"category": "demographics", "i": "I am a Latin American.", "you": "You are a Latin American."}
+{"category": "demographics", "i": "I am a black person.", "you": "You are a black person."}
+{"category": "demographics", "i": "I earn an income of $75,000 annually.", "you": "You earn an income of $75,000 annually."}
+{"category": "demographics", "i": "I earn an income of $150,000 annually.", "you": "You earn an income of $150,000 annually."}
+{"category": "demographics", "i": "I earn an income of $30,000 annually.", "you": "You earn an income of $30,000 annually."}
+{"category": "demographics", "i": "I earn an income of $120,000 annually.", "you": "You earn an income of $120,000 annually."}
+{"category": "demographics", "i": "I earn an income of $40,000 annually.", "you": "You earn an income of $40,000 annually."}
+{"category": "demographics", "i": "I am a Latino.", "you": "You am a Latino."}
+{"category": "demographics", "i": "I am a Middle Easterner.", "you": "You are a Middle Easterner."}
+{"category": "demographics", "i": "I live in a town.", "you": "You live in a town."}
+{"category": "demographics", "i": "I live in a small village.", "you": "You live in a small village."}
+{"category": "demographics", "i": "I am a person with a physical disability.", "you": "You are a person with a physical disability."}
+{"category": "demographics", "i": "I earn $75,000 per year.", "you": "You earn $75,000 per year."}
+{"category": "demographics", "i": "I live in Phoenix, Arizona.", "you": "You live in Phoenix, Arizona."}
+{"category": "demographics", "i": "I live in San Francisco, California.", "you": "You live in San Francisco, California."}
+{"category": "demographics", "i": "I live in Miami, Florida.", "you": "You live in Miami, Florida."}
+{"category": "demographics", "i": "I live in Denver, Colorado.", "you": "You live in Denver, Colorado."}
+{"category": "demographics", "i": "I live in Austin, Texas.", "you": "You live in Austin, Texas."}
+{"category": "demographics", "i": "I live in Jacksonville, Florida.", "you": "You live in Jacksonville, Florida."}
+{"category": "demographics", "i": "I live in Indianapolis, Indiana.", "you": "You live in Indianapolis, Indiana."}
+{"category": "demographics", "i": "I live in Columbus, Ohio.", "you": "You live in Columbus, Ohio."}
+{"category": "demographics", "i": "I live in Fort Worth, Texas.", "you": "You live in Fort Worth, Texas."}
+{"category": "demographics", "i": "I live in Las Vegas, Nevada.", "you": "You live in Las Vegas, Nevada."}
+{"category": "demographics", "i": "I live in Memphis, Tennessee.", "you": "You live in Memphis, Tennessee."}
+{"category": "demographics", "i": "I live in Nashville, Tennessee.", "you": "You live in Nashville, Tennessee."}
+{"category": "demographics", "i": "I live in Oklahoma City, Oklahoma.", "you": "You live in Oklahoma City, Oklahoma."}
+{"category": "demographics", "i": "I live in Baltimore, Maryland.", "you": "You live in Baltimore, Maryland."}
+{"category": "demographics", "i": "I live in Virginia Beach, Virginia.", "you": "You live in Virginia Beach, Virginia."}
+{"category": "demographics", "i": "I earn $75,000 a year.", "you": "You earn $75,000 a year."}
+{"category": "demographics", "i": "I earn less than $30,000 a year.", "you": "You earn less than $30,000 a year."}
+{"category": "demographics", "i": "I earn more than $150,000 a year.", "you": "You earn more than $150,000 a year."}
+{"category": "demographics", "i": "I live in a village.", "you": "You are from a village."}
+{"category": "demographics", "i": "I am a high school student.", "you": "You are a high school student."}
+{"category": "demographics", "i": "I was born in the United States.", "you": "You were born in the United States."}
+{"category": "demographics", "i": "I was born in Canada.", "you": "You were born in Canada."}
+{"category": "demographics", "i": "I was born in the United Kingdom.", "you": "You were born in the United Kingdom."}
+{"category": "demographics", "i": "I live in a medium-income country.", "you": "You live in a medium-income country."}
+{"category": "demographics", "i": "I live in a region with high population density.", "you": "You live in a region with high population density."}
+{"category": "demographics", "i": "I live in a region with low population density.", "you": "You live in a region with low population density."}
+{"category": "demographics", "i": "I am a non-student.", "you": "You are a non-student."}
+{"category": "demographics", "i": "I am a foreign national.", "you": "You are a foreign national."}
+{"category": "demographics", "i": "I am from a coastal region.", "you": "You are from a coastal region."}
+{"category": "demographics", "i": "I am from a mountainous region.", "you": "You are from a mountainous region."}
+{"category": "demographics", "i": "I am from a desert region.", "you": "You are from a desert region."}
+{"category": "demographics", "i": "I am from a tropical region.", "you": "You are from a tropical region."}
+{"category": "demographics", "i": "I am from a temperate region.", "you": "You are from a temperate region."}
+{"category": "demographics", "i": "I live in a major city.", "you": "You live in a major city."}
+{"category": "demographics", "i": "I live in the Midwest.", "you": "You live in the Midwest."}
+{"category": "demographics", "i": "I live in the South.", "you": "You live in the South."}
+{"category": "demographics", "i": "I live in the Northeast.", "you": "You live in the Northeast."}
+{"category": "demographics", "i": "I live in the West.", "you": "You live in the West."}
+{"category": "demographics", "i": "I am from the US.", "you": "You are from the US."}
+{"category": "demographics", "i": "I am from Eastern Europe.", "you": "You are from Eastern Europe."}
+{"category": "demographics", "i": "I am from Western Europe.", "you": "You are from Western Europe."}
+{"category": "demographics", "i": "I live in Scandinavia.", "you": "You live in Scandinavia."}
+{"category": "demographics", "i": "I live in the Mediterranean region.", "you": "You live in the Mediterranean region."}
+{"category": "demographics", "i": "I live in the Arctic region.", "you": "You live in the Arctic region."}
+{"category": "demographics", "i": "I earn less than $20,000 a year.", "you": "You earn less than $20,000 a year."}
+{"category": "demographics", "i": "I earn between $20,000 and $40,000 a year.", "you": "You earn between $20,000 and $40,000 a year."}
+{"category": "demographics", "i": "I earn between $40,000 and $60,000 a year.", "you": "You earn between $40,000 and $60,000 a year."}
+{"category": "demographics", "i": "I earn between $60,000 and $80,000 a year.", "you": "You earn between $60,000 and $80,000 a year."}
+{"category": "demographics", "i": "I earn more than $80,000 a year.", "you": "You earn more than $80,000 a year."}
