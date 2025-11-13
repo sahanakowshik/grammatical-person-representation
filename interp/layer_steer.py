@@ -22,6 +22,9 @@ model = AutoModelForCausalLM.from_pretrained(
 # load tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token
+
 def act_add(steering_vec):
     def hook(module, inputs, output):
         if isinstance(output, tuple):
@@ -89,28 +92,6 @@ def generate_with_steering(
     return results
 
 
-generated_ids = model.generate(
-    **model_inputs,
-    max_new_tokens=100
-)
-output_ids = generated_ids[0][len(model_inputs.input_ids[0]):].tolist()
-print("Default Generation")
-tokenizer.decode(output_ids, skip_special_tokens=True)
-
-
-
-texts = generate_with_steering(
-    model=model,
-    tokenizer=tokenizer,
-    model_inputs=model_inputs,
-    layer_idx=layer_idx,
-    steering_vec=steering_vec,
-    coeff=5,
-    max_new_tokens=100,
-    device=device
-)
-
-
 emotion_steer_prompts = [
     "Feeling angry", 
     "Am sad", 
@@ -154,13 +135,13 @@ all_steer_prompts = emotion_steer_prompts + creative_steer_prompts + question_st
 
 pos_steering_result = {}
 neg_steering_result = {}
-for layer_idx in tqdm(range(1)):
+for layer_idx in tqdm(range(0, 32, 2)):
     #load vec for layer
-    steering_vec_path = f"get_steering_vectors/vectors_llama/layer_{layer_idx}/emotions.pt"
+    steering_vec_path = f"./interp/get_steering_vectors/vectors_llama/layer_{layer_idx}/emotions.pt"
     steering_vec = torch.load(steering_vec_path, map_location=device)["steering_vec"]
     pos_steering_prompt_result = {}
     neg_steering_prompt_result = {}
-    for prompt in all_steer_prompts[:2]:
+    for prompt in all_steer_prompts:
 
         messages = [
             {"role": "user", "content": prompt}
@@ -191,5 +172,5 @@ for layer_idx in tqdm(range(1)):
     pos_steering_result[layer_idx] = pos_steering_prompt_result
     neg_steering_result[layer_idx] = neg_steering_prompt_result
 
-pd.DataFrame(pos_steering_result).to_csv('../data/')
-pd.DataFrame(neg_steering_result).to_csv()
+pd.DataFrame(pos_steering_result).to_csv('./data/steer_results/pos_steer.csv')
+pd.DataFrame(neg_steering_result).to_csv('./data/steer_results/neg_steer.csv')
