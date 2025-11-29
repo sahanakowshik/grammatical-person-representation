@@ -7,20 +7,6 @@ import os
 import sys
 import torch
 from omegaconf import OmegaConf
-
-# # Handle both direct execution and module execution
-# try:
-#     from .model_loader import load_model_and_tokenizer
-#     from .steering_vectors import compute_steering_vectors
-# except ImportError:
-#     # Add parent directory (interp) to path for direct execution
-#     # This allows importing steering_vectors as a package
-#     current_dir = os.path.dirname(os.path.abspath(__file__))
-#     parent_dir = os.path.dirname(current_dir)  # interp directory
-#     if parent_dir not in sys.path:
-#         sys.path.insert(0, parent_dir)
-#     from steering_vectors.model_loader import load_model_and_tokenizer
-#     from steering_vectors.steering_vectors import compute_steering_vectors
     
 from model_loader import load_model_and_tokenizer
 from steering_vectors import compute_steering_vectors
@@ -87,7 +73,7 @@ def main():
                 'layer_idx': layer_idx,
                 'model_id': model_id,
             }, f"{output_dir}/{output_name}")
-            print(f"Saved steering vector to {output_path}")
+            print(f"Saved steering vector to {output_dir}/{output_name}")
             
         # break
         

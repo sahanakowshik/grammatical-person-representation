@@ -34,3 +34,5 @@ python generate_data.py
 # - qrsh -P vkolagrp -l gpus=1 -l gpu_c=9 -l h_rt=1:00:00
 # - cd data
 # - bash generate_data.sh
+
+# qrsh -P vkolagrp -l gpus=1 -l gpu_c=8 -l h_rt=10:00:00

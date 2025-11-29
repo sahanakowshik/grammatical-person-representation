@@ -1,19 +1,27 @@
 # Configuration for computing steering vectors
 
-# Model configuration
-# model_id: meta-llama/Llama-3.1-8B-Instruct
-model_id: "Qwen/Qwen2.5-7B-Instruct"
-model_type: instruct  # Options: "base" or "instruct"
 cache_dir: /projectnb/vkolagrp/skowshik/.cache/
 
-output_path: vectors_qwen
-# output_path: vectors_llama
+# Model configuration
+# model_id: meta-llama/Llama-3.1-8B-Instruct
+# model_id: meta-llama/Llama-3.1-8B
+# model_id: "Qwen/Qwen2.5-7B-Instruct"
+model_id: "Qwen/Qwen2.5-7B"
+
+# Options: "base" or "instruct"
+# model_type: instruct  
+model_type: base 
+
+# output_path: vectors_llama31_8B_instruct
+# output_path: vectors_llama31_8B
+# output_path: vectors_qwen25_7B_instruct
+output_path: vectors_qwen25_7B
 
 # Steering vector computation
 max_unique_prompts: 200
 
-data_path: ../../data/generated_examples/emotions.jsonl
-output_name: emotions.pt
+# data_path: ../../data/generated_examples/emotions.jsonl
+# output_name: emotions.pt
 
 # data_path: ../../data/generated_examples/activities.jsonl
 # output_name: activities.pt
@@ -21,6 +29,6 @@ output_name: emotions.pt
 # data_path: ../../data/generated_examples/occupations.jsonl
 # output_name: occupations.pt
 
-# data_path: ../../data/generated_examples/demographics.jsonl
-# output_name: demographics.pt
+data_path: ../../data/generated_examples/demographics.jsonl
+output_name: demographics.pt
 
