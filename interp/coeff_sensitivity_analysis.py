@@ -13,9 +13,6 @@ print(f"device: {device}")
 model_id = "meta-llama/Llama-3.1-8B-Instruct"
 folder_name = "llama31_8B_instruct"
 
-# model_id = "Qwen/Qwen2.5-7B-Instruct"
-# folder_name = "vectors_qwen25_7B_instruct"
-
 
 emotion_steer_prompts = [
     "Feeling angry", 
