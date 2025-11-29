@@ -10,28 +10,14 @@ from tqdm import tqdm
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"device: {device}")
 
-model_id = "meta-llama/Llama-3.1-8B"
-folder_name = "llama31_8B"
+model_id = "meta-llama/Llama-3.1-8B-Instruct"
+folder_name = "llama31_8B_instruct"
+
+# model_id = "meta-llama/Llama-3.1-8B"
+# folder_name = "llama31_8B"
 
 # model_id = "Qwen/Qwen2.5-7B-Instruct"
 # folder_name = "vectors_qwen25_7B_instruct"
-
-# load model
-model = AutoModelForCausalLM.from_pretrained(
-    model_id, 
-    #cache_dir = "/projectnb/vkolagrp/skowshik/.cache/",
-    dtype="auto",
-    device_map="auto")
-
-# load tokenizer
-tokenizer = AutoTokenizer.from_pretrained(model_id)
-
-if tokenizer.pad_token is None:
-    tokenizer.pad_token = tokenizer.eos_token
-    
-if tokenizer.pad_token_id is None:
-    tokenizer.pad_token_id = tokenizer.eos_token_id
-    
 
 emotion_steer_prompts = [
     "Feeling angry", 
@@ -73,6 +59,22 @@ question_steer_prompts = [
 ]
 
 all_steer_prompts = emotion_steer_prompts + creative_steer_prompts + question_steer_prompts
+
+# load model
+model = AutoModelForCausalLM.from_pretrained(
+    model_id, 
+    #cache_dir = "/projectnb/vkolagrp/skowshik/.cache/",
+    dtype="auto",
+    device_map="auto")
+
+# load tokenizer
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token
+    
+if tokenizer.pad_token_id is None:
+    tokenizer.pad_token_id = tokenizer.eos_token_id
 
 def act_add(steering_vec):
     def hook(module, inputs, output):
