@@ -10,7 +10,55 @@ from tqdm import tqdm
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"device: {device}")
 
-model_id = "Qwen/Qwen2.5-7B-Instruct"
+model_id = "meta-llama/Llama-3.1-8B-Instruct"
+folder_name = "llama31_8B_instruct"
+
+# model_id = "meta-llama/Llama-3.1-8B"
+# folder_name = "llama31_8B"
+
+# model_id = "Qwen/Qwen2.5-7B-Instruct"
+# folder_name = "vectors_qwen25_7B_instruct"
+
+emotion_steer_prompts = [
+    "Feeling angry", 
+    "Am sad", 
+    "So scared", 
+    "Feel happy", 
+    "Kind of jealous", 
+    "Feeling silly", 
+    "Very interested", 
+    "Am excited",
+    "Am anxious", 
+    "So nervous"
+]
+
+creative_steer_prompts = [
+    "Interpret the dream", 
+    "Tell a story", 
+    "Sing a song", 
+    "Write a poem", 
+    "Make a wish", 
+    "Explain the meaning of life", 
+    "Provide advice", 
+    "Give therapy", 
+    "Write a blog", 
+    "Give an idea"
+]
+
+question_steer_prompts = [
+    "What was that sound?", 
+    "Why did it snow?", 
+    "Where to go from here?", 
+    "How did the fire start?", 
+    "When was the last baseball game?", 
+    "What is the point of learning?", 
+    "Why dance?", 
+    "Where did it come from?", 
+    "How can it be?", 
+    "When will the rain stop?"
+]
+
+all_steer_prompts = emotion_steer_prompts + creative_steer_prompts + question_steer_prompts
 
 # load model
 model = AutoModelForCausalLM.from_pretrained(
@@ -24,6 +72,9 @@ tokenizer = AutoTokenizer.from_pretrained(model_id)
 
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
+    
+if tokenizer.pad_token_id is None:
+    tokenizer.pad_token_id = tokenizer.eos_token_id
 
 def act_add(steering_vec):
     def hook(module, inputs, output):
@@ -91,67 +142,32 @@ def generate_with_steering(
 
     return results
 
-
-emotion_steer_prompts = [
-    "Feeling angry", 
-    "Am sad", 
-    "So scared", 
-    "Feel happy", 
-    "Kind of jealous", 
-    "Feeling silly", 
-    "Very interested", 
-    "Am excited",
-    "Am anxious", 
-    "So nervous"
-]
-
-creative_steer_prompts = [
-    "Interpret the dream", 
-    "Tell a story", 
-    "Sing a song", 
-    "Write a poem", 
-    "Make a wish", 
-    "Explain the meaning of life", 
-    "Provide advice", 
-    "Give therapy", 
-    "Write a blog", 
-    "Give an idea"
-]
-
-question_steer_prompts = [
-    "What was that sound?", 
-    "Why did it snow?", 
-    "Where to go from here?", 
-    "How did the fire start?", 
-    "When was the last baseball game?", 
-    "What is the point of learning?", 
-    "Why dance?", 
-    "Where did it come from?", 
-    "How can it be?", 
-    "When will the rain stop?"
-]
-
-all_steer_prompts = emotion_steer_prompts + creative_steer_prompts + question_steer_prompts
-
 pos_steering_result = {}
 neg_steering_result = {}
-for layer_idx in tqdm(range(0, 28, 2)):
+print(len(model.model.layers))
+for layer_idx in tqdm(range(0, len(model.model.layers), 2)):
     #load vec for layer
-    steering_vec_path = f"./interp/get_steering_vectors/vectors_qwen/layer_{layer_idx}/emotions.pt"
+    steering_vec_path = f"./get_steering_vectors/vectors_{folder_name}/layer_{layer_idx}/emotions.pt"
     steering_vec = torch.load(steering_vec_path, map_location=device)["steering_vec"]
     pos_steering_prompt_result = {}
     neg_steering_prompt_result = {}
     for prompt in all_steer_prompts:
-
-        messages = [
-            {"role": "user", "content": prompt}
-        ]
         
-        text = tokenizer.apply_chat_template(
-            messages,
-            tokenize=False,
-            add_generation_prompt=True,
-        )
+        if "instruct" in model_id.lower():
+
+            messages = [
+                {"role": "user", "content": prompt}
+            ]
+            
+            text = tokenizer.apply_chat_template(
+                messages,
+                tokenize=False,
+                add_generation_prompt=True,
+            )
+            
+        else:
+            text = prompt
+        
 
         model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
 
@@ -172,5 +188,5 @@ for layer_idx in tqdm(range(0, 28, 2)):
     pos_steering_result[layer_idx] = pos_steering_prompt_result
     neg_steering_result[layer_idx] = neg_steering_prompt_result
 
-pd.DataFrame(pos_steering_result).to_csv('./data/steer_results/qwen_pos_steer.csv')
-pd.DataFrame(neg_steering_result).to_csv('./data/steer_results/qwen_neg_steer.csv')
+pd.DataFrame(pos_steering_result).to_csv(f'./steer_results/{folder_name}_pos_steer.csv')
+pd.DataFrame(neg_steering_result).to_csv(f'./steer_results/{folder_name}_neg_steer.csv')

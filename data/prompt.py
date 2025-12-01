@@ -11,7 +11,7 @@ Each pair contains two sentences that ask the EXACT SAME THING; the ONLY differe
 TASK:
 For the CATEGORY: "{category}", generate EXACTLY {count} NEW contrastive pairs.
 Rules:
-1) Keep semantics and requests identical across each pair; change ONLY the subject pronoun ("I" ↔ "You").
+1) Keep semantics and requests identical across each pair; change ONLY the subject pronoun ("I", "You").
 2) Avoid repeating the seed examples verbatim.
 3) Stay safe and non-sensitive; no private data, hate, or instructions for harm.
 4) Keep each sentence concise (<= 160 characters).
