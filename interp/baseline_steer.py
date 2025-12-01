@@ -7,10 +7,14 @@ import pandas as pd
 import torch.nn.functional as F
 from tqdm import tqdm
 
+from transformers import set_seed
+
+set_seed(599)
+
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"device: {device}")
 
-model_id = "Qwen/Qwen2.5-7B-Instruct"
+model_id = "meta-llama/Llama-3.1-8B-Instruct"
 
 # load model
 model = AutoModelForCausalLM.from_pretrained(
@@ -133,14 +137,25 @@ question_steer_prompts = [
 
 all_steer_prompts = emotion_steer_prompts + creative_steer_prompts + question_steer_prompts
 
+#set layer for steering
+vec_name = ["emotions", "activities", "demographics", "occupations"]
+steering_vectors = {}
+layer = 12
+for name in vec_name:
+    steering_vec_path = f"./interp/get_steering_vectors/vectors_llama/layer_{layer}/{name}.pt"
+    steering_vectors[name] = torch.load(steering_vec_path, map_location=device)["steering_vec"]
+
 pos_steering_result = {}
 neg_steering_result = {}
-for layer_idx in tqdm(range(0, 28, 2)):
+base_steering_result = {}
+for name in vec_name:
+
+    steering_vec = steering_vectors[name]
+
     #load vec for layer
-    steering_vec_path = f"./interp/get_steering_vectors/vectors_qwen/layer_{layer_idx}/emotions.pt"
-    steering_vec = torch.load(steering_vec_path, map_location=device)["steering_vec"]
     pos_steering_prompt_result = {}
     neg_steering_prompt_result = {}
+    base_steering_prompt_result = {}
     for prompt in all_steer_prompts:
 
         messages = [
@@ -155,11 +170,22 @@ for layer_idx in tqdm(range(0, 28, 2)):
 
         model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
 
+        #Get baseline generation (no function)
+        generated_ids = model.generate(
+            **model_inputs,
+            max_new_tokens=100
+        )
+
+        output_ids = generated_ids[0][len(model_inputs.input_ids[0]):].tolist()
+        baseline = tokenizer.decode(output_ids, skip_special_tokens=True)
+
+        base_steering_prompt_result[prompt] = baseline
+
         texts = generate_with_steering(
             model=model,
             tokenizer=tokenizer,
             model_inputs=model_inputs,
-            layer_idx=layer_idx,
+            layer_idx=layer,
             steering_vec=steering_vec,
             coeff=5,
             max_new_tokens=100,
@@ -169,8 +195,10 @@ for layer_idx in tqdm(range(0, 28, 2)):
         pos_steering_prompt_result[prompt] = texts["positive"]
         neg_steering_prompt_result[prompt] = texts["negative"]
 
-    pos_steering_result[layer_idx] = pos_steering_prompt_result
-    neg_steering_result[layer_idx] = neg_steering_prompt_result
+    pos_steering_result[name] = pos_steering_prompt_result
+    neg_steering_result[name] = neg_steering_prompt_result
+    base_steering_result[name] = base_steering_prompt_result
 
-pd.DataFrame(pos_steering_result).to_csv('./data/steer_results/qwen_pos_steer.csv')
-pd.DataFrame(neg_steering_result).to_csv('./data/steer_results/qwen_neg_steer.csv')
+pd.DataFrame(pos_steering_result).to_csv('./data/steer_results/all_llama_pos_steer.csv')
+pd.DataFrame(neg_steering_result).to_csv('./data/steer_results/all_llama_neg_steer.csv')
+pd.DataFrame(base_steering_result).to_csv('./data/steer_results/all_llama_base_steer.csv')
