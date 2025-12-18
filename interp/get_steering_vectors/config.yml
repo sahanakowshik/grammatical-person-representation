@@ -6,16 +6,18 @@ cache_dir: /projectnb/vkolagrp/skowshik/.cache/
 # model_id: meta-llama/Llama-3.1-8B-Instruct
 # model_id: meta-llama/Llama-3.1-8B
 # model_id: "Qwen/Qwen2.5-7B-Instruct"
-model_id: "Qwen/Qwen2.5-7B"
+# model_id: "Qwen/Qwen2.5-7B"
+model_id: "google/gemma-7b-it"
 
 # Options: "base" or "instruct"
-# model_type: instruct  
-model_type: base 
+model_type: instruct  
+# model_type: base 
 
 # output_path: vectors_llama31_8B_instruct
 # output_path: vectors_llama31_8B
 # output_path: vectors_qwen25_7B_instruct
-output_path: vectors_qwen25_7B
+# output_path: vectors_qwen25_7B
+output_path: vectors_gemma_7B_instruct
 
 # Steering vector computation
 max_unique_prompts: 200

@@ -5,3 +5,6 @@ generated_examples_old/
 llm_as_a_judge.ipynb
 steer_results
 outputs.txt
+plots1/
+*_pca.pdf
+output_emb.ipynb

@@ -2,7 +2,7 @@
 
 # Model configuration
 "model_id": "Qwen/Qwen3-32B"
-"n_devices": 2
+"n_devices": 1
 "max_model_len": 10000
 "max_new_tokens": 500
 "temperature": 0.7
@@ -11,30 +11,66 @@
 
 cache_dir: /projectnb/vkolagrp/skowshik/.cache/
 
-# data_path: "../../data/steer_results/layer_steering/llama31_8B_instruct_pos_steer.csv"
-# save_name: "llm_as_a_judge_results/layer_steering/llama31_8B_instruct/pos/run_5.jsonl"
+n_runs: 5
 
-# data_path: "../../data/steer_results/layer_steering/llama31_8B_instruct_neg_steer.csv"
-# save_name: "llm_as_a_judge_results/layer_steering/llama31_8B_instruct/neg/run_5.jsonl"
+model: gemma_7B_instruct
 
-# data_path: "../interp/steer_results/layer_steering/llama31_8B_pos_steer.csv"
-# save_name: "llm_as_a_judge_results/layer_steering/llama31_8B/pos/run_5.jsonl"
+n:
+  # - 11
+  - 14
 
-# data_path: "../interp/steer_results/layer_steering/llama31_8B_neg_steer.csv"
-# save_name: "llm_as_a_judge_results/layer_steering/llama31_8B/neg/run_4.jsonl"
+values:
+  - pos
+  - neg
 
-# data_path: "../../data/steer_results/layer_steering/qwen25_7B_instruct_pos_steer.csv"
-# save_name: "llm_as_a_judge_results/layer_steering/qwen25_7B_instruct/pos/run_1.jsonl"
-
-# data_path: "../../data/steer_results/layer_steering/qwen25_7B_instruct_neg_steer.csv"
-# save_name: "llm_as_a_judge_results/qwen25_7B_instruct/neg/run_1.jsonl"
+# type: sensitivity
+type: layer_steering
 
 
-data_path: "../interp/steer_results/sensitivity/llama31_8B_instruct_pos_steer.csv"
-save_name: "llm_as_a_judge_results/sensitivity/llama31_8B_instruct/pos/run_5.jsonl"
+# layer_steering
 
-# data_path: "../interp/steer_results/sensitivity/llama31_8B_instruct_neg_steer.csv"
-# save_name: "llm_as_a_judge_results/sensitivity/llama31_8B_instruct/neg/run_5.jsonl"
+# data_path: "../../data/steer_results/layer_steering/llama31_8B_instruct_coeff_5_pos_steer.csv"
+# save_name: "llm_as_a_judge_results/layer_steering/llama31_8B_instruct_coeff_5/pos/"
 
+# data_path: "../../data/steer_results/layer_steering/llama31_8B_instruct_coeff_5_neg_steer.csv"
+# save_name: "llm_as_a_judge_results/layer_steering/llama31_8B_instruct_coeff_5/neg/"
+
+# data_path: "../interp/steer_results/layer_steering/llama31_8B_coeff_5_pos_steer.csv"
+# save_name: "llm_as_a_judge_results/layer_steering/llama31_8B_coeff_5/pos/"
+
+# data_path: "../interp/steer_results/layer_steering/llama31_8B_coeff_5_neg_steer.csv"
+# save_name: "llm_as_a_judge_results/layer_steering/llama31_8B_coeff_5/neg/"
+
+# data_path: "../../data/steer_results/layer_steering/qwen25_7B_instruct_coeff_5_pos_steer.csv"
+# save_name: "llm_as_a_judge_results/layer_steering/qwen25_7B_instruct_coeff_5/pos/"
+
+# data_path: "../../data/steer_results/layer_steering/qwen25_7B_instruct_coeff_5_neg_steer.csv"
+# save_name: "llm_as_a_judge_results/qwen25_7B_instruct_coeff_5/neg/"
+
+# data_path: "../interp/steer_results/layer_steering/gemma_7B_instruct_coeff_9_pos_steer.csv"
+# save_name: "llm_as_a_judge_results/layer_steering/gemma_7B_instruct_coeff_9/pos/"
+
+# data_path: "../interp/steer_results/layer_steering/gemma_7B_instruct_coeff_9_neg_steer.csv"
+# save_name: "llm_as_a_judge_results/layer_steering/gemma_7B_instruct_coeff_9/neg/"
+
+# Coefficient sensitivity
+
+# data_path: "../interp/steer_results/sensitivity/llama31_8B_instruct_layer_12_pos_steer.csv"
+# save_name: "llm_as_a_judge_results/sensitivity/llama31_8B_instruct_layer_12/pos/"
+
+# data_path: "../interp/steer_results/sensitivity/llama31_8B_instruct_layer_12_neg_steer.csv"
+# save_name: "llm_as_a_judge_results/sensitivity/llama31_8B_instruct_layer_12/neg/"
+
+# data_path: "../interp/steer_results/sensitivity/qwen25_7B_instruct_layer_10_pos_steer.csv"
+# save_name: "llm_as_a_judge_results/sensitivity/qwen25_7B_instruct_layer_10/pos/"
+
+# data_path: "../interp/steer_results/sensitivity/qwen25_7B_instruct_layer_10_neg_steer.csv"
+# save_name: "llm_as_a_judge_results/sensitivity/qwen25_7B_instruct_layer_10/neg/"
+
+# data_path: "../interp/steer_results/sensitivity/gemma_7B_instruct_layer_12_pos_steer.csv"
+# save_name: "llm_as_a_judge_results/sensitivity/gemma_7B_instruct_layer_12/pos/"
+
+# data_path: "../interp/steer_results/sensitivity/gemma_7B_instruct_layer_12_neg_steer.csv"
+# save_name: "llm_as_a_judge_results/sensitivity/gemma_7B_instruct_layer_12/neg/"
 
 

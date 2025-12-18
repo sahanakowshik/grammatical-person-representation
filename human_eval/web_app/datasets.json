@@ -1,0 +1,14 @@
+[
+
+    {
+        "key": "llama",
+        "label": "Model 1",
+        "csv": "data/llama_data.csv"
+    },
+    {
+      "key": "gemma",
+      "label": "Model 2",
+      "csv": "data/gemma_data.csv"
+    }
+  ]
+  

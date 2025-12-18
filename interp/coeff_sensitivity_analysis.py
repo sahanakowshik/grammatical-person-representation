@@ -10,8 +10,18 @@ from tqdm import tqdm
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"device: {device}")
 
-model_id = "meta-llama/Llama-3.1-8B-Instruct"
-folder_name = "llama31_8B_instruct"
+# model_id = "meta-llama/Llama-3.1-8B-Instruct"
+# folder_name = "llama31_8B_instruct"
+# layer_idx_values = [12]
+
+# model_id = "Qwen/Qwen2.5-7B-Instruct"
+# folder_name = "qwen25_7B_instruct"
+# layer_idx_values = [10]
+
+model_id = "google/gemma-7b-it"
+folder_name = "gemma_7B_instruct"
+# layer_idx_values = [10, 12]
+layer_idx_values = [14, 16]
 
 
 emotion_steer_prompts = [
@@ -137,53 +147,59 @@ def generate_with_steering(
 
     return results
 
-pos_steering_result = {}
-neg_steering_result = {}
-print(len(model.model.layers))
-layer_idx = 12
-steering_vec_path = f"./get_steering_vectors/vectors_{folder_name}/layer_{layer_idx}/emotions.pt"
-steering_vec = torch.load(steering_vec_path, map_location=device)["steering_vec"]
 
-for coeff in tqdm(range(0, 20)):
-    #load vec for layer
-    pos_steering_prompt_result = {}
-    neg_steering_prompt_result = {}
-    for prompt in all_steer_prompts:
-        
-        if "instruct" in model_id.lower():
 
-            messages = [
-                {"role": "user", "content": prompt}
-            ]
+
+
+for layer_idx in layer_idx_values:
+    print(f"Layer: {layer_idx}")
+    steering_vec_path = f"./get_steering_vectors/vectors_{folder_name}/layer_{layer_idx}/emotions.pt"
+    steering_vec = torch.load(steering_vec_path, map_location=device)["steering_vec"]
+    
+    pos_steering_result = {}
+    neg_steering_result = {}
+    print(len(model.model.layers))
+
+    for coeff in tqdm(range(0, 20)):
+        #load vec for layer
+        pos_steering_prompt_result = {}
+        neg_steering_prompt_result = {}
+        for prompt in all_steer_prompts:
             
-            text = tokenizer.apply_chat_template(
-                messages,
-                tokenize=False,
-                add_generation_prompt=True,
+            if "instruct" in model_id.lower() or "instruct" in folder_name.lower():
+
+                messages = [
+                    {"role": "user", "content": prompt}
+                ]
+                
+                text = tokenizer.apply_chat_template(
+                    messages,
+                    tokenize=False,
+                    add_generation_prompt=True,
+                )
+                
+            else:
+                text = prompt
+            
+
+            model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
+
+            texts = generate_with_steering(
+                model=model,
+                tokenizer=tokenizer,
+                model_inputs=model_inputs,
+                layer_idx=layer_idx,
+                steering_vec=steering_vec,
+                coeff=coeff,
+                max_new_tokens=100,
+                device=device
             )
-            
-        else:
-            text = prompt
-        
 
-        model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
+            pos_steering_prompt_result[prompt] = texts["positive"]
+            neg_steering_prompt_result[prompt] = texts["negative"]
 
-        texts = generate_with_steering(
-            model=model,
-            tokenizer=tokenizer,
-            model_inputs=model_inputs,
-            layer_idx=layer_idx,
-            steering_vec=steering_vec,
-            coeff=coeff,
-            max_new_tokens=100,
-            device=device
-        )
+        pos_steering_result[coeff] = pos_steering_prompt_result
+        neg_steering_result[coeff] = neg_steering_prompt_result
 
-        pos_steering_prompt_result[prompt] = texts["positive"]
-        neg_steering_prompt_result[prompt] = texts["negative"]
-
-    pos_steering_result[coeff] = pos_steering_prompt_result
-    neg_steering_result[coeff] = neg_steering_prompt_result
-
-pd.DataFrame(pos_steering_result).to_csv(f'./steer_results/sensitivity/{folder_name}_pos_steer.csv')
-pd.DataFrame(neg_steering_result).to_csv(f'./steer_results/sensitivity/{folder_name}_neg_steer.csv')
+    pd.DataFrame(pos_steering_result).to_csv(f'./steer_results/sensitivity/{folder_name}_layer_{layer_idx}_pos_steer.csv')
+    pd.DataFrame(neg_steering_result).to_csv(f'./steer_results/sensitivity/{folder_name}_layer_{layer_idx}_neg_steer.csv')
