@@ -1,6 +1,8 @@
-const GSHEET_ENDPOINT = "ENDPOINT";
-const GSHEET_SECRET = "SECRET_KEY";
+const GSHEET_ENDPOINT = "GSHEET_ENDPOINT";
+const GSHEET_SECRET = "GSHEET_SECRET";
 const CLIENT_ID_KEY = "study_id";
+
+
 
 function getClientId() {
   let v = localStorage.getItem(CLIENT_ID_KEY);

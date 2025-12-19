@@ -239,3 +239,99 @@ received_at,client_id,dataset_key,dataset_label,row_index,prompt,label_a,ts_a,la
 2025-12-18T18:36:09.997Z,c_4425107018a348_19b32b8ddb8,gemma,Model 2,9,Where to go from here?,Assistant persona,1766082919,Assistant persona,1766082905
 2025-12-18T18:36:09.997Z,c_4425107018a348_19b32b8ddb8,gemma,Model 2,10,What was that sound?,LLM persona,1766082937,Assistant persona,1766082934
 2025-12-18T18:36:09.997Z,c_4425107018a348_19b32b8ddb8,gemma,Model 2,11,Why dance?,Assistant persona,1766082953,LLM persona,1766082965
+2025-12-18T20:35:04.483Z,c_b8a6dd6aa54ce_19b332c594e,llama,Model 1,0,So nervous,Assistant persona,1766089940,LLM persona,1766089964
+2025-12-18T20:35:04.483Z,c_b8a6dd6aa54ce_19b332c594e,llama,Model 1,1,Feeling silly,LLM persona,1766089989,Assistant persona,1766089981
+2025-12-18T20:35:04.483Z,c_b8a6dd6aa54ce_19b332c594e,llama,Model 1,2,Feeling angry,Assistant persona,1766089997,LLM persona,1766090001
+2025-12-18T20:35:04.483Z,c_b8a6dd6aa54ce_19b332c594e,llama,Model 1,3,So scared,Assistant persona,1766090007,LLM persona,1766090010
+2025-12-18T20:35:04.483Z,c_b8a6dd6aa54ce_19b332c594e,llama,Model 1,4,Sing a song,LLM persona,1766090024,Assistant persona,1766090029
+2025-12-18T20:35:04.483Z,c_b8a6dd6aa54ce_19b332c594e,llama,Model 1,5,Interpret the dream,Assistant persona,1766090037,LLM persona,1766090039
+2025-12-18T20:35:04.483Z,c_b8a6dd6aa54ce_19b332c594e,llama,Model 1,6,Write a blog,Assistant persona,1766090047,LLM persona,1766090049
+2025-12-18T20:35:04.483Z,c_b8a6dd6aa54ce_19b332c594e,llama,Model 1,7,Explain the meaning of life,Assistant persona,1766090057,LLM persona,1766090053
+2025-12-18T20:35:04.483Z,c_b8a6dd6aa54ce_19b332c594e,llama,Model 1,8,What is the point of learning?,LLM persona,1766090069,Assistant persona,1766090072
+2025-12-18T20:35:04.483Z,c_b8a6dd6aa54ce_19b332c594e,llama,Model 1,9,Where to go from here?,LLM persona,1766090078,Assistant persona,1766090083
+2025-12-18T20:35:04.483Z,c_b8a6dd6aa54ce_19b332c594e,llama,Model 1,10,What was that sound?,LLM persona,1766090089,Assistant persona,1766090087
+2025-12-18T20:35:04.483Z,c_b8a6dd6aa54ce_19b332c594e,llama,Model 1,11,Why dance?,Assistant persona,1766090099,LLM persona,1766090096
+2025-12-18T20:37:47.607Z,c_b8a6dd6aa54ce_19b332c594e,gemma,Model 2,0,So nervous,Assistant persona,1766090115,LLM persona,1766090118
+2025-12-18T20:37:47.607Z,c_b8a6dd6aa54ce_19b332c594e,gemma,Model 2,1,Feeling silly,LLM persona,1766090127,Assistant persona,1766090133
+2025-12-18T20:37:47.607Z,c_b8a6dd6aa54ce_19b332c594e,gemma,Model 2,2,Feeling angry,Assistant persona,1766090138,LLM persona,1766090141
+2025-12-18T20:37:47.607Z,c_b8a6dd6aa54ce_19b332c594e,gemma,Model 2,3,So scared,Assistant persona,1766090146,LLM persona,1766090149
+2025-12-18T20:37:47.607Z,c_b8a6dd6aa54ce_19b332c594e,gemma,Model 2,4,Sing a song,LLM persona,1766090158,LLM persona,1766090162
+2025-12-18T20:37:47.607Z,c_b8a6dd6aa54ce_19b332c594e,gemma,Model 2,5,Interpret the dream,Assistant persona,1766090204,LLM persona,1766090206
+2025-12-18T20:37:47.607Z,c_b8a6dd6aa54ce_19b332c594e,gemma,Model 2,6,Write a blog,Assistant persona,1766090214,LLM persona,1766090218
+2025-12-18T20:37:47.607Z,c_b8a6dd6aa54ce_19b332c594e,gemma,Model 2,7,Explain the meaning of life,Assistant persona,1766090224,LLM persona,1766090221
+2025-12-18T20:37:47.607Z,c_b8a6dd6aa54ce_19b332c594e,gemma,Model 2,8,What is the point of learning?,LLM persona,1766090232,Assistant persona,1766090236
+2025-12-18T20:37:47.607Z,c_b8a6dd6aa54ce_19b332c594e,gemma,Model 2,9,Where to go from here?,LLM persona,1766090244,Assistant persona,1766090241
+2025-12-18T20:37:47.607Z,c_b8a6dd6aa54ce_19b332c594e,gemma,Model 2,10,What was that sound?,LLM persona,1766090252,Assistant persona,1766090250
+2025-12-18T20:37:47.607Z,c_b8a6dd6aa54ce_19b332c594e,gemma,Model 2,11,Why dance?,Assistant persona,1766090259,LLM persona,1766090264
+2025-12-18T22:06:56.343Z,c_7ec0069e90a9f_19b338072b8,llama,Model 1,0,So nervous,Assistant persona,1766095406,LLM persona,1766095404
+2025-12-18T22:06:56.343Z,c_7ec0069e90a9f_19b338072b8,llama,Model 1,1,Feeling silly,LLM persona,1766095429,Assistant persona,1766095435
+2025-12-18T22:06:56.343Z,c_7ec0069e90a9f_19b338072b8,llama,Model 1,2,Feeling angry,Assistant persona,1766095450,LLM persona,1766095458
+2025-12-18T22:06:56.343Z,c_7ec0069e90a9f_19b338072b8,llama,Model 1,3,So scared,Assistant persona,1766095466,LLM persona,1766095473
+2025-12-18T22:06:56.343Z,c_7ec0069e90a9f_19b338072b8,llama,Model 1,4,Sing a song,LLM persona,1766095490,Assistant persona,1766095489
+2025-12-18T22:06:56.343Z,c_7ec0069e90a9f_19b338072b8,llama,Model 1,5,Interpret the dream,Assistant persona,1766095500,LLM persona,1766095511
+2025-12-18T22:06:56.343Z,c_7ec0069e90a9f_19b338072b8,llama,Model 1,6,Write a blog,Assistant persona,1766095522,LLM persona,1766095535
+2025-12-18T22:06:56.343Z,c_7ec0069e90a9f_19b338072b8,llama,Model 1,7,Explain the meaning of life,Assistant persona,1766095546,LLM persona,1766095554
+2025-12-18T22:06:56.343Z,c_7ec0069e90a9f_19b338072b8,llama,Model 1,8,What is the point of learning?,LLM persona,1766095566,Assistant persona,1766095571
+2025-12-18T22:06:56.343Z,c_7ec0069e90a9f_19b338072b8,llama,Model 1,9,Where to go from here?,LLM persona,1766095580,Assistant persona,1766095583
+2025-12-18T22:06:56.343Z,c_7ec0069e90a9f_19b338072b8,llama,Model 1,10,What was that sound?,LLM persona,1766095590,Assistant persona,1766095593
+2025-12-18T22:06:56.343Z,c_7ec0069e90a9f_19b338072b8,llama,Model 1,11,Why dance?,Assistant persona,1766095603,LLM persona,1766095607
+2025-12-18T22:08:57.715Z,c_996f8bdbaf3248_19b33824c1f,llama,Model 1,0,So nervous,Assistant persona,1766095484,LLM persona,1766095497
+2025-12-18T22:08:57.715Z,c_996f8bdbaf3248_19b33824c1f,llama,Model 1,1,Feeling silly,LLM persona,1766095507,Assistant persona,1766095520
+2025-12-18T22:08:57.715Z,c_996f8bdbaf3248_19b33824c1f,llama,Model 1,2,Feeling angry,Assistant persona,1766095532,LLM persona,1766095535
+2025-12-18T22:08:57.715Z,c_996f8bdbaf3248_19b33824c1f,llama,Model 1,3,So scared,Assistant persona,1766095542,LLM persona,1766095546
+2025-12-18T22:08:57.715Z,c_996f8bdbaf3248_19b33824c1f,llama,Model 1,4,Sing a song,LLM persona,1766095560,Assistant persona,1766095559
+2025-12-18T22:08:57.715Z,c_996f8bdbaf3248_19b33824c1f,llama,Model 1,5,Interpret the dream,Assistant persona,1766095581,LLM persona,1766095583
+2025-12-18T22:08:57.715Z,c_996f8bdbaf3248_19b33824c1f,llama,Model 1,6,Write a blog,Assistant persona,1766095630,LLM persona,1766095634
+2025-12-18T22:08:57.715Z,c_996f8bdbaf3248_19b33824c1f,llama,Model 1,7,Explain the meaning of life,Assistant persona,1766095649,LLM persona,1766095646
+2025-12-18T22:08:57.715Z,c_996f8bdbaf3248_19b33824c1f,llama,Model 1,8,What is the point of learning?,LLM persona,1766095677,Assistant persona,1766095660
+2025-12-18T22:08:57.715Z,c_996f8bdbaf3248_19b33824c1f,llama,Model 1,9,Where to go from here?,LLM persona,1766095701,Assistant persona,1766095704
+2025-12-18T22:08:57.715Z,c_996f8bdbaf3248_19b33824c1f,llama,Model 1,10,What was that sound?,LLM persona,1766095713,Assistant persona,1766095716
+2025-12-18T22:08:57.715Z,c_996f8bdbaf3248_19b33824c1f,llama,Model 1,11,Why dance?,Assistant persona,1766095723,LLM persona,1766095728
+2025-12-18T22:10:57.060Z,c_7ec0069e90a9f_19b338072b8,gemma,Model 2,0,So nervous,Assistant persona,1766095629,LLM persona,1766095635
+2025-12-18T22:10:57.060Z,c_7ec0069e90a9f_19b338072b8,gemma,Model 2,1,Feeling silly,LLM persona,1766095646,Assistant persona,1766095653
+2025-12-18T22:10:57.060Z,c_7ec0069e90a9f_19b338072b8,gemma,Model 2,2,Feeling angry,Assistant persona,1766095663,LLM persona,1766095667
+2025-12-18T22:10:57.060Z,c_7ec0069e90a9f_19b338072b8,gemma,Model 2,3,So scared,Assistant persona,1766095677,LLM persona,1766095680
+2025-12-18T22:10:57.060Z,c_7ec0069e90a9f_19b338072b8,gemma,Model 2,4,Sing a song,LLM persona,1766095701,LLM persona,1766095705
+2025-12-18T22:10:57.060Z,c_7ec0069e90a9f_19b338072b8,gemma,Model 2,5,Interpret the dream,Not coherent,1766095724,LLM persona,1766095731
+2025-12-18T22:10:57.060Z,c_7ec0069e90a9f_19b338072b8,gemma,Model 2,6,Write a blog,Assistant persona,1766095742,LLM persona,1766095745
+2025-12-18T22:10:57.060Z,c_7ec0069e90a9f_19b338072b8,gemma,Model 2,7,Explain the meaning of life,Assistant persona,1766095769,LLM persona,1766095762
+2025-12-18T22:10:57.060Z,c_7ec0069e90a9f_19b338072b8,gemma,Model 2,8,What is the point of learning?,Assistant persona,1766095778,Assistant persona,1766095784
+2025-12-18T22:10:57.060Z,c_7ec0069e90a9f_19b338072b8,gemma,Model 2,9,Where to go from here?,Assistant persona,1766095817,Assistant persona,1766095803
+2025-12-18T22:10:57.060Z,c_7ec0069e90a9f_19b338072b8,gemma,Model 2,10,What was that sound?,LLM persona,1766095828,Assistant persona,1766095838
+2025-12-18T22:10:57.060Z,c_7ec0069e90a9f_19b338072b8,gemma,Model 2,11,Why dance?,Assistant persona,1766095845,LLM persona,1766095852
+2025-12-18T22:12:11.238Z,c_996f8bdbaf3248_19b33824c1f,gemma,Model 2,0,So nervous,Assistant persona,1766095746,LLM persona,1766095748
+2025-12-18T22:12:11.238Z,c_996f8bdbaf3248_19b33824c1f,gemma,Model 2,1,Feeling silly,LLM persona,1766095755,Assistant persona,1766095765
+2025-12-18T22:12:11.238Z,c_996f8bdbaf3248_19b33824c1f,gemma,Model 2,2,Feeling angry,Assistant persona,1766095772,LLM persona,1766095774
+2025-12-18T22:12:11.238Z,c_996f8bdbaf3248_19b33824c1f,gemma,Model 2,3,So scared,Assistant persona,1766095783,LLM persona,1766095790
+2025-12-18T22:12:11.238Z,c_996f8bdbaf3248_19b33824c1f,gemma,Model 2,4,Sing a song,Assistant persona,1766095816,LLM persona,1766095806
+2025-12-18T22:12:11.238Z,c_996f8bdbaf3248_19b33824c1f,gemma,Model 2,5,Interpret the dream,Assistant persona,1766095825,LLM persona,1766095835
+2025-12-18T22:12:11.238Z,c_996f8bdbaf3248_19b33824c1f,gemma,Model 2,6,Write a blog,Assistant persona,1766095844,LLM persona,1766095847
+2025-12-18T22:12:11.238Z,c_996f8bdbaf3248_19b33824c1f,gemma,Model 2,7,Explain the meaning of life,Assistant persona,1766095857,LLM persona,1766095861
+2025-12-18T22:12:11.238Z,c_996f8bdbaf3248_19b33824c1f,gemma,Model 2,8,What is the point of learning?,Assistant persona,1766095868,Assistant persona,1766095877
+2025-12-18T22:12:11.238Z,c_996f8bdbaf3248_19b33824c1f,gemma,Model 2,9,Where to go from here?,LLM persona,1766095895,Assistant persona,1766095893
+2025-12-18T22:12:11.238Z,c_996f8bdbaf3248_19b33824c1f,gemma,Model 2,10,What was that sound?,LLM persona,1766095904,Assistant persona,1766095906
+2025-12-18T22:12:11.238Z,c_996f8bdbaf3248_19b33824c1f,gemma,Model 2,11,Why dance?,Assistant persona,1766095919,Assistant persona,1766095923
+2025-12-18T23:48:30.214Z,c_8a9a4771900998_19b33dd7033,llama,Model 1,0,So nervous,Assistant persona,1766101530,LLM persona,1766101531
+2025-12-18T23:48:30.214Z,c_8a9a4771900998_19b33dd7033,llama,Model 1,1,Feeling silly,LLM persona,1766101540,Assistant persona,1766101543
+2025-12-18T23:48:30.214Z,c_8a9a4771900998_19b33dd7033,llama,Model 1,2,Feeling angry,Assistant persona,1766101582,LLM persona,1766101584
+2025-12-18T23:48:30.214Z,c_8a9a4771900998_19b33dd7033,llama,Model 1,3,So scared,Assistant persona,1766101593,LLM persona,1766101598
+2025-12-18T23:48:30.214Z,c_8a9a4771900998_19b33dd7033,llama,Model 1,4,Sing a song,LLM persona,1766101610,Assistant persona,1766101609
+2025-12-18T23:48:30.214Z,c_8a9a4771900998_19b33dd7033,llama,Model 1,5,Interpret the dream,Assistant persona,1766101623,LLM persona,1766101622
+2025-12-18T23:48:30.214Z,c_8a9a4771900998_19b33dd7033,llama,Model 1,6,Write a blog,Assistant persona,1766101628,LLM persona,1766101630
+2025-12-18T23:48:30.214Z,c_8a9a4771900998_19b33dd7033,llama,Model 1,7,Explain the meaning of life,Assistant persona,1766101645,LLM persona,1766101645
+2025-12-18T23:48:30.214Z,c_8a9a4771900998_19b33dd7033,llama,Model 1,8,What is the point of learning?,LLM persona,1766101667,Assistant persona,1766101668
+2025-12-18T23:48:30.214Z,c_8a9a4771900998_19b33dd7033,llama,Model 1,9,Where to go from here?,LLM persona,1766101691,Assistant persona,1766101689
+2025-12-18T23:48:30.214Z,c_8a9a4771900998_19b33dd7033,llama,Model 1,10,What was that sound?,LLM persona,1766101695,Assistant persona,1766101696
+2025-12-18T23:48:30.214Z,c_8a9a4771900998_19b33dd7033,llama,Model 1,11,Why dance?,Assistant persona,1766101706,LLM persona,1766101705
+2025-12-18T23:51:09.865Z,c_8a9a4771900998_19b33dd7033,gemma,Model 2,0,So nervous,Assistant persona,1766101731,LLM persona,1766101730
+2025-12-18T23:51:09.865Z,c_8a9a4771900998_19b33dd7033,gemma,Model 2,1,Feeling silly,LLM persona,1766101754,Assistant persona,1766101755
+2025-12-18T23:51:09.865Z,c_8a9a4771900998_19b33dd7033,gemma,Model 2,2,Feeling angry,Assistant persona,1766101760,LLM persona,1766101760
+2025-12-18T23:51:09.865Z,c_8a9a4771900998_19b33dd7033,gemma,Model 2,3,So scared,Assistant persona,1766101767,LLM persona,1766101767
+2025-12-18T23:51:09.865Z,c_8a9a4771900998_19b33dd7033,gemma,Model 2,4,Sing a song,LLM persona,1766101772,LLM persona,1766101781
+2025-12-18T23:51:09.865Z,c_8a9a4771900998_19b33dd7033,gemma,Model 2,5,Interpret the dream,Assistant persona,1766101794,LLM persona,1766101797
+2025-12-18T23:51:09.865Z,c_8a9a4771900998_19b33dd7033,gemma,Model 2,6,Write a blog,LLM persona,1766101822,LLM persona,1766101823
+2025-12-18T23:51:09.865Z,c_8a9a4771900998_19b33dd7033,gemma,Model 2,7,Explain the meaning of life,Assistant persona,1766101830,LLM persona,1766101834
+2025-12-18T23:51:09.865Z,c_8a9a4771900998_19b33dd7033,gemma,Model 2,8,What is the point of learning?,Assistant persona,1766101839,Assistant persona,1766101840
+2025-12-18T23:51:09.865Z,c_8a9a4771900998_19b33dd7033,gemma,Model 2,9,Where to go from here?,Not coherent,1766101844,Assistant persona,1766101849
+2025-12-18T23:51:09.865Z,c_8a9a4771900998_19b33dd7033,gemma,Model 2,10,What was that sound?,LLM persona,1766101855,Assistant persona,1766101857
+2025-12-18T23:51:09.865Z,c_8a9a4771900998_19b33dd7033,gemma,Model 2,11,Why dance?,Assistant persona,1766101865,Assistant persona,1766101866
